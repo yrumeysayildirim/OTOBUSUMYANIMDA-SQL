@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<!-- saved from url=(0056)https://obs.aybu.edu.tr/oibs/std/std_time_table_dep.aspx -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Ders Programı</title><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport"><link href="./bootstrap.min.css" rel="stylesheet">
+<style>
+.myGridClass {width: 100%;margin: 0px;border: solid 1px #525252;border-collapse:collapse;}
+.myGridClass Caption {padding: 4px 2px;background: #f0f0f0;border-left: solid 1px #525252;font-size: 1.2em !important;}
+.myGridClass td {padding: 1px;border: solid 1px #c1c1c1;color: #717171;}
+.myGridClass th {padding: 4px 2px;background: #fcfcfc;border:solid 0px;font-size: 1em !important;}
+.myGridClass .myAltRowClass { background: #fcfcfc repeat-x top; }
+.myGridClass .myPagerClass { background: #424242; }
+.myGridClass .myPagerClass table { margin: 5px 0; }
+.myGridClass .myPagerClass td {border-width: 0;padding: 0 0px;border-left: solid 1px #666;line-height: 10px;}
+.myGridClass .myPagerClass a { color: #666; text-decoration: none; }
+.myGridClass .myPagerClass a:hover { color: #000; text-decoration: none; } 
+</style>
+<link href="./oibs18.css" type="text/css" rel="stylesheet"><link rel="stylesheet" type="text/css" href="./all.min.css"><link rel="stylesheet" type="text/css" href="./select2.min.css"><style>@-webkit-keyframes swal2-show{0%{-webkit-transform:scale(.7);transform:scale(.7)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}100%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes swal2-show{0%{-webkit-transform:scale(.7);transform:scale(.7)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}100%{-webkit-transform:scale(1);transform:scale(1)}}@-webkit-keyframes swal2-hide{0%{-webkit-transform:scale(1);transform:scale(1);opacity:1}100%{-webkit-transform:scale(.5);transform:scale(.5);opacity:0}}@keyframes swal2-hide{0%{-webkit-transform:scale(1);transform:scale(1);opacity:1}100%{-webkit-transform:scale(.5);transform:scale(.5);opacity:0}}@-webkit-keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.875em;width:1.5625em}}@keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.875em;width:1.5625em}}@-webkit-keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@-webkit-keyframes swal2-rotate-success-circular-line{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}100%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@keyframes swal2-rotate-success-circular-line{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}100%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@-webkit-keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;-webkit-transform:scale(.4);transform:scale(.4);opacity:0}50%{margin-top:1.625em;-webkit-transform:scale(.4);transform:scale(.4);opacity:0}80%{margin-top:-.375em;-webkit-transform:scale(1.15);transform:scale(1.15)}100%{margin-top:0;-webkit-transform:scale(1);transform:scale(1);opacity:1}}@keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;-webkit-transform:scale(.4);transform:scale(.4);opacity:0}50%{margin-top:1.625em;-webkit-transform:scale(.4);transform:scale(.4);opacity:0}80%{margin-top:-.375em;-webkit-transform:scale(1.15);transform:scale(1.15)}100%{margin-top:0;-webkit-transform:scale(1);transform:scale(1);opacity:1}}@-webkit-keyframes swal2-animate-error-icon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}100%{-webkit-transform:rotateX(0);transform:rotateX(0);opacity:1}}@keyframes swal2-animate-error-icon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}100%{-webkit-transform:rotateX(0);transform:rotateX(0);opacity:1}}body.swal2-toast-shown .swal2-container{position:fixed;background-color:transparent}body.swal2-toast-shown .swal2-container.swal2-shown{background-color:transparent}body.swal2-toast-shown .swal2-container.swal2-top{top:0;right:auto;bottom:auto;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-top-end,body.swal2-toast-shown .swal2-container.swal2-top-right{top:0;right:0;bottom:auto;left:auto}body.swal2-toast-shown .swal2-container.swal2-top-left,body.swal2-toast-shown .swal2-container.swal2-top-start{top:0;right:auto;bottom:auto;left:0}body.swal2-toast-shown .swal2-container.swal2-center-left,body.swal2-toast-shown .swal2-container.swal2-center-start{top:50%;right:auto;bottom:auto;left:0;-webkit-transform:translateY(-50%);transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-center{top:50%;right:auto;bottom:auto;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}body.swal2-toast-shown .swal2-container.swal2-center-end,body.swal2-toast-shown .swal2-container.swal2-center-right{top:50%;right:0;bottom:auto;left:auto;-webkit-transform:translateY(-50%);transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-left,body.swal2-toast-shown .swal2-container.swal2-bottom-start{top:auto;right:auto;bottom:0;left:0}body.swal2-toast-shown .swal2-container.swal2-bottom{top:auto;right:auto;bottom:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-end,body.swal2-toast-shown .swal2-container.swal2-bottom-right{top:auto;right:0;bottom:0;left:auto}body.swal2-toast-column .swal2-toast{flex-direction:column;align-items:stretch}body.swal2-toast-column .swal2-toast .swal2-actions{flex:1;align-self:stretch;height:2.2em;margin-top:.3125em}body.swal2-toast-column .swal2-toast .swal2-loading{justify-content:center}body.swal2-toast-column .swal2-toast .swal2-input{height:2em;margin:.3125em auto;font-size:1em}body.swal2-toast-column .swal2-toast .swal2-validation-message{font-size:1em}.swal2-popup.swal2-toast{flex-direction:row;align-items:center;width:auto;padding:.625em;box-shadow:0 0 .625em #d9d9d9;overflow-y:hidden}.swal2-popup.swal2-toast .swal2-header{flex-direction:row}.swal2-popup.swal2-toast .swal2-title{flex-grow:1;justify-content:flex-start;margin:0 .6em;font-size:1em}.swal2-popup.swal2-toast .swal2-footer{margin:.5em 0 0;padding:.5em 0 0;font-size:.8em}.swal2-popup.swal2-toast .swal2-close{position:initial;width:.8em;height:.8em;line-height:.8}.swal2-popup.swal2-toast .swal2-content{justify-content:flex-start;font-size:1em}.swal2-popup.swal2-toast .swal2-icon{width:2em;min-width:2em;height:2em;margin:0}.swal2-popup.swal2-toast .swal2-icon-text{font-size:2em;font-weight:700;line-height:1em}.swal2-popup.swal2-toast .swal2-icon.swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line]{top:.875em;width:1.375em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:.3125em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:.3125em}.swal2-popup.swal2-toast .swal2-actions{height:auto;margin:0 .3125em}.swal2-popup.swal2-toast .swal2-styled{margin:0 .3125em;padding:.3125em .625em;font-size:1em}.swal2-popup.swal2-toast .swal2-styled:focus{box-shadow:0 0 0 .0625em #fff,0 0 0 .125em rgba(50,100,150,.4)}.swal2-popup.swal2-toast .swal2-success{border-color:#a5dc86}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line]{position:absolute;width:2em;height:2.8125em;-webkit-transform:rotate(45deg);transform:rotate(45deg);border-radius:50%}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=left]{top:-.25em;left:-.9375em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:2em 2em;transform-origin:2em 2em;border-radius:4em 0 0 4em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=right]{top:-.25em;left:.9375em;-webkit-transform-origin:0 2em;transform-origin:0 2em;border-radius:0 4em 4em 0}.swal2-popup.swal2-toast .swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-success .swal2-success-fix{top:0;left:.4375em;width:.4375em;height:2.6875em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line]{height:.3125em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=tip]{top:1.125em;left:.1875em;width:.75em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=long]{top:.9375em;right:.1875em;width:1.375em}.swal2-popup.swal2-toast.swal2-show{-webkit-animation:showSweetToast .5s;animation:showSweetToast .5s}.swal2-popup.swal2-toast.swal2-hide{-webkit-animation:hideSweetToast .2s forwards;animation:hideSweetToast .2s forwards}.swal2-popup.swal2-toast .swal2-animate-success-icon .swal2-success-line-tip{-webkit-animation:animate-toast-success-tip .75s;animation:animate-toast-success-tip .75s}.swal2-popup.swal2-toast .swal2-animate-success-icon .swal2-success-line-long{-webkit-animation:animate-toast-success-long .75s;animation:animate-toast-success-long .75s}@-webkit-keyframes showSweetToast{0%{-webkit-transform:translateY(-.625em) rotateZ(2deg);transform:translateY(-.625em) rotateZ(2deg);opacity:0}33%{-webkit-transform:translateY(0) rotateZ(-2deg);transform:translateY(0) rotateZ(-2deg);opacity:.5}66%{-webkit-transform:translateY(.3125em) rotateZ(2deg);transform:translateY(.3125em) rotateZ(2deg);opacity:.7}100%{-webkit-transform:translateY(0) rotateZ(0);transform:translateY(0) rotateZ(0);opacity:1}}@keyframes showSweetToast{0%{-webkit-transform:translateY(-.625em) rotateZ(2deg);transform:translateY(-.625em) rotateZ(2deg);opacity:0}33%{-webkit-transform:translateY(0) rotateZ(-2deg);transform:translateY(0) rotateZ(-2deg);opacity:.5}66%{-webkit-transform:translateY(.3125em) rotateZ(2deg);transform:translateY(.3125em) rotateZ(2deg);opacity:.7}100%{-webkit-transform:translateY(0) rotateZ(0);transform:translateY(0) rotateZ(0);opacity:1}}@-webkit-keyframes hideSweetToast{0%{opacity:1}33%{opacity:.5}100%{-webkit-transform:rotateZ(1deg);transform:rotateZ(1deg);opacity:0}}@keyframes hideSweetToast{0%{opacity:1}33%{opacity:.5}100%{-webkit-transform:rotateZ(1deg);transform:rotateZ(1deg);opacity:0}}@-webkit-keyframes animate-toast-success-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@keyframes animate-toast-success-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@-webkit-keyframes animate-toast-success-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}@keyframes animate-toast-success-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown){overflow:hidden}body.swal2-height-auto{height:auto!important}body.swal2-no-backdrop .swal2-shown{top:auto;right:auto;bottom:auto;left:auto;background-color:transparent}body.swal2-no-backdrop .swal2-shown>.swal2-modal{box-shadow:0 0 10px rgba(0,0,0,.4)}body.swal2-no-backdrop .swal2-shown.swal2-top{top:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}body.swal2-no-backdrop .swal2-shown.swal2-top-left,body.swal2-no-backdrop .swal2-shown.swal2-top-start{top:0;left:0}body.swal2-no-backdrop .swal2-shown.swal2-top-end,body.swal2-no-backdrop .swal2-shown.swal2-top-right{top:0;right:0}body.swal2-no-backdrop .swal2-shown.swal2-center{top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}body.swal2-no-backdrop .swal2-shown.swal2-center-left,body.swal2-no-backdrop .swal2-shown.swal2-center-start{top:50%;left:0;-webkit-transform:translateY(-50%);transform:translateY(-50%)}body.swal2-no-backdrop .swal2-shown.swal2-center-end,body.swal2-no-backdrop .swal2-shown.swal2-center-right{top:50%;right:0;-webkit-transform:translateY(-50%);transform:translateY(-50%)}body.swal2-no-backdrop .swal2-shown.swal2-bottom{bottom:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}body.swal2-no-backdrop .swal2-shown.swal2-bottom-left,body.swal2-no-backdrop .swal2-shown.swal2-bottom-start{bottom:0;left:0}body.swal2-no-backdrop .swal2-shown.swal2-bottom-end,body.swal2-no-backdrop .swal2-shown.swal2-bottom-right{right:0;bottom:0}.swal2-container{display:flex;position:fixed;top:0;right:0;bottom:0;left:0;flex-direction:row;align-items:center;justify-content:center;padding:10px;background-color:transparent;z-index:1060;overflow-x:hidden;-webkit-overflow-scrolling:touch}.swal2-container.swal2-top{align-items:flex-start}.swal2-container.swal2-top-left,.swal2-container.swal2-top-start{align-items:flex-start;justify-content:flex-start}.swal2-container.swal2-top-end,.swal2-container.swal2-top-right{align-items:flex-start;justify-content:flex-end}.swal2-container.swal2-center{align-items:center}.swal2-container.swal2-center-left,.swal2-container.swal2-center-start{align-items:center;justify-content:flex-start}.swal2-container.swal2-center-end,.swal2-container.swal2-center-right{align-items:center;justify-content:flex-end}.swal2-container.swal2-bottom{align-items:flex-end}.swal2-container.swal2-bottom-left,.swal2-container.swal2-bottom-start{align-items:flex-end;justify-content:flex-start}.swal2-container.swal2-bottom-end,.swal2-container.swal2-bottom-right{align-items:flex-end;justify-content:flex-end}.swal2-container.swal2-grow-fullscreen>.swal2-modal{display:flex!important;flex:1;align-self:stretch;justify-content:center}.swal2-container.swal2-grow-row>.swal2-modal{display:flex!important;flex:1;align-content:center;justify-content:center}.swal2-container.swal2-grow-column{flex:1;flex-direction:column}.swal2-container.swal2-grow-column.swal2-bottom,.swal2-container.swal2-grow-column.swal2-center,.swal2-container.swal2-grow-column.swal2-top{align-items:center}.swal2-container.swal2-grow-column.swal2-bottom-left,.swal2-container.swal2-grow-column.swal2-bottom-start,.swal2-container.swal2-grow-column.swal2-center-left,.swal2-container.swal2-grow-column.swal2-center-start,.swal2-container.swal2-grow-column.swal2-top-left,.swal2-container.swal2-grow-column.swal2-top-start{align-items:flex-start}.swal2-container.swal2-grow-column.swal2-bottom-end,.swal2-container.swal2-grow-column.swal2-bottom-right,.swal2-container.swal2-grow-column.swal2-center-end,.swal2-container.swal2-grow-column.swal2-center-right,.swal2-container.swal2-grow-column.swal2-top-end,.swal2-container.swal2-grow-column.swal2-top-right{align-items:flex-end}.swal2-container.swal2-grow-column>.swal2-modal{display:flex!important;flex:1;align-content:center;justify-content:center}.swal2-container:not(.swal2-top):not(.swal2-top-start):not(.swal2-top-end):not(.swal2-top-left):not(.swal2-top-right):not(.swal2-center-start):not(.swal2-center-end):not(.swal2-center-left):not(.swal2-center-right):not(.swal2-bottom):not(.swal2-bottom-start):not(.swal2-bottom-end):not(.swal2-bottom-left):not(.swal2-bottom-right):not(.swal2-grow-fullscreen)>.swal2-modal{margin:auto}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-container .swal2-modal{margin:0!important}}.swal2-container.swal2-fade{transition:background-color .1s}.swal2-container.swal2-shown{background-color:rgba(0,0,0,.4)}.swal2-popup{display:none;position:relative;flex-direction:column;justify-content:center;width:32em;max-width:100%;padding:1.25em;border-radius:.3125em;background:#fff;font-family:inherit;font-size:1rem;box-sizing:border-box}.swal2-popup:focus{outline:0}.swal2-popup.swal2-loading{overflow-y:hidden}.swal2-popup .swal2-header{display:flex;flex-direction:column;align-items:center}.swal2-popup .swal2-title{display:block;position:relative;max-width:100%;margin:0 0 .4em;padding:0;color:#595959;font-size:1.875em;font-weight:600;text-align:center;text-transform:none;word-wrap:break-word}.swal2-popup .swal2-actions{flex-wrap:wrap;align-items:center;justify-content:center;margin:1.25em auto 0;z-index:1}.swal2-popup .swal2-actions:not(.swal2-loading) .swal2-styled[disabled]{opacity:.4}.swal2-popup .swal2-actions:not(.swal2-loading) .swal2-styled:hover{background-image:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1))}.swal2-popup .swal2-actions:not(.swal2-loading) .swal2-styled:active{background-image:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2))}.swal2-popup .swal2-actions.swal2-loading .swal2-styled.swal2-confirm{width:2.5em;height:2.5em;margin:.46875em;padding:0;border:.25em solid transparent;border-radius:100%;border-color:transparent;background-color:transparent!important;color:transparent;cursor:default;box-sizing:border-box;-webkit-animation:swal2-rotate-loading 1.5s linear 0s infinite normal;animation:swal2-rotate-loading 1.5s linear 0s infinite normal;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.swal2-popup .swal2-actions.swal2-loading .swal2-styled.swal2-cancel{margin-right:30px;margin-left:30px}.swal2-popup .swal2-actions.swal2-loading :not(.swal2-styled).swal2-confirm::after{display:inline-block;width:15px;height:15px;margin-left:5px;border:3px solid #999;border-radius:50%;border-right-color:transparent;box-shadow:1px 1px 1px #fff;content:'';-webkit-animation:swal2-rotate-loading 1.5s linear 0s infinite normal;animation:swal2-rotate-loading 1.5s linear 0s infinite normal}.swal2-popup .swal2-styled{margin:.3125em;padding:.625em 2em;font-weight:500;box-shadow:none}.swal2-popup .swal2-styled:not([disabled]){cursor:pointer}.swal2-popup .swal2-styled.swal2-confirm{border:0;border-radius:.25em;background:initial;background-color:#3085d6;color:#fff;font-size:1.0625em}.swal2-popup .swal2-styled.swal2-cancel{border:0;border-radius:.25em;background:initial;background-color:#aaa;color:#fff;font-size:1.0625em}.swal2-popup .swal2-styled:focus{outline:0;box-shadow:0 0 0 2px #fff,0 0 0 4px rgba(50,100,150,.4)}.swal2-popup .swal2-styled::-moz-focus-inner{border:0}.swal2-popup .swal2-footer{justify-content:center;margin:1.25em 0 0;padding:1em 0 0;border-top:1px solid #eee;color:#545454;font-size:1em}.swal2-popup .swal2-image{max-width:100%;margin:0.0em auto}.swal2-popup .swal2-close{position:absolute;top:0;right:0;justify-content:center;width:1.2em;height:1.2em;padding:0;transition:color .1s ease-out;border:none;border-radius:0;background:0 0;color:#ccc;font-family:serif;font-size:2.5em;line-height:1.2;cursor:pointer;overflow:hidden}.swal2-popup .swal2-close:hover{-webkit-transform:none;transform:none;color:#f27474}.swal2-popup>.swal2-checkbox,.swal2-popup>.swal2-file,.swal2-popup>.swal2-input,.swal2-popup>.swal2-radio,.swal2-popup>.swal2-select,.swal2-popup>.swal2-textarea{display:none}.swal2-popup .swal2-content{justify-content:center;margin:0;padding:0;color:#545454;font-size:1.125em;font-weight:300;line-height:normal;z-index:1;word-wrap:break-word}.swal2-popup #swal2-content{text-align:center}.swal2-popup .swal2-checkbox,.swal2-popup .swal2-file,.swal2-popup .swal2-input,.swal2-popup .swal2-radio,.swal2-popup .swal2-select,.swal2-popup .swal2-textarea{margin:1em auto}.swal2-popup .swal2-file,.swal2-popup .swal2-input,.swal2-popup .swal2-textarea{width:100%;transition:border-color .3s,box-shadow .3s;border:1px solid #d9d9d9;border-radius:.1875em;font-size:1.125em;box-shadow:inset 0 1px 1px rgba(0,0,0,.06);box-sizing:border-box}.swal2-popup .swal2-file.swal2-inputerror,.swal2-popup .swal2-input.swal2-inputerror,.swal2-popup .swal2-textarea.swal2-inputerror{border-color:#f27474!important;box-shadow:0 0 2px #f27474!important}.swal2-popup .swal2-file:focus,.swal2-popup .swal2-input:focus,.swal2-popup .swal2-textarea:focus{border:1px solid #b4dbed;outline:0;box-shadow:0 0 3px #c4e6f5}.swal2-popup .swal2-file::-webkit-input-placeholder,.swal2-popup .swal2-input::-webkit-input-placeholder,.swal2-popup .swal2-textarea::-webkit-input-placeholder{color:#ccc}.swal2-popup .swal2-file:-ms-input-placeholder,.swal2-popup .swal2-input:-ms-input-placeholder,.swal2-popup .swal2-textarea:-ms-input-placeholder{color:#ccc}.swal2-popup .swal2-file::-ms-input-placeholder,.swal2-popup .swal2-input::-ms-input-placeholder,.swal2-popup .swal2-textarea::-ms-input-placeholder{color:#ccc}.swal2-popup .swal2-file::placeholder,.swal2-popup .swal2-input::placeholder,.swal2-popup .swal2-textarea::placeholder{color:#ccc}.swal2-popup .swal2-range input{width:80%}.swal2-popup .swal2-range output{width:20%;font-weight:600;text-align:center}.swal2-popup .swal2-range input,.swal2-popup .swal2-range output{height:2.625em;margin:1em auto;padding:0;font-size:1.125em;line-height:2.625em}.swal2-popup .swal2-input{height:2.625em;padding:0 .75em}.swal2-popup .swal2-input[type=number]{max-width:10em}.swal2-popup .swal2-file{font-size:1.125em}.swal2-popup .swal2-textarea{height:6.75em;padding:.75em}.swal2-popup .swal2-select{min-width:50%;max-width:100%;padding:.375em .625em;color:#545454;font-size:1.125em}.swal2-popup .swal2-checkbox,.swal2-popup .swal2-radio{align-items:center;justify-content:center}.swal2-popup .swal2-checkbox label,.swal2-popup .swal2-radio label{margin:0 .6em;font-size:1.125em}.swal2-popup .swal2-checkbox input,.swal2-popup .swal2-radio input{margin:0 .4em}.swal2-popup .swal2-validation-message{display:none;align-items:center;justify-content:center;padding:.625em;background:#f0f0f0;color:#666;font-size:1em;font-weight:300;overflow:hidden}.swal2-popup .swal2-validation-message::before{display:inline-block;width:1.5em;min-width:1.5em;height:1.5em;margin:0 .625em;border-radius:50%;background-color:#f27474;color:#fff;font-weight:600;line-height:1.5em;text-align:center;content:'!';zoom:normal}@supports (-ms-accelerator:true){.swal2-range input{width:100%!important}.swal2-range output{display:none}}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-range input{width:100%!important}.swal2-range output{display:none}}@-moz-document url-prefix(){.swal2-close:focus{outline:2px solid rgba(50,100,150,.4)}}.swal2-icon{position:relative;justify-content:center;width:5em;height:5em;margin:0em auto 0em;border:.25em solid transparent;border-radius:50%;line-height:5em;cursor:default;box-sizing:content-box;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;zoom:normal}.swal2-icon-text{font-size:3.75em}.swal2-icon.swal2-error{border-color:#f27474}.swal2-icon.swal2-error .swal2-x-mark{position:relative;flex-grow:1}.swal2-icon.swal2-error [class^=swal2-x-mark-line]{display:block;position:absolute;top:2.3125em;width:2.9375em;height:.3125em;border-radius:.125em;background-color:#f27474}.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:1.0625em;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:1em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal2-icon.swal2-warning{border-color:#facea8;color:#f8bb86}.swal2-icon.swal2-info{border-color:#9de0f6;color:#3fc3ee}.swal2-icon.swal2-question{border-color:#c9dae1;color:#87adbd}.swal2-icon.swal2-success{border-color:#a5dc86}.swal2-icon.swal2-success [class^=swal2-success-circular-line]{position:absolute;width:3.75em;height:7.5em;-webkit-transform:rotate(45deg);transform:rotate(45deg);border-radius:50%}.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=left]{top:-.4375em;left:-2.0635em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:3.75em 3.75em;transform-origin:3.75em 3.75em;border-radius:7.5em 0 0 7.5em}.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=right]{top:-.6875em;left:1.875em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:0 3.75em;transform-origin:0 3.75em;border-radius:0 7.5em 7.5em 0}.swal2-icon.swal2-success .swal2-success-ring{position:absolute;top:-.25em;left:-.25em;width:100%;height:100%;border:.25em solid rgba(165,220,134,.3);border-radius:50%;z-index:2;box-sizing:content-box}.swal2-icon.swal2-success .swal2-success-fix{position:absolute;top:.5em;left:1.625em;width:.4375em;height:5.625em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);z-index:1}.swal2-icon.swal2-success [class^=swal2-success-line]{display:block;position:absolute;height:.3125em;border-radius:.125em;background-color:#a5dc86;z-index:2}.swal2-icon.swal2-success [class^=swal2-success-line][class$=tip]{top:2.875em;left:.875em;width:1.5625em;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.swal2-icon.swal2-success [class^=swal2-success-line][class$=long]{top:2.375em;right:.5em;width:2.9375em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal2-progresssteps{align-items:center;margin:0 0 1.25em;padding:0;font-weight:600}.swal2-progresssteps li{display:inline-block;position:relative}.swal2-progresssteps .swal2-progresscircle{width:2em;height:2em;border-radius:2em;background:#3085d6;color:#fff;line-height:2em;text-align:center;z-index:20}.swal2-progresssteps .swal2-progresscircle:first-child{margin-left:0}.swal2-progresssteps .swal2-progresscircle:last-child{margin-right:0}.swal2-progresssteps .swal2-progresscircle.swal2-activeprogressstep{background:#3085d6}.swal2-progresssteps .swal2-progresscircle.swal2-activeprogressstep~.swal2-progresscircle{background:#add8e6}.swal2-progresssteps .swal2-progresscircle.swal2-activeprogressstep~.swal2-progressline{background:#add8e6}.swal2-progresssteps .swal2-progressline{width:2.5em;height:.4em;margin:0 -1px;background:#3085d6;z-index:10}[class^=swal2]{-webkit-tap-highlight-color:transparent}.swal2-show{-webkit-animation:swal2-show .3s;animation:swal2-show .3s}.swal2-show.swal2-noanimation{-webkit-animation:none;animation:none}.swal2-hide{-webkit-animation:swal2-hide .15s forwards;animation:swal2-hide .15s forwards}.swal2-hide.swal2-noanimation{-webkit-animation:none;animation:none}.swal2-rtl .swal2-close{right:auto;left:0}.swal2-animate-success-icon .swal2-success-line-tip{-webkit-animation:swal2-animate-success-line-tip .75s;animation:swal2-animate-success-line-tip .75s}.swal2-animate-success-icon .swal2-success-line-long{-webkit-animation:swal2-animate-success-line-long .75s;animation:swal2-animate-success-line-long .75s}.swal2-animate-success-icon .swal2-success-circular-line-right{-webkit-animation:swal2-rotate-success-circular-line 4.25s ease-in;animation:swal2-rotate-success-circular-line 4.25s ease-in}.swal2-animate-error-icon{-webkit-animation:swal2-animate-error-icon .5s;animation:swal2-animate-error-icon .5s}.swal2-animate-error-icon .swal2-x-mark{-webkit-animation:swal2-animate-error-x-mark .5s;animation:swal2-animate-error-x-mark .5s}@-webkit-keyframes swal2-rotate-loading{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes swal2-rotate-loading{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@media print{body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown){overflow-y:scroll!important}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown)>[aria-hidden=true]{display:none}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) .swal2-container{position:initial!important}}</style></head>
+<body>
+<form method="post" action="https://obs.aybu.edu.tr/oibs/std/std_time_table_dep.aspx" id="form1" data-select2-id="form1">
+<div class="aspNetHidden">
+
+
+
+
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="./WebResource.axd" type="text/javascript"></script>
+
+
+<script src="./jquery-3.7.1.min.js.indir" type="text/javascript"></script>
+<script src="./sweetalert.min.js.indir" type="text/javascript"></script>
+<script src="./select2.min.js.indir" type="text/javascript"></script>
+<script src="./ModalPopupWindow_v22_min.js.indir" type="text/javascript"></script><script type="text/javascript">var baseUrl = '/oibs/';var modalWin = new CreateModalPopUpObject();</script>
+                     <div id="bailwal_div_overlay" style="position:absolute;z-index:10; background-color:white;filter: alpha(opacity = 70);opacity:0.7;"></div>
+                         <div id="bailwal_div_frame_parent" style="position:absolute;z-index:12; display:none;background-color:white;">
+                         <table style="border:solid 1px #121e2d; height: 100%" onmouseup="bailwal_modalPopupWindow.StopDragging()">
+                                <tbody><tr style="height:28px;vertical-align:middle;background-color:#121e2d" id="bailwal_tr_title">
+                                    <td style="vertical-align:top;text-align:left;border:none">
+                                        <div style="display: table; width: 100%;">
+                                        <div style="display: table-row;">
+                                        <div style="text-align:left; display: table-cell;">
+                                            <i id="bailwal_img_overlay_close_logo2" ondblclick="bailwal_modalPopupWindow.HideModalPopUp(&#39;1&#39;);" style="padding:6px;vertical-align:middle;" class="fal fa-chevron-circle-down text-white"></i>
+                                            <span id="bailwal_span_title" style="vertical-align:middle;color:White;font-size:8pt;text-align: left;"></span>
+                                        </div>
+                                        <div style="text-align:right; display: table-cell; ">
+                                            <span id="bailwal_span_loading" style="vertical-align: middle; display: none;">
+                                                <i class="fas fa-spinner fa-spin text-white"></i>
+                                            </span>
+                                            <span id="bailwal_span_overlay_window_refresh" onclick="bailwal_modalPopupWindow.Refresh();" style="vertical-align:middle;cursor:pointer;">
+                                               <i id="bailwal_img_overlay_refresh" class="fal fa-sync" style="font-size:17px; color:white; background-color:transparent;padding-bottom:3px; vertical-align:middle;"></i>
+                                            </span>
+                                            <span id="bailwal_span_overlay_window_max" onclick="bailwal_modalPopupWindow.Maximisze();" style="vertical-align:middle;cursor:pointer;">
+                                               <i id="bailwal_img_overlay_max" class="fal fa-window-maximize" style="font-size:19px; color:white;padding-bottom:3px;  vertical-align:middle;"></i>
+                                            </span>                                            
+                                            <span onclick="bailwal_modalPopupWindow.HideModalPopUp(&#39;1&#39;);" class="mr-3" style="vertical-align:middle;cursor:pointer;background-color:#c90000;margin-right:3px;margin-top:3px;">
+                                                <i id="bailwal_img_overlay_close" class="fal fa-times" style="font-size:15px; color:white; padding-left:6px;padding-right:3px; padding-bottom:5px; vertical-align:middle;"></i>
+                                            </span>
+                                        </div>
+                                        </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr style="vertical-align: middle;">
+                                    <td colspan="2" align="center" id="bailwal_td_overlay" style="vertical-align: top;border:none">
+                                        <div id="bailwal_div_message" style="margin-top:0px;display:none;vertical-align: middle;">
+                                            <span id="bailwal_span_message" style="padding-left:3px;padding-right:3px;vertical-align: middle;font-size:8pt;" ondblclick="selectElementText(this)"></span>
+                                        </div>
+                                        <iframe onload="OnUrlLoaded()" name="bailwal_overlay_frame" id="bailwal_overlay_frame" frameborder="0" scrolling="auto" style="padding: 0px !important;padding-bottom: 0px !important;margin: 0px !important;margin-bottom: 0px !important;" src="./saved_resource(1).html"></iframe>
+                                    </td>
+                                </tr>
+                           </tbody></table>
+                           </div>
+                           
+<script type="text/javascript">
+//<![CDATA[
+var __cultureInfo = {"name":"tr-TR","numberFormat":{"CurrencyDecimalDigits":2,"CurrencyDecimalSeparator":",","IsReadOnly":true,"CurrencyGroupSizes":[3],"NumberGroupSizes":[3],"PercentGroupSizes":[3],"CurrencyGroupSeparator":".","CurrencySymbol":"₺","NaNSymbol":"NaN","CurrencyNegativePattern":8,"NumberNegativePattern":1,"PercentPositivePattern":2,"PercentNegativePattern":2,"NegativeInfinitySymbol":"-Sonsuz","NegativeSign":"-","NumberDecimalDigits":2,"NumberDecimalSeparator":",","NumberGroupSeparator":".","CurrencyPositivePattern":3,"PositiveInfinitySymbol":"Sonsuz","PositiveSign":"+","PercentDecimalDigits":2,"PercentDecimalSeparator":",","PercentGroupSeparator":".","PercentSymbol":"%","PerMilleSymbol":"‰","NativeDigits":["0","1","2","3","4","5","6","7","8","9"],"DigitSubstitution":1},"dateTimeFormat":{"AMDesignator":"","Calendar":{"MinSupportedDateTime":"\/Date(-62135596800000)\/","MaxSupportedDateTime":"\/Date(253402289999999)\/","AlgorithmType":1,"CalendarType":1,"Eras":[1],"TwoDigitYearMax":2029,"IsReadOnly":true},"DateSeparator":".","FirstDayOfWeek":1,"CalendarWeekRule":0,"FullDateTimePattern":"d MMMM yyyy dddd HH:mm:ss","LongDatePattern":"d MMMM yyyy dddd","LongTimePattern":"HH:mm:ss","MonthDayPattern":"d MMMM","PMDesignator":"","RFC1123Pattern":"ddd, dd MMM yyyy HH\u0027:\u0027mm\u0027:\u0027ss \u0027GMT\u0027","ShortDatePattern":"dd.MM.yyyy","ShortTimePattern":"HH:mm","SortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd\u0027T\u0027HH\u0027:\u0027mm\u0027:\u0027ss","TimeSeparator":":","UniversalSortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd HH\u0027:\u0027mm\u0027:\u0027ss\u0027Z\u0027","YearMonthPattern":"MMMM yyyy","AbbreviatedDayNames":["Paz","Pzt","Sal","Çar","Per","Cum","Cmt"],"ShortestDayNames":["Pz","Pt","Sa","Ça","Pe","Cu","Ct"],"DayNames":["Pazar","Pazartesi","Salı","Çarşamba","Perşembe","Cuma","Cumartesi"],"AbbreviatedMonthNames":["Oca","Şub","Mar","Nis","May","Haz","Tem","Ağu","Eyl","Eki","Kas","Ara",""],"MonthNames":["Ocak","Şubat","Mart","Nisan","Mayıs","Haziran","Temmuz","Ağustos","Eylül","Ekim","Kasım","Aralık",""],"IsReadOnly":true,"NativeCalendarName":"Gregoryen Takvim","AbbreviatedMonthGenitiveNames":["Oca","Şub","Mar","Nis","May","Haz","Tem","Ağu","Eyl","Eki","Kas","Ara",""],"MonthGenitiveNames":["Ocak","Şubat","Mart","Nisan","Mayıs","Haziran","Temmuz","Ağustos","Eylül","Ekim","Kasım","Aralık",""]},"eras":[1,"MS",null,0]};//]]>
+</script>
+
+<script src="./ScriptResource.axd" type="text/javascript"></script>
+<script src="./ScriptResource(1).axd" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	
+	
+	
+</div>
+<div data-select2-id="9">
+<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager1', 'form1', ['tUpdatePanel1','UpdatePanel1'], [], [], 600, '');
+//]]>
+</script>
+
+<div id="UpdatePanel1" data-select2-id="UpdatePanel1">
+<div class="panel panel-default">
+    <div class="panel-heading">
+<span id="lblHeader" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">Bölüm Ders Programı</span><br>
+<span id="lblHeader2" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">ARAPÇA MÜTERCİM VE TERCÜMANLIK </span>
+    </div>
+<table style="width:100%">
+<tbody><tr>
+<td style="height:35px">
+<span id="Label1" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt; text-align: left">Dönem</span>&nbsp;<select name="cmbDonemler" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;cmbDonemler\&#39;,\&#39;\&#39;)&#39;, 0)" id="cmbDonemler" class="form-control select2 select2-hidden-accessible" style="font-family:Open Sans;font-size:8pt;width:170px; text-align: left" data-select2-id="cmbDonemler" tabindex="-1" aria-hidden="true">
+	<option selected="selected" value="20242" data-select2-id="21">2024-2025 BAHAR</option>
+	<option value="20231">2023-2024 GÜZ</option>
+	<option value="20232">2023-2024 BAHAR </option>
+	<option value="20233">2023-2024 YAZ</option>
+	<option value="20241">2024-2025 GÜZ</option>
+
+</select><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="20" style="width: 170px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-cmbDonemler-container"><span class="select2-selection__rendered" id="select2-cmbDonemler-container" role="textbox" aria-readonly="true" title="2024-2025 BAHAR">2024-2025 BAHAR</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+    <span id="Label7" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt; text-align: left">Program</span>
+    <select name="cmbProgram" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;cmbProgram\&#39;,\&#39;\&#39;)&#39;, 0)" id="cmbProgram" class="form-control select2 select2-hidden-accessible" style="font-family:Open Sans;font-size:8pt;width:170px;" data-select2-id="cmbProgram" tabindex="-1" aria-hidden="true">
+	<option value="6246">MÜTERCİM-TERCÜMANLIK(ARAPÇA)</option>
+	<option selected="selected" value="7629" data-select2-id="25">ARAPÇA MÜTERCİM VE TERCÜMANLIK </option>
+	<option value="8389">FARS DİLİ VE EDEBİYATI (TR)</option>
+
+</select><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="24" style="width: 170px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-cmbProgram-container"><span class="select2-selection__rendered" id="select2-cmbProgram-container" role="textbox" aria-readonly="true" title="ARAPÇA MÜTERCİM VE TERCÜMANLIK ">ARAPÇA MÜTERCİM VE TERCÜMANLIK </span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+    <span id="lblSinif" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt; text-align: left">Sınıf</span>
+    <select name="cmbSinif" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;cmbSinif\&#39;,\&#39;\&#39;)&#39;, 0)" id="cmbSinif" class="form-control select2 select2-hidden-accessible" style="font-family:Open Sans;font-size:8pt;width:80px;
+text-align: left" data-select2-id="cmbSinif" tabindex="-1" aria-hidden="true">
+	<option value="1">1.Sınıf</option>
+	<option selected="selected" value="2" data-select2-id="27">2.Sınıf</option>
+	<option value="3">3.Sınıf</option>
+	<option value="4">4.Sınıf</option>
+	<option value="5">5.Sınıf</option>
+	<option value="6">6.Sınıf</option>
+	<option value="0">Hazırlık</option>
+
+</select><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="26" style="width: 80px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-cmbSinif-container"><span class="select2-selection__rendered" id="select2-cmbSinif-container" role="textbox" aria-readonly="true" title="2.Sınıf">2.Sınıf</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+    
+    
+    
+</td>
+<td style="text-align: right">
+<a id="btnYazdir0" accesskey="y" class="btn btn-default btn-xs" href="javascript:__doPostBack(&#39;btnYazdir0&#39;,&#39;&#39;)" style="display:inline-block;color:#5B636A;font-family:Open Sans;font-size:9pt;width:90px;"><span class="fal fa-print"></span>Yazdır</a>
+    </td>
+</tr>
+</tbody></table>
+   <div class="panel panel-default">
+    
+    <table class="w-100">
+        <tbody><tr>
+            <td style="vertical-align: top; text-align: left; width: 50%; background-color:gray; ">
+                <span id="Label222" class="text-white" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">Pazartesi</span>
+            </td>
+            <td>
+                &nbsp;</td>
+            <td style="vertical-align: top; text-align: left; width: 50%; background-color:gray; ">
+                <span id="Label223" class="text-white" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">Salı</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top; text-align: left;">
+                <div>
+	<table cellspacing="0" rules="all" class="myGridClass" border="1" id="grd0" style="border-color:LightGrey;font-family:Open Sans;font-size:8pt;font-weight:normal;text-decoration:none;width:100%;border-collapse:collapse;font-family: Tahoma; font-size: 7pt;">
+		<tbody><tr class="text-danger" style="font-size:7pt;">
+			<td colspan="6">Tanımlı Ders Programı Bulunamadı!</td>
+		</tr>
+	</tbody></table>
+</div>
+            </td>
+            <td style="vertical-align: top; text-align: left;">
+                &nbsp;</td>
+            <td style="vertical-align: top; text-align: left;">
+                <div>
+	<table cellspacing="0" rules="all" class="myGridClass" border="1" id="grd1" style="border-color:LightGrey;font-family:Open Sans;font-size:8pt;font-weight:normal;text-decoration:none;width:100%;border-collapse:collapse;font-family: Tahoma; font-size: 7pt;">
+		<tbody><tr>
+			<th scope="col">Saat</th><th scope="col">Ders Kodu</th><th scope="col">Ders Adı</th><th scope="col">Derslik</th><th scope="col">Öğretim Elemanı</th>
+		</tr><tr>
+			<td>09:00-09:50</td><td>MTA210(1)</td><td>
+                                <span id="grd1_Label14_0" title="İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ - DOĞU DİLLERİ VE EDEBİYATLARI - ARAPÇA MÜTERCİM VE TERCÜMANLIK " style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">SÖZLÜ ANLATIM IV</span>
+                            </td><td>A 163(DERSLİK A 163)[70]</td><td>Doç.Dr. AHMED ALDYAB  </td>
+		</tr><tr>
+			<td>10:00-10:50</td><td>MTA210(1)</td><td>
+                                <span id="grd1_Label14_1" title="İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ - DOĞU DİLLERİ VE EDEBİYATLARI - ARAPÇA MÜTERCİM VE TERCÜMANLIK " style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">SÖZLÜ ANLATIM IV</span>
+                            </td><td>A 163(DERSLİK A 163)[70]</td><td>Doç.Dr. AHMED ALDYAB  </td>
+		</tr><tr>
+			<td>11:00-11:50</td><td>MTA208(1)</td><td>
+                                <span id="grd1_Label14_2" title="İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ - DOĞU DİLLERİ VE EDEBİYATLARI - ARAPÇA MÜTERCİM VE TERCÜMANLIK " style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">ARAPÇA KLASİK METİNLER</span>
+                            </td><td>A 163(DERSLİK A 163)[70]</td><td>Prof.Dr. OSMAN DÜZGÜN  </td>
+		</tr><tr>
+			<td>12:00-12:50</td><td>MTA208(1)</td><td>
+                                <span id="grd1_Label14_3" title="İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ - DOĞU DİLLERİ VE EDEBİYATLARI - ARAPÇA MÜTERCİM VE TERCÜMANLIK " style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">ARAPÇA KLASİK METİNLER</span>
+                            </td><td>A 163(DERSLİK A 163)[70]</td><td>Prof.Dr. OSMAN DÜZGÜN  </td>
+		</tr><tr>
+			<td>14:00-14:50</td><td>MTA212(1)</td><td>
+                                <span id="grd1_Label14_4" title="İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ - DOĞU DİLLERİ VE EDEBİYATLARI - ARAPÇA MÜTERCİM VE TERCÜMANLIK " style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">OSMANLI TÜRKÇESİ YAZI TÜRLERİ</span>
+                            </td><td>A 163(DERSLİK A 163)[70]</td><td>Dr. Öğr. Üyesi GÜNEŞ MUHİP ÖZYURT  </td>
+		</tr><tr>
+			<td>15:00-15:50</td><td>MTA212(1)</td><td>
+                                <span id="grd1_Label14_5" title="İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ - DOĞU DİLLERİ VE EDEBİYATLARI - ARAPÇA MÜTERCİM VE TERCÜMANLIK " style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">OSMANLI TÜRKÇESİ YAZI TÜRLERİ</span>
+                            </td><td>A 163(DERSLİK A 163)[70]</td><td>Dr. Öğr. Üyesi GÜNEŞ MUHİP ÖZYURT  </td>
+		</tr>
+	</tbody></table>
+</div>
+            </td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top; text-align: left; background-color: gray; ">
+                <span id="Label2" class="text-white" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">Çarşamba</span>
+            </td>
+            <td>
+                &nbsp;</td>
+            <td style="vertical-align: top; text-align: left; background-color: gray; ">
+                <span id="Label3" class="text-white" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">Perşembe</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top; text-align: left">
+                <div>
+	<table cellspacing="0" rules="all" class="myGridClass" border="1" id="grd2" style="border-color:LightGrey;font-family:Open Sans;font-size:8pt;font-weight:normal;text-decoration:none;width:100%;border-collapse:collapse;font-family: Tahoma; font-size: 7pt;">
+		<tbody><tr>
+			<th scope="col">Saat</th><th scope="col">Ders Kodu</th><th scope="col">Ders Adı</th><th scope="col">Derslik</th><th scope="col">Öğretim Elemanı</th>
+		</tr><tr>
+			<td>09:00-09:50</td><td>MTA256(1)</td><td>
+                                <span id="grd2_Label15_0" title="İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ - DOĞU DİLLERİ VE EDEBİYATLARI - ARAPÇA MÜTERCİM VE TERCÜMANLIK " style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">METİN İNCELEMELERİ</span>
+                            </td><td>A 164(DERSLİK A 164)[80]</td><td>Dr. Öğr. Üyesi KAMİL KARASU  </td>
+		</tr><tr>
+			<td>10:00-10:50</td><td>MTA256(1)</td><td>
+                                <span id="grd2_Label15_1" title="İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ - DOĞU DİLLERİ VE EDEBİYATLARI - ARAPÇA MÜTERCİM VE TERCÜMANLIK " style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">METİN İNCELEMELERİ</span>
+                            </td><td>A 164(DERSLİK A 164)[80]</td><td>Dr. Öğr. Üyesi KAMİL KARASU  </td>
+		</tr><tr>
+			<td>11:00-11:50</td><td>MTA214(1)</td><td>
+                                <span id="grd2_Label15_2" title="İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ - DOĞU DİLLERİ VE EDEBİYATLARI - ARAPÇA MÜTERCİM VE TERCÜMANLIK " style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">EDEBİ ÇEVİRİ II</span>
+                            </td><td>A 164(DERSLİK A 164)[80]</td><td>Dr. Öğr. Üyesi ÖZLEM ZÜLEYHA KURAN  </td>
+		</tr><tr>
+			<td>13:00-13:50</td><td>MTA214(1)</td><td>
+                                <span id="grd2_Label15_3" title="İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ - DOĞU DİLLERİ VE EDEBİYATLARI - ARAPÇA MÜTERCİM VE TERCÜMANLIK " style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">EDEBİ ÇEVİRİ II</span>
+                            </td><td>A 164(DERSLİK A 164)[80]</td><td>Dr. Öğr. Üyesi ÖZLEM ZÜLEYHA KURAN  </td>
+		</tr>
+	</tbody></table>
+</div>
+            </td>
+            <td style="vertical-align: top; text-align: left">
+                &nbsp;</td>
+            <td style="vertical-align: top; text-align: left">
+                <div>
+	<table cellspacing="0" rules="all" class="myGridClass" border="1" id="grd3" style="border-color:LightGrey;font-family:Open Sans;font-size:8pt;font-weight:normal;text-decoration:none;width:100%;border-collapse:collapse;font-family: Tahoma; font-size: 7pt;">
+		<tbody><tr>
+			<th scope="col">Saat</th><th scope="col">Ders Kodu</th><th scope="col">Ders Adı</th><th scope="col">Derslik</th><th scope="col">Öğretim Elemanı</th>
+		</tr><tr>
+			<td>13:00-13:50</td><td>MTA252(1)</td><td>
+                                <span id="grd3_Label16_0" title="İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ - DOĞU DİLLERİ VE EDEBİYATLARI - ARAPÇA MÜTERCİM VE TERCÜMANLIK " style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">HUKUK ÇEVİRİSİ II </span>
+                            </td><td>AZ 37(DERSLİK AZ 37)[70]</td><td>Dr. Öğr. Üyesi ABDULLAH BALLI  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">14:00-14:50</td><td>MTA252(1)</td><td>
+                                <span id="grd3_Label16_1" title="İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ - DOĞU DİLLERİ VE EDEBİYATLARI - ARAPÇA MÜTERCİM VE TERCÜMANLIK " style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">HUKUK ÇEVİRİSİ II </span>
+                            </td><td>AZ 37(DERSLİK AZ 37)[70]</td><td>Dr. Öğr. Üyesi ABDULLAH BALLI  </td>
+		</tr><tr>
+			<td>15:00-15:50</td><td>MTA254(1)</td><td>
+                                <span id="grd3_Label16_2" title="İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ - DOĞU DİLLERİ VE EDEBİYATLARI - ARAPÇA MÜTERCİM VE TERCÜMANLIK " style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">HABER ÇEVİRİSİ II </span>
+                            </td><td>AZ 37(DERSLİK AZ 37)[70]</td><td>Öğr.Gör.Dr. MEHMET SADIK GÜR  </td>
+		</tr><tr>
+			<td>16:00-16:50</td><td>MTA254(1)</td><td>
+                                <span id="grd3_Label16_3" title="İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ - DOĞU DİLLERİ VE EDEBİYATLARI - ARAPÇA MÜTERCİM VE TERCÜMANLIK " style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">HABER ÇEVİRİSİ II </span>
+                            </td><td>AZ 37(DERSLİK AZ 37)[70]</td><td>Öğr.Gör.Dr. MEHMET SADIK GÜR  </td>
+		</tr>
+	</tbody></table>
+</div>
+            </td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top; text-align: left; background-color: gray; ">
+                <span id="Label4" class="text-white" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">Cuma</span>
+            </td>
+            <td></td>
+            <td style="vertical-align: top; text-align: left; background-color: gray; ">
+                
+            </td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top; text-align: left">
+                <div>
+	<table cellspacing="0" rules="all" class="myGridClass" border="1" id="grd4" style="border-color:LightGrey;font-family:Open Sans;font-size:8pt;font-weight:normal;text-decoration:none;width:100%;border-collapse:collapse;font-family: Tahoma; font-size: 7pt;">
+		<tbody><tr>
+			<th scope="col">Saat</th><th scope="col">Ders Kodu</th><th scope="col">Ders Adı</th><th scope="col">Derslik</th><th scope="col">Öğretim Elemanı</th>
+		</tr><tr>
+			<td>14:00-14:50</td><td>MTA220(1)</td><td>
+                                <span id="grd4_Label17_0" title="İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ - DOĞU DİLLERİ VE EDEBİYATLARI - ARAPÇA MÜTERCİM VE TERCÜMANLIK " style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">NOT ALMA TEKNİKLERİ</span>
+                            </td><td>A 164(DERSLİK A 164)[80]</td><td>Öğr.Gör.Dr. MEHMET SADIK GÜR  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">15:00-15:50</td><td>MTA220(1)</td><td>
+                                <span id="grd4_Label17_1" title="İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ - DOĞU DİLLERİ VE EDEBİYATLARI - ARAPÇA MÜTERCİM VE TERCÜMANLIK " style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">NOT ALMA TEKNİKLERİ</span>
+                            </td><td>A 164(DERSLİK A 164)[80]</td><td>Öğr.Gör.Dr. MEHMET SADIK GÜR  </td>
+		</tr>
+	</tbody></table>
+</div>
+            </td>
+            <td style="vertical-align: top; text-align: left">
+                &nbsp;</td>
+            <td style="vertical-align: top; text-align: left">
+                
+            </td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top; text-align: left; background-color: gray;">
+                
+            </td>
+            <td></td>
+            <td style="vertical-align: top; text-align: left; background-color: gray;"></td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top; text-align: left">
+                
+            </td>
+            <td style="vertical-align: top; text-align: left">&nbsp;</td>
+            <td style="vertical-align: top; text-align: left">&nbsp;</td>
+        </tr>
+    </tbody></table>
+       </div>
+<span id="Label211" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;font-style:italic;">Not: Uygulama saatleri yeşil renkle gösterilir</span>
+<span id="lblDuyuru" title="DP_OGR" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;text-align: left;"></span>
+<br>
+</div>
+</div>
+<div id="UpdateProgress1" style="display: none;" role="status" aria-hidden="true">
+	
+<div class="mycontainer" style="padding:5%;position :absolute;z-index: 1;"><div class="spinner-frame"><span style="font-size: 11px; color: #fff">Yükleniyor</span><div class="spinner-cover"></div><div class="spinner-bar"></div></div></div>
+
+</div>
+</div>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+theForm.oldSubmit = theForm.submit;
+theForm.submit = WebForm_SaveScrollPositionSubmit;
+
+theForm.oldOnSubmit = theForm.onsubmit;
+theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
+Sys.Application.add_init(function() {
+    $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":"UpdatePanel1","displayAfter":50,"dynamicLayout":true}, null, null, $get("UpdateProgress1"));
+});
+//]]>
+</script>
+<span style="display: none !important;"><input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value=""></span><span style="display: none !important;"><input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value=""></span><span style="display: none !important;"><input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value=""></span><span style="display: none !important;"><input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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"></span><span style="display: none !important;"><input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="71823A3D"></span><span style="display: none !important;"><input type="hidden" name="__SCROLLPOSITIONX" id="__SCROLLPOSITIONX" value="0"></span><span style="display: none !important;"><input type="hidden" name="__SCROLLPOSITIONY" id="__SCROLLPOSITIONY" value="0"></span></form>
+
+
+</body></html>

@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<!-- saved from url=(0056)https://obs.aybu.edu.tr/oibs/std/std_time_table_dep.aspx -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Ders Programı</title><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport"><link href="./bootstrap.min.css" rel="stylesheet">
+<style>
+.myGridClass {width: 100%;margin: 0px;border: solid 1px #525252;border-collapse:collapse;}
+.myGridClass Caption {padding: 4px 2px;background: #f0f0f0;border-left: solid 1px #525252;font-size: 1.2em !important;}
+.myGridClass td {padding: 1px;border: solid 1px #c1c1c1;color: #717171;}
+.myGridClass th {padding: 4px 2px;background: #fcfcfc;border:solid 0px;font-size: 1em !important;}
+.myGridClass .myAltRowClass { background: #fcfcfc repeat-x top; }
+.myGridClass .myPagerClass { background: #424242; }
+.myGridClass .myPagerClass table { margin: 5px 0; }
+.myGridClass .myPagerClass td {border-width: 0;padding: 0 0px;border-left: solid 1px #666;line-height: 10px;}
+.myGridClass .myPagerClass a { color: #666; text-decoration: none; }
+.myGridClass .myPagerClass a:hover { color: #000; text-decoration: none; } 
+</style>
+<link href="./oibs18.css" type="text/css" rel="stylesheet"><link rel="stylesheet" type="text/css" href="./all.min.css"><link rel="stylesheet" type="text/css" href="./select2.min.css"><style>@-webkit-keyframes swal2-show{0%{-webkit-transform:scale(.7);transform:scale(.7)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}100%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes swal2-show{0%{-webkit-transform:scale(.7);transform:scale(.7)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}100%{-webkit-transform:scale(1);transform:scale(1)}}@-webkit-keyframes swal2-hide{0%{-webkit-transform:scale(1);transform:scale(1);opacity:1}100%{-webkit-transform:scale(.5);transform:scale(.5);opacity:0}}@keyframes swal2-hide{0%{-webkit-transform:scale(1);transform:scale(1);opacity:1}100%{-webkit-transform:scale(.5);transform:scale(.5);opacity:0}}@-webkit-keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.875em;width:1.5625em}}@keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.875em;width:1.5625em}}@-webkit-keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@-webkit-keyframes swal2-rotate-success-circular-line{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}100%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@keyframes swal2-rotate-success-circular-line{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}100%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@-webkit-keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;-webkit-transform:scale(.4);transform:scale(.4);opacity:0}50%{margin-top:1.625em;-webkit-transform:scale(.4);transform:scale(.4);opacity:0}80%{margin-top:-.375em;-webkit-transform:scale(1.15);transform:scale(1.15)}100%{margin-top:0;-webkit-transform:scale(1);transform:scale(1);opacity:1}}@keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;-webkit-transform:scale(.4);transform:scale(.4);opacity:0}50%{margin-top:1.625em;-webkit-transform:scale(.4);transform:scale(.4);opacity:0}80%{margin-top:-.375em;-webkit-transform:scale(1.15);transform:scale(1.15)}100%{margin-top:0;-webkit-transform:scale(1);transform:scale(1);opacity:1}}@-webkit-keyframes swal2-animate-error-icon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}100%{-webkit-transform:rotateX(0);transform:rotateX(0);opacity:1}}@keyframes swal2-animate-error-icon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}100%{-webkit-transform:rotateX(0);transform:rotateX(0);opacity:1}}body.swal2-toast-shown .swal2-container{position:fixed;background-color:transparent}body.swal2-toast-shown .swal2-container.swal2-shown{background-color:transparent}body.swal2-toast-shown .swal2-container.swal2-top{top:0;right:auto;bottom:auto;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-top-end,body.swal2-toast-shown .swal2-container.swal2-top-right{top:0;right:0;bottom:auto;left:auto}body.swal2-toast-shown .swal2-container.swal2-top-left,body.swal2-toast-shown .swal2-container.swal2-top-start{top:0;right:auto;bottom:auto;left:0}body.swal2-toast-shown .swal2-container.swal2-center-left,body.swal2-toast-shown .swal2-container.swal2-center-start{top:50%;right:auto;bottom:auto;left:0;-webkit-transform:translateY(-50%);transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-center{top:50%;right:auto;bottom:auto;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}body.swal2-toast-shown .swal2-container.swal2-center-end,body.swal2-toast-shown .swal2-container.swal2-center-right{top:50%;right:0;bottom:auto;left:auto;-webkit-transform:translateY(-50%);transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-left,body.swal2-toast-shown .swal2-container.swal2-bottom-start{top:auto;right:auto;bottom:0;left:0}body.swal2-toast-shown .swal2-container.swal2-bottom{top:auto;right:auto;bottom:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-end,body.swal2-toast-shown .swal2-container.swal2-bottom-right{top:auto;right:0;bottom:0;left:auto}body.swal2-toast-column .swal2-toast{flex-direction:column;align-items:stretch}body.swal2-toast-column .swal2-toast .swal2-actions{flex:1;align-self:stretch;height:2.2em;margin-top:.3125em}body.swal2-toast-column .swal2-toast .swal2-loading{justify-content:center}body.swal2-toast-column .swal2-toast .swal2-input{height:2em;margin:.3125em auto;font-size:1em}body.swal2-toast-column .swal2-toast .swal2-validation-message{font-size:1em}.swal2-popup.swal2-toast{flex-direction:row;align-items:center;width:auto;padding:.625em;box-shadow:0 0 .625em #d9d9d9;overflow-y:hidden}.swal2-popup.swal2-toast .swal2-header{flex-direction:row}.swal2-popup.swal2-toast .swal2-title{flex-grow:1;justify-content:flex-start;margin:0 .6em;font-size:1em}.swal2-popup.swal2-toast .swal2-footer{margin:.5em 0 0;padding:.5em 0 0;font-size:.8em}.swal2-popup.swal2-toast .swal2-close{position:initial;width:.8em;height:.8em;line-height:.8}.swal2-popup.swal2-toast .swal2-content{justify-content:flex-start;font-size:1em}.swal2-popup.swal2-toast .swal2-icon{width:2em;min-width:2em;height:2em;margin:0}.swal2-popup.swal2-toast .swal2-icon-text{font-size:2em;font-weight:700;line-height:1em}.swal2-popup.swal2-toast .swal2-icon.swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line]{top:.875em;width:1.375em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:.3125em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:.3125em}.swal2-popup.swal2-toast .swal2-actions{height:auto;margin:0 .3125em}.swal2-popup.swal2-toast .swal2-styled{margin:0 .3125em;padding:.3125em .625em;font-size:1em}.swal2-popup.swal2-toast .swal2-styled:focus{box-shadow:0 0 0 .0625em #fff,0 0 0 .125em rgba(50,100,150,.4)}.swal2-popup.swal2-toast .swal2-success{border-color:#a5dc86}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line]{position:absolute;width:2em;height:2.8125em;-webkit-transform:rotate(45deg);transform:rotate(45deg);border-radius:50%}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=left]{top:-.25em;left:-.9375em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:2em 2em;transform-origin:2em 2em;border-radius:4em 0 0 4em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=right]{top:-.25em;left:.9375em;-webkit-transform-origin:0 2em;transform-origin:0 2em;border-radius:0 4em 4em 0}.swal2-popup.swal2-toast .swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-success .swal2-success-fix{top:0;left:.4375em;width:.4375em;height:2.6875em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line]{height:.3125em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=tip]{top:1.125em;left:.1875em;width:.75em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=long]{top:.9375em;right:.1875em;width:1.375em}.swal2-popup.swal2-toast.swal2-show{-webkit-animation:showSweetToast .5s;animation:showSweetToast .5s}.swal2-popup.swal2-toast.swal2-hide{-webkit-animation:hideSweetToast .2s forwards;animation:hideSweetToast .2s forwards}.swal2-popup.swal2-toast .swal2-animate-success-icon .swal2-success-line-tip{-webkit-animation:animate-toast-success-tip .75s;animation:animate-toast-success-tip .75s}.swal2-popup.swal2-toast .swal2-animate-success-icon .swal2-success-line-long{-webkit-animation:animate-toast-success-long .75s;animation:animate-toast-success-long .75s}@-webkit-keyframes showSweetToast{0%{-webkit-transform:translateY(-.625em) rotateZ(2deg);transform:translateY(-.625em) rotateZ(2deg);opacity:0}33%{-webkit-transform:translateY(0) rotateZ(-2deg);transform:translateY(0) rotateZ(-2deg);opacity:.5}66%{-webkit-transform:translateY(.3125em) rotateZ(2deg);transform:translateY(.3125em) rotateZ(2deg);opacity:.7}100%{-webkit-transform:translateY(0) rotateZ(0);transform:translateY(0) rotateZ(0);opacity:1}}@keyframes showSweetToast{0%{-webkit-transform:translateY(-.625em) rotateZ(2deg);transform:translateY(-.625em) rotateZ(2deg);opacity:0}33%{-webkit-transform:translateY(0) rotateZ(-2deg);transform:translateY(0) rotateZ(-2deg);opacity:.5}66%{-webkit-transform:translateY(.3125em) rotateZ(2deg);transform:translateY(.3125em) rotateZ(2deg);opacity:.7}100%{-webkit-transform:translateY(0) rotateZ(0);transform:translateY(0) rotateZ(0);opacity:1}}@-webkit-keyframes hideSweetToast{0%{opacity:1}33%{opacity:.5}100%{-webkit-transform:rotateZ(1deg);transform:rotateZ(1deg);opacity:0}}@keyframes hideSweetToast{0%{opacity:1}33%{opacity:.5}100%{-webkit-transform:rotateZ(1deg);transform:rotateZ(1deg);opacity:0}}@-webkit-keyframes animate-toast-success-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@keyframes animate-toast-success-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@-webkit-keyframes animate-toast-success-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}@keyframes animate-toast-success-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown){overflow:hidden}body.swal2-height-auto{height:auto!important}body.swal2-no-backdrop .swal2-shown{top:auto;right:auto;bottom:auto;left:auto;background-color:transparent}body.swal2-no-backdrop .swal2-shown>.swal2-modal{box-shadow:0 0 10px rgba(0,0,0,.4)}body.swal2-no-backdrop .swal2-shown.swal2-top{top:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}body.swal2-no-backdrop .swal2-shown.swal2-top-left,body.swal2-no-backdrop .swal2-shown.swal2-top-start{top:0;left:0}body.swal2-no-backdrop .swal2-shown.swal2-top-end,body.swal2-no-backdrop .swal2-shown.swal2-top-right{top:0;right:0}body.swal2-no-backdrop .swal2-shown.swal2-center{top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}body.swal2-no-backdrop .swal2-shown.swal2-center-left,body.swal2-no-backdrop .swal2-shown.swal2-center-start{top:50%;left:0;-webkit-transform:translateY(-50%);transform:translateY(-50%)}body.swal2-no-backdrop .swal2-shown.swal2-center-end,body.swal2-no-backdrop .swal2-shown.swal2-center-right{top:50%;right:0;-webkit-transform:translateY(-50%);transform:translateY(-50%)}body.swal2-no-backdrop .swal2-shown.swal2-bottom{bottom:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}body.swal2-no-backdrop .swal2-shown.swal2-bottom-left,body.swal2-no-backdrop .swal2-shown.swal2-bottom-start{bottom:0;left:0}body.swal2-no-backdrop .swal2-shown.swal2-bottom-end,body.swal2-no-backdrop .swal2-shown.swal2-bottom-right{right:0;bottom:0}.swal2-container{display:flex;position:fixed;top:0;right:0;bottom:0;left:0;flex-direction:row;align-items:center;justify-content:center;padding:10px;background-color:transparent;z-index:1060;overflow-x:hidden;-webkit-overflow-scrolling:touch}.swal2-container.swal2-top{align-items:flex-start}.swal2-container.swal2-top-left,.swal2-container.swal2-top-start{align-items:flex-start;justify-content:flex-start}.swal2-container.swal2-top-end,.swal2-container.swal2-top-right{align-items:flex-start;justify-content:flex-end}.swal2-container.swal2-center{align-items:center}.swal2-container.swal2-center-left,.swal2-container.swal2-center-start{align-items:center;justify-content:flex-start}.swal2-container.swal2-center-end,.swal2-container.swal2-center-right{align-items:center;justify-content:flex-end}.swal2-container.swal2-bottom{align-items:flex-end}.swal2-container.swal2-bottom-left,.swal2-container.swal2-bottom-start{align-items:flex-end;justify-content:flex-start}.swal2-container.swal2-bottom-end,.swal2-container.swal2-bottom-right{align-items:flex-end;justify-content:flex-end}.swal2-container.swal2-grow-fullscreen>.swal2-modal{display:flex!important;flex:1;align-self:stretch;justify-content:center}.swal2-container.swal2-grow-row>.swal2-modal{display:flex!important;flex:1;align-content:center;justify-content:center}.swal2-container.swal2-grow-column{flex:1;flex-direction:column}.swal2-container.swal2-grow-column.swal2-bottom,.swal2-container.swal2-grow-column.swal2-center,.swal2-container.swal2-grow-column.swal2-top{align-items:center}.swal2-container.swal2-grow-column.swal2-bottom-left,.swal2-container.swal2-grow-column.swal2-bottom-start,.swal2-container.swal2-grow-column.swal2-center-left,.swal2-container.swal2-grow-column.swal2-center-start,.swal2-container.swal2-grow-column.swal2-top-left,.swal2-container.swal2-grow-column.swal2-top-start{align-items:flex-start}.swal2-container.swal2-grow-column.swal2-bottom-end,.swal2-container.swal2-grow-column.swal2-bottom-right,.swal2-container.swal2-grow-column.swal2-center-end,.swal2-container.swal2-grow-column.swal2-center-right,.swal2-container.swal2-grow-column.swal2-top-end,.swal2-container.swal2-grow-column.swal2-top-right{align-items:flex-end}.swal2-container.swal2-grow-column>.swal2-modal{display:flex!important;flex:1;align-content:center;justify-content:center}.swal2-container:not(.swal2-top):not(.swal2-top-start):not(.swal2-top-end):not(.swal2-top-left):not(.swal2-top-right):not(.swal2-center-start):not(.swal2-center-end):not(.swal2-center-left):not(.swal2-center-right):not(.swal2-bottom):not(.swal2-bottom-start):not(.swal2-bottom-end):not(.swal2-bottom-left):not(.swal2-bottom-right):not(.swal2-grow-fullscreen)>.swal2-modal{margin:auto}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-container .swal2-modal{margin:0!important}}.swal2-container.swal2-fade{transition:background-color .1s}.swal2-container.swal2-shown{background-color:rgba(0,0,0,.4)}.swal2-popup{display:none;position:relative;flex-direction:column;justify-content:center;width:32em;max-width:100%;padding:1.25em;border-radius:.3125em;background:#fff;font-family:inherit;font-size:1rem;box-sizing:border-box}.swal2-popup:focus{outline:0}.swal2-popup.swal2-loading{overflow-y:hidden}.swal2-popup .swal2-header{display:flex;flex-direction:column;align-items:center}.swal2-popup .swal2-title{display:block;position:relative;max-width:100%;margin:0 0 .4em;padding:0;color:#595959;font-size:1.875em;font-weight:600;text-align:center;text-transform:none;word-wrap:break-word}.swal2-popup .swal2-actions{flex-wrap:wrap;align-items:center;justify-content:center;margin:1.25em auto 0;z-index:1}.swal2-popup .swal2-actions:not(.swal2-loading) .swal2-styled[disabled]{opacity:.4}.swal2-popup .swal2-actions:not(.swal2-loading) .swal2-styled:hover{background-image:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1))}.swal2-popup .swal2-actions:not(.swal2-loading) .swal2-styled:active{background-image:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2))}.swal2-popup .swal2-actions.swal2-loading .swal2-styled.swal2-confirm{width:2.5em;height:2.5em;margin:.46875em;padding:0;border:.25em solid transparent;border-radius:100%;border-color:transparent;background-color:transparent!important;color:transparent;cursor:default;box-sizing:border-box;-webkit-animation:swal2-rotate-loading 1.5s linear 0s infinite normal;animation:swal2-rotate-loading 1.5s linear 0s infinite normal;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.swal2-popup .swal2-actions.swal2-loading .swal2-styled.swal2-cancel{margin-right:30px;margin-left:30px}.swal2-popup .swal2-actions.swal2-loading :not(.swal2-styled).swal2-confirm::after{display:inline-block;width:15px;height:15px;margin-left:5px;border:3px solid #999;border-radius:50%;border-right-color:transparent;box-shadow:1px 1px 1px #fff;content:'';-webkit-animation:swal2-rotate-loading 1.5s linear 0s infinite normal;animation:swal2-rotate-loading 1.5s linear 0s infinite normal}.swal2-popup .swal2-styled{margin:.3125em;padding:.625em 2em;font-weight:500;box-shadow:none}.swal2-popup .swal2-styled:not([disabled]){cursor:pointer}.swal2-popup .swal2-styled.swal2-confirm{border:0;border-radius:.25em;background:initial;background-color:#3085d6;color:#fff;font-size:1.0625em}.swal2-popup .swal2-styled.swal2-cancel{border:0;border-radius:.25em;background:initial;background-color:#aaa;color:#fff;font-size:1.0625em}.swal2-popup .swal2-styled:focus{outline:0;box-shadow:0 0 0 2px #fff,0 0 0 4px rgba(50,100,150,.4)}.swal2-popup .swal2-styled::-moz-focus-inner{border:0}.swal2-popup .swal2-footer{justify-content:center;margin:1.25em 0 0;padding:1em 0 0;border-top:1px solid #eee;color:#545454;font-size:1em}.swal2-popup .swal2-image{max-width:100%;margin:0.0em auto}.swal2-popup .swal2-close{position:absolute;top:0;right:0;justify-content:center;width:1.2em;height:1.2em;padding:0;transition:color .1s ease-out;border:none;border-radius:0;background:0 0;color:#ccc;font-family:serif;font-size:2.5em;line-height:1.2;cursor:pointer;overflow:hidden}.swal2-popup .swal2-close:hover{-webkit-transform:none;transform:none;color:#f27474}.swal2-popup>.swal2-checkbox,.swal2-popup>.swal2-file,.swal2-popup>.swal2-input,.swal2-popup>.swal2-radio,.swal2-popup>.swal2-select,.swal2-popup>.swal2-textarea{display:none}.swal2-popup .swal2-content{justify-content:center;margin:0;padding:0;color:#545454;font-size:1.125em;font-weight:300;line-height:normal;z-index:1;word-wrap:break-word}.swal2-popup #swal2-content{text-align:center}.swal2-popup .swal2-checkbox,.swal2-popup .swal2-file,.swal2-popup .swal2-input,.swal2-popup .swal2-radio,.swal2-popup .swal2-select,.swal2-popup .swal2-textarea{margin:1em auto}.swal2-popup .swal2-file,.swal2-popup .swal2-input,.swal2-popup .swal2-textarea{width:100%;transition:border-color .3s,box-shadow .3s;border:1px solid #d9d9d9;border-radius:.1875em;font-size:1.125em;box-shadow:inset 0 1px 1px rgba(0,0,0,.06);box-sizing:border-box}.swal2-popup .swal2-file.swal2-inputerror,.swal2-popup .swal2-input.swal2-inputerror,.swal2-popup .swal2-textarea.swal2-inputerror{border-color:#f27474!important;box-shadow:0 0 2px #f27474!important}.swal2-popup .swal2-file:focus,.swal2-popup .swal2-input:focus,.swal2-popup .swal2-textarea:focus{border:1px solid #b4dbed;outline:0;box-shadow:0 0 3px #c4e6f5}.swal2-popup .swal2-file::-webkit-input-placeholder,.swal2-popup .swal2-input::-webkit-input-placeholder,.swal2-popup .swal2-textarea::-webkit-input-placeholder{color:#ccc}.swal2-popup .swal2-file:-ms-input-placeholder,.swal2-popup .swal2-input:-ms-input-placeholder,.swal2-popup .swal2-textarea:-ms-input-placeholder{color:#ccc}.swal2-popup .swal2-file::-ms-input-placeholder,.swal2-popup .swal2-input::-ms-input-placeholder,.swal2-popup .swal2-textarea::-ms-input-placeholder{color:#ccc}.swal2-popup .swal2-file::placeholder,.swal2-popup .swal2-input::placeholder,.swal2-popup .swal2-textarea::placeholder{color:#ccc}.swal2-popup .swal2-range input{width:80%}.swal2-popup .swal2-range output{width:20%;font-weight:600;text-align:center}.swal2-popup .swal2-range input,.swal2-popup .swal2-range output{height:2.625em;margin:1em auto;padding:0;font-size:1.125em;line-height:2.625em}.swal2-popup .swal2-input{height:2.625em;padding:0 .75em}.swal2-popup .swal2-input[type=number]{max-width:10em}.swal2-popup .swal2-file{font-size:1.125em}.swal2-popup .swal2-textarea{height:6.75em;padding:.75em}.swal2-popup .swal2-select{min-width:50%;max-width:100%;padding:.375em .625em;color:#545454;font-size:1.125em}.swal2-popup .swal2-checkbox,.swal2-popup .swal2-radio{align-items:center;justify-content:center}.swal2-popup .swal2-checkbox label,.swal2-popup .swal2-radio label{margin:0 .6em;font-size:1.125em}.swal2-popup .swal2-checkbox input,.swal2-popup .swal2-radio input{margin:0 .4em}.swal2-popup .swal2-validation-message{display:none;align-items:center;justify-content:center;padding:.625em;background:#f0f0f0;color:#666;font-size:1em;font-weight:300;overflow:hidden}.swal2-popup .swal2-validation-message::before{display:inline-block;width:1.5em;min-width:1.5em;height:1.5em;margin:0 .625em;border-radius:50%;background-color:#f27474;color:#fff;font-weight:600;line-height:1.5em;text-align:center;content:'!';zoom:normal}@supports (-ms-accelerator:true){.swal2-range input{width:100%!important}.swal2-range output{display:none}}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-range input{width:100%!important}.swal2-range output{display:none}}@-moz-document url-prefix(){.swal2-close:focus{outline:2px solid rgba(50,100,150,.4)}}.swal2-icon{position:relative;justify-content:center;width:5em;height:5em;margin:0em auto 0em;border:.25em solid transparent;border-radius:50%;line-height:5em;cursor:default;box-sizing:content-box;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;zoom:normal}.swal2-icon-text{font-size:3.75em}.swal2-icon.swal2-error{border-color:#f27474}.swal2-icon.swal2-error .swal2-x-mark{position:relative;flex-grow:1}.swal2-icon.swal2-error [class^=swal2-x-mark-line]{display:block;position:absolute;top:2.3125em;width:2.9375em;height:.3125em;border-radius:.125em;background-color:#f27474}.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:1.0625em;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:1em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal2-icon.swal2-warning{border-color:#facea8;color:#f8bb86}.swal2-icon.swal2-info{border-color:#9de0f6;color:#3fc3ee}.swal2-icon.swal2-question{border-color:#c9dae1;color:#87adbd}.swal2-icon.swal2-success{border-color:#a5dc86}.swal2-icon.swal2-success [class^=swal2-success-circular-line]{position:absolute;width:3.75em;height:7.5em;-webkit-transform:rotate(45deg);transform:rotate(45deg);border-radius:50%}.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=left]{top:-.4375em;left:-2.0635em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:3.75em 3.75em;transform-origin:3.75em 3.75em;border-radius:7.5em 0 0 7.5em}.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=right]{top:-.6875em;left:1.875em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:0 3.75em;transform-origin:0 3.75em;border-radius:0 7.5em 7.5em 0}.swal2-icon.swal2-success .swal2-success-ring{position:absolute;top:-.25em;left:-.25em;width:100%;height:100%;border:.25em solid rgba(165,220,134,.3);border-radius:50%;z-index:2;box-sizing:content-box}.swal2-icon.swal2-success .swal2-success-fix{position:absolute;top:.5em;left:1.625em;width:.4375em;height:5.625em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);z-index:1}.swal2-icon.swal2-success [class^=swal2-success-line]{display:block;position:absolute;height:.3125em;border-radius:.125em;background-color:#a5dc86;z-index:2}.swal2-icon.swal2-success [class^=swal2-success-line][class$=tip]{top:2.875em;left:.875em;width:1.5625em;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.swal2-icon.swal2-success [class^=swal2-success-line][class$=long]{top:2.375em;right:.5em;width:2.9375em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal2-progresssteps{align-items:center;margin:0 0 1.25em;padding:0;font-weight:600}.swal2-progresssteps li{display:inline-block;position:relative}.swal2-progresssteps .swal2-progresscircle{width:2em;height:2em;border-radius:2em;background:#3085d6;color:#fff;line-height:2em;text-align:center;z-index:20}.swal2-progresssteps .swal2-progresscircle:first-child{margin-left:0}.swal2-progresssteps .swal2-progresscircle:last-child{margin-right:0}.swal2-progresssteps .swal2-progresscircle.swal2-activeprogressstep{background:#3085d6}.swal2-progresssteps .swal2-progresscircle.swal2-activeprogressstep~.swal2-progresscircle{background:#add8e6}.swal2-progresssteps .swal2-progresscircle.swal2-activeprogressstep~.swal2-progressline{background:#add8e6}.swal2-progresssteps .swal2-progressline{width:2.5em;height:.4em;margin:0 -1px;background:#3085d6;z-index:10}[class^=swal2]{-webkit-tap-highlight-color:transparent}.swal2-show{-webkit-animation:swal2-show .3s;animation:swal2-show .3s}.swal2-show.swal2-noanimation{-webkit-animation:none;animation:none}.swal2-hide{-webkit-animation:swal2-hide .15s forwards;animation:swal2-hide .15s forwards}.swal2-hide.swal2-noanimation{-webkit-animation:none;animation:none}.swal2-rtl .swal2-close{right:auto;left:0}.swal2-animate-success-icon .swal2-success-line-tip{-webkit-animation:swal2-animate-success-line-tip .75s;animation:swal2-animate-success-line-tip .75s}.swal2-animate-success-icon .swal2-success-line-long{-webkit-animation:swal2-animate-success-line-long .75s;animation:swal2-animate-success-line-long .75s}.swal2-animate-success-icon .swal2-success-circular-line-right{-webkit-animation:swal2-rotate-success-circular-line 4.25s ease-in;animation:swal2-rotate-success-circular-line 4.25s ease-in}.swal2-animate-error-icon{-webkit-animation:swal2-animate-error-icon .5s;animation:swal2-animate-error-icon .5s}.swal2-animate-error-icon .swal2-x-mark{-webkit-animation:swal2-animate-error-x-mark .5s;animation:swal2-animate-error-x-mark .5s}@-webkit-keyframes swal2-rotate-loading{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes swal2-rotate-loading{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@media print{body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown){overflow-y:scroll!important}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown)>[aria-hidden=true]{display:none}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) .swal2-container{position:initial!important}}</style></head>
+<body>
+<form method="post" action="https://obs.aybu.edu.tr/oibs/std/std_time_table_dep.aspx" id="form1" data-select2-id="form1">
+<div class="aspNetHidden">
+
+
+
+
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="./WebResource.axd" type="text/javascript"></script>
+
+
+<script src="./jquery-3.7.1.min.js.indir" type="text/javascript"></script>
+<script src="./sweetalert.min.js.indir" type="text/javascript"></script>
+<script src="./select2.min.js.indir" type="text/javascript"></script>
+<script src="./ModalPopupWindow_v22_min.js.indir" type="text/javascript"></script><script type="text/javascript">var baseUrl = '/oibs/';var modalWin = new CreateModalPopUpObject();</script>
+                     <div id="bailwal_div_overlay" style="position:absolute;z-index:10; background-color:white;filter: alpha(opacity = 70);opacity:0.7;"></div>
+                         <div id="bailwal_div_frame_parent" style="position:absolute;z-index:12; display:none;background-color:white;">
+                         <table style="border:solid 1px #121e2d; height: 100%" onmouseup="bailwal_modalPopupWindow.StopDragging()">
+                                <tbody><tr style="height:28px;vertical-align:middle;background-color:#121e2d" id="bailwal_tr_title">
+                                    <td style="vertical-align:top;text-align:left;border:none">
+                                        <div style="display: table; width: 100%;">
+                                        <div style="display: table-row;">
+                                        <div style="text-align:left; display: table-cell;">
+                                            <i id="bailwal_img_overlay_close_logo2" ondblclick="bailwal_modalPopupWindow.HideModalPopUp(&#39;1&#39;);" style="padding:6px;vertical-align:middle;" class="fal fa-chevron-circle-down text-white"></i>
+                                            <span id="bailwal_span_title" style="vertical-align:middle;color:White;font-size:8pt;text-align: left;"></span>
+                                        </div>
+                                        <div style="text-align:right; display: table-cell; ">
+                                            <span id="bailwal_span_loading" style="vertical-align: middle; display: none;">
+                                                <i class="fas fa-spinner fa-spin text-white"></i>
+                                            </span>
+                                            <span id="bailwal_span_overlay_window_refresh" onclick="bailwal_modalPopupWindow.Refresh();" style="vertical-align:middle;cursor:pointer;">
+                                               <i id="bailwal_img_overlay_refresh" class="fal fa-sync" style="font-size:17px; color:white; background-color:transparent;padding-bottom:3px; vertical-align:middle;"></i>
+                                            </span>
+                                            <span id="bailwal_span_overlay_window_max" onclick="bailwal_modalPopupWindow.Maximisze();" style="vertical-align:middle;cursor:pointer;">
+                                               <i id="bailwal_img_overlay_max" class="fal fa-window-maximize" style="font-size:19px; color:white;padding-bottom:3px;  vertical-align:middle;"></i>
+                                            </span>                                            
+                                            <span onclick="bailwal_modalPopupWindow.HideModalPopUp(&#39;1&#39;);" class="mr-3" style="vertical-align:middle;cursor:pointer;background-color:#c90000;margin-right:3px;margin-top:3px;">
+                                                <i id="bailwal_img_overlay_close" class="fal fa-times" style="font-size:15px; color:white; padding-left:6px;padding-right:3px; padding-bottom:5px; vertical-align:middle;"></i>
+                                            </span>
+                                        </div>
+                                        </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr style="vertical-align: middle;">
+                                    <td colspan="2" align="center" id="bailwal_td_overlay" style="vertical-align: top;border:none">
+                                        <div id="bailwal_div_message" style="margin-top:0px;display:none;vertical-align: middle;">
+                                            <span id="bailwal_span_message" style="padding-left:3px;padding-right:3px;vertical-align: middle;font-size:8pt;" ondblclick="selectElementText(this)"></span>
+                                        </div>
+                                        <iframe onload="OnUrlLoaded()" name="bailwal_overlay_frame" id="bailwal_overlay_frame" frameborder="0" scrolling="auto" style="padding: 0px !important;padding-bottom: 0px !important;margin: 0px !important;margin-bottom: 0px !important;" src="./saved_resource(1).html"></iframe>
+                                    </td>
+                                </tr>
+                           </tbody></table>
+                           </div>
+                           
+<script type="text/javascript">
+//<![CDATA[
+var __cultureInfo = {"name":"tr-TR","numberFormat":{"CurrencyDecimalDigits":2,"CurrencyDecimalSeparator":",","IsReadOnly":true,"CurrencyGroupSizes":[3],"NumberGroupSizes":[3],"PercentGroupSizes":[3],"CurrencyGroupSeparator":".","CurrencySymbol":"₺","NaNSymbol":"NaN","CurrencyNegativePattern":8,"NumberNegativePattern":1,"PercentPositivePattern":2,"PercentNegativePattern":2,"NegativeInfinitySymbol":"-Sonsuz","NegativeSign":"-","NumberDecimalDigits":2,"NumberDecimalSeparator":",","NumberGroupSeparator":".","CurrencyPositivePattern":3,"PositiveInfinitySymbol":"Sonsuz","PositiveSign":"+","PercentDecimalDigits":2,"PercentDecimalSeparator":",","PercentGroupSeparator":".","PercentSymbol":"%","PerMilleSymbol":"‰","NativeDigits":["0","1","2","3","4","5","6","7","8","9"],"DigitSubstitution":1},"dateTimeFormat":{"AMDesignator":"","Calendar":{"MinSupportedDateTime":"\/Date(-62135596800000)\/","MaxSupportedDateTime":"\/Date(253402289999999)\/","AlgorithmType":1,"CalendarType":1,"Eras":[1],"TwoDigitYearMax":2029,"IsReadOnly":true},"DateSeparator":".","FirstDayOfWeek":1,"CalendarWeekRule":0,"FullDateTimePattern":"d MMMM yyyy dddd HH:mm:ss","LongDatePattern":"d MMMM yyyy dddd","LongTimePattern":"HH:mm:ss","MonthDayPattern":"d MMMM","PMDesignator":"","RFC1123Pattern":"ddd, dd MMM yyyy HH\u0027:\u0027mm\u0027:\u0027ss \u0027GMT\u0027","ShortDatePattern":"dd.MM.yyyy","ShortTimePattern":"HH:mm","SortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd\u0027T\u0027HH\u0027:\u0027mm\u0027:\u0027ss","TimeSeparator":":","UniversalSortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd HH\u0027:\u0027mm\u0027:\u0027ss\u0027Z\u0027","YearMonthPattern":"MMMM yyyy","AbbreviatedDayNames":["Paz","Pzt","Sal","Çar","Per","Cum","Cmt"],"ShortestDayNames":["Pz","Pt","Sa","Ça","Pe","Cu","Ct"],"DayNames":["Pazar","Pazartesi","Salı","Çarşamba","Perşembe","Cuma","Cumartesi"],"AbbreviatedMonthNames":["Oca","Şub","Mar","Nis","May","Haz","Tem","Ağu","Eyl","Eki","Kas","Ara",""],"MonthNames":["Ocak","Şubat","Mart","Nisan","Mayıs","Haziran","Temmuz","Ağustos","Eylül","Ekim","Kasım","Aralık",""],"IsReadOnly":true,"NativeCalendarName":"Gregoryen Takvim","AbbreviatedMonthGenitiveNames":["Oca","Şub","Mar","Nis","May","Haz","Tem","Ağu","Eyl","Eki","Kas","Ara",""],"MonthGenitiveNames":["Ocak","Şubat","Mart","Nisan","Mayıs","Haziran","Temmuz","Ağustos","Eylül","Ekim","Kasım","Aralık",""]},"eras":[1,"MS",null,0]};//]]>
+</script>
+
+<script src="./ScriptResource.axd" type="text/javascript"></script>
+<script src="./ScriptResource(1).axd" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	
+	
+	
+</div>
+<div data-select2-id="12">
+<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager1', 'form1', ['tUpdatePanel1','UpdatePanel1'], [], [], 600, '');
+//]]>
+</script>
+
+<div id="UpdatePanel1" data-select2-id="UpdatePanel1">
+<div class="panel panel-default" data-select2-id="79">
+    <div class="panel-heading">
+<span id="lblHeader" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">Bölüm Ders Programı</span><br>
+<span id="lblHeader2" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">İKTİSAT</span>
+    </div>
+<table style="width:100%" data-select2-id="78">
+<tbody data-select2-id="77"><tr>
+<td style="height:35px" data-select2-id="76">
+<span id="Label1" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt; text-align: left">Dönem</span>&nbsp;<select name="cmbDonemler" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;cmbDonemler\&#39;,\&#39;\&#39;)&#39;, 0)" id="cmbDonemler" class="form-control select2 select2-hidden-accessible" style="font-family:Open Sans;font-size:8pt;width:170px; text-align: left" data-select2-id="cmbDonemler" tabindex="-1" aria-hidden="true">
+	<option selected="selected" value="20242" data-select2-id="69">2024-2025 BAHAR</option>
+	<option value="20231">2023-2024 GÜZ</option>
+	<option value="20232">2023-2024 BAHAR </option>
+	<option value="20233">2023-2024 YAZ</option>
+	<option value="20241">2024-2025 GÜZ</option>
+
+</select><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="68" style="width: 170px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-cmbDonemler-container"><span class="select2-selection__rendered" id="select2-cmbDonemler-container" role="textbox" aria-readonly="true" title="2024-2025 BAHAR">2024-2025 BAHAR</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+    <span id="Label7" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt; text-align: left">Program</span>
+    <select name="cmbProgram" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;cmbProgram\&#39;,\&#39;\&#39;)&#39;, 0)" id="cmbProgram" class="form-control select2 select2-hidden-accessible" style="font-family:Open Sans;font-size:8pt;width:170px;" data-select2-id="cmbProgram" tabindex="-1" aria-hidden="true">
+	<option selected="selected" value="5291" data-select2-id="72">İKTİSAT(İNG)</option>
+	<option value="5974">İKTİSAT(TOU)</option>
+
+</select><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="71" style="width: 170px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-cmbProgram-container"><span class="select2-selection__rendered" id="select2-cmbProgram-container" role="textbox" aria-readonly="true" title="İKTİSAT(İNG)">İKTİSAT(İNG)</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+    <span id="lblSinif" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt; text-align: left">Sınıf</span>
+    <select name="cmbSinif" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;cmbSinif\&#39;,\&#39;\&#39;)&#39;, 0)" id="cmbSinif" class="form-control select2 select2-hidden-accessible" style="font-family:Open Sans;font-size:8pt;width:80px;
+text-align: left" data-select2-id="cmbSinif" tabindex="-1" aria-hidden="true">
+	<option value="1" data-select2-id="80">1.Sınıf</option>
+	<option value="2" data-select2-id="81">2.Sınıf</option>
+	<option selected="selected" value="3" data-select2-id="74">3.Sınıf</option>
+	<option value="4" data-select2-id="82">4.Sınıf</option>
+	<option value="5" data-select2-id="83">5.Sınıf</option>
+	<option value="6" data-select2-id="84">6.Sınıf</option>
+	<option value="0" data-select2-id="85">Hazırlık</option>
+
+</select><span class="select2 select2-container select2-container--default select2-container--below select2-container--open" dir="ltr" data-select2-id="73" style="width: 80px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="true" tabindex="0" aria-disabled="false" aria-labelledby="select2-cmbSinif-container" aria-owns="select2-cmbSinif-results" aria-activedescendant="select2-cmbSinif-result-brd2-3"><span class="select2-selection__rendered" id="select2-cmbSinif-container" role="textbox" aria-readonly="true" title="3.Sınıf">3.Sınıf</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+    
+    
+    
+</td>
+<td style="text-align: right">
+<a id="btnYazdir0" accesskey="y" class="btn btn-default btn-xs" href="javascript:__doPostBack(&#39;btnYazdir0&#39;,&#39;&#39;)" style="display:inline-block;color:#5B636A;font-family:Open Sans;font-size:9pt;width:90px;"><span class="fal fa-print"></span>Yazdır</a>
+    </td>
+</tr>
+</tbody></table>
+   <div class="panel panel-default">
+    
+    <table class="w-100">
+        <tbody><tr>
+            <td style="vertical-align: top; text-align: left; width: 50%; background-color:gray; ">
+                <span id="Label222" class="text-white" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">Pazartesi</span>
+            </td>
+            <td>
+                &nbsp;</td>
+            <td style="vertical-align: top; text-align: left; width: 50%; background-color:gray; ">
+                <span id="Label223" class="text-white" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">Salı</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top; text-align: left;">
+                <div>
+	<table cellspacing="0" rules="all" class="myGridClass" border="1" id="grd0" style="border-color:LightGrey;font-family:Open Sans;font-size:8pt;font-weight:normal;text-decoration:none;width:100%;border-collapse:collapse;font-family: Tahoma; font-size: 7pt;">
+		<tbody><tr>
+			<th scope="col">Saat</th><th scope="col">Ders Kodu</th><th scope="col">Ders Adı</th><th scope="col">Derslik</th><th scope="col">Öğretim Elemanı</th>
+		</tr><tr>
+			<td>09:00-09:50</td><td>ECON316(1)</td><td>
+                                <span id="grd0_Label1_0" title="SİYASAL BİLGİLER FAKÜLTESİ - İKTİSAT  - İKTİSAT(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">INSTITUTIONAL ECONOMICS</span>
+                            </td><td>B365(SEMİNER SALONU)[20]</td><td>Dr. Öğr. Üyesi BORA ALTAY  </td>
+		</tr><tr>
+			<td>10:00-10:50</td><td>ECON316(1)</td><td>
+                                <span id="grd0_Label1_1" title="SİYASAL BİLGİLER FAKÜLTESİ - İKTİSAT  - İKTİSAT(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">INSTITUTIONAL ECONOMICS</span>
+                            </td><td>B365(SEMİNER SALONU)[20]</td><td>Dr. Öğr. Üyesi BORA ALTAY  </td>
+		</tr><tr>
+			<td>11:00-11:50</td><td>ECON316(1)</td><td>
+                                <span id="grd0_Label1_2" title="SİYASAL BİLGİLER FAKÜLTESİ - İKTİSAT  - İKTİSAT(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">INSTITUTIONAL ECONOMICS</span>
+                            </td><td>B365(SEMİNER SALONU)[20]</td><td>Dr. Öğr. Üyesi BORA ALTAY  </td>
+		</tr><tr>
+			<td>14:00-14:50</td><td>ECON310(1)</td><td>
+                                <span id="grd0_Label1_3" title="SİYASAL BİLGİLER FAKÜLTESİ - İKTİSAT  - İKTİSAT(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">ADVANCED MACROECONOMICCS</span>
+                            </td><td>B375-D13(DERSLİK13)[84]</td><td>Arş.Gör.Dr. AYŞE NUR ŞAHİNLER  </td>
+		</tr><tr>
+			<td>15:00-15:50</td><td>ECON310(1)</td><td>
+                                <span id="grd0_Label1_4" title="SİYASAL BİLGİLER FAKÜLTESİ - İKTİSAT  - İKTİSAT(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">ADVANCED MACROECONOMICCS</span>
+                            </td><td>B375-D13(DERSLİK13)[84]</td><td>Arş.Gör.Dr. AYŞE NUR ŞAHİNLER  </td>
+		</tr><tr>
+			<td>16:00-16:50</td><td>ECON310(1)</td><td>
+                                <span id="grd0_Label1_5" title="SİYASAL BİLGİLER FAKÜLTESİ - İKTİSAT  - İKTİSAT(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">ADVANCED MACROECONOMICCS</span>
+                            </td><td>B375-D13(DERSLİK13)[84]</td><td>Arş.Gör.Dr. AYŞE NUR ŞAHİNLER  </td>
+		</tr>
+	</tbody></table>
+</div>
+            </td>
+            <td style="vertical-align: top; text-align: left;">
+                &nbsp;</td>
+            <td style="vertical-align: top; text-align: left;">
+                <div>
+	<table cellspacing="0" rules="all" class="myGridClass" border="1" id="grd1" style="border-color:LightGrey;font-family:Open Sans;font-size:8pt;font-weight:normal;text-decoration:none;width:100%;border-collapse:collapse;font-family: Tahoma; font-size: 7pt;">
+		<tbody><tr>
+			<th scope="col">Saat</th><th scope="col">Ders Kodu</th><th scope="col">Ders Adı</th><th scope="col">Derslik</th><th scope="col">Öğretim Elemanı</th>
+		</tr><tr>
+			<td>09:00-09:50</td><td>ECON322(1)</td><td>
+                                <span id="grd1_Label14_0" title="SİYASAL BİLGİLER FAKÜLTESİ - İKTİSAT  - İKTİSAT(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">ECONOMICS OF PRIVATIZATION AND LIBERALIZATION</span>
+                            </td><td>B338-D1(DERSLİK1)[121]</td><td>Arş.Gör.Dr. MERT AKYÜZ  </td>
+		</tr><tr>
+			<td>10:00-10:50</td><td>ECON322(1)</td><td>
+                                <span id="grd1_Label14_1" title="SİYASAL BİLGİLER FAKÜLTESİ - İKTİSAT  - İKTİSAT(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">ECONOMICS OF PRIVATIZATION AND LIBERALIZATION</span>
+                            </td><td>B338-D1(DERSLİK1)[121]</td><td>Arş.Gör.Dr. MERT AKYÜZ  </td>
+		</tr><tr>
+			<td>11:00-11:50</td><td>ECON322(1)</td><td>
+                                <span id="grd1_Label14_2" title="SİYASAL BİLGİLER FAKÜLTESİ - İKTİSAT  - İKTİSAT(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">ECONOMICS OF PRIVATIZATION AND LIBERALIZATION</span>
+                            </td><td>B338-D1(DERSLİK1)[121]</td><td>Arş.Gör.Dr. MERT AKYÜZ  </td>
+		</tr>
+	</tbody></table>
+</div>
+            </td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top; text-align: left; background-color: gray; ">
+                <span id="Label2" class="text-white" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">Çarşamba</span>
+            </td>
+            <td>
+                &nbsp;</td>
+            <td style="vertical-align: top; text-align: left; background-color: gray; ">
+                <span id="Label3" class="text-white" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">Perşembe</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top; text-align: left">
+                <div>
+	<table cellspacing="0" rules="all" class="myGridClass" border="1" id="grd2" style="border-color:LightGrey;font-family:Open Sans;font-size:8pt;font-weight:normal;text-decoration:none;width:100%;border-collapse:collapse;font-family: Tahoma; font-size: 7pt;">
+		<tbody><tr>
+			<th scope="col">Saat</th><th scope="col">Ders Kodu</th><th scope="col">Ders Adı</th><th scope="col">Derslik</th><th scope="col">Öğretim Elemanı</th>
+		</tr><tr>
+			<td>09:00-09:50</td><td>ECON304(1)</td><td>
+                                <span id="grd2_Label15_0" title="SİYASAL BİLGİLER FAKÜLTESİ - İKTİSAT  - İKTİSAT(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">FISCAL POLICY AND PUBLIC FINANCE</span>
+                            </td><td>B374-D4(DERSLİK4)[70]</td><td>Dr. Öğr. Üyesi ELİF GÜL KÖSE  </td>
+		</tr><tr>
+			<td>10:00-10:50</td><td>ECON304(1)</td><td>
+                                <span id="grd2_Label15_1" title="SİYASAL BİLGİLER FAKÜLTESİ - İKTİSAT  - İKTİSAT(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">FISCAL POLICY AND PUBLIC FINANCE</span>
+                            </td><td>B374-D4(DERSLİK4)[70]</td><td>Dr. Öğr. Üyesi ELİF GÜL KÖSE  </td>
+		</tr><tr>
+			<td>11:00-11:50</td><td>ECON304(1)</td><td>
+                                <span id="grd2_Label15_2" title="SİYASAL BİLGİLER FAKÜLTESİ - İKTİSAT  - İKTİSAT(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">FISCAL POLICY AND PUBLIC FINANCE</span>
+                            </td><td>B374-D4(DERSLİK4)[70]</td><td>Dr. Öğr. Üyesi ELİF GÜL KÖSE  </td>
+		</tr>
+	</tbody></table>
+</div>
+            </td>
+            <td style="vertical-align: top; text-align: left">
+                &nbsp;</td>
+            <td style="vertical-align: top; text-align: left">
+                <div>
+	<table cellspacing="0" rules="all" class="myGridClass" border="1" id="grd3" style="border-color:LightGrey;font-family:Open Sans;font-size:8pt;font-weight:normal;text-decoration:none;width:100%;border-collapse:collapse;font-family: Tahoma; font-size: 7pt;">
+		<tbody><tr>
+			<th scope="col">Saat</th><th scope="col">Ders Kodu</th><th scope="col">Ders Adı</th><th scope="col">Derslik</th><th scope="col">Öğretim Elemanı</th>
+		</tr><tr>
+			<td>09:00-09:50</td><td>ECON306(1)</td><td>
+                                <span id="grd3_Label16_0" title="SİYASAL BİLGİLER FAKÜLTESİ - İKTİSAT  - İKTİSAT(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">INTERNATIONAL ECONOMICS II</span>
+                            </td><td>B378-D6(DERSLİK6)[70]</td><td>Dr. Öğr. Üyesi SELEN ÖZÇELİK  </td>
+		</tr><tr>
+			<td>10:00-10:50</td><td>ECON306(1)</td><td>
+                                <span id="grd3_Label16_1" title="SİYASAL BİLGİLER FAKÜLTESİ - İKTİSAT  - İKTİSAT(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">INTERNATIONAL ECONOMICS II</span>
+                            </td><td>B378-D6(DERSLİK6)[70]</td><td>Dr. Öğr. Üyesi SELEN ÖZÇELİK  </td>
+		</tr><tr>
+			<td>11:00-11:50</td><td>ECON306(1)</td><td>
+                                <span id="grd3_Label16_2" title="SİYASAL BİLGİLER FAKÜLTESİ - İKTİSAT  - İKTİSAT(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">INTERNATIONAL ECONOMICS II</span>
+                            </td><td>B378-D6(DERSLİK6)[70]</td><td>Dr. Öğr. Üyesi SELEN ÖZÇELİK  </td>
+		</tr><tr>
+			<td>13:00-13:50</td><td>ECON302(1)</td><td>
+                                <span id="grd3_Label16_3" title="SİYASAL BİLGİLER FAKÜLTESİ - İKTİSAT  - İKTİSAT(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">ECONOMETRICS II</span>
+                            </td><td>B378-D6(DERSLİK6)[70]</td><td>Doç.Dr. SIDIKA BAŞÇI  </td>
+		</tr><tr>
+			<td>14:00-14:50</td><td>ECON302(1)</td><td>
+                                <span id="grd3_Label16_4" title="SİYASAL BİLGİLER FAKÜLTESİ - İKTİSAT  - İKTİSAT(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">ECONOMETRICS II</span>
+                            </td><td>B378-D6(DERSLİK6)[70]</td><td>Doç.Dr. SIDIKA BAŞÇI  </td>
+		</tr><tr>
+			<td>15:00-15:50</td><td>ECON302(1)</td><td>
+                                <span id="grd3_Label16_5" title="SİYASAL BİLGİLER FAKÜLTESİ - İKTİSAT  - İKTİSAT(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">ECONOMETRICS II</span>
+                            </td><td>B378-D6(DERSLİK6)[70]</td><td>Doç.Dr. SIDIKA BAŞÇI  </td>
+		</tr>
+	</tbody></table>
+</div>
+            </td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top; text-align: left; background-color: gray; ">
+                <span id="Label4" class="text-white" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">Cuma</span>
+            </td>
+            <td></td>
+            <td style="vertical-align: top; text-align: left; background-color: gray; ">
+                
+            </td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top; text-align: left">
+                <div>
+	<table cellspacing="0" rules="all" class="myGridClass" border="1" id="grd4" style="border-color:LightGrey;font-family:Open Sans;font-size:8pt;font-weight:normal;text-decoration:none;width:100%;border-collapse:collapse;font-family: Tahoma; font-size: 7pt;">
+		<tbody><tr>
+			<th scope="col">Saat</th><th scope="col">Ders Kodu</th><th scope="col">Ders Adı</th><th scope="col">Derslik</th><th scope="col">Öğretim Elemanı</th>
+		</tr><tr>
+			<td>09:00-09:50</td><td>ECON372(1)</td><td>
+                                <span id="grd4_Label17_0" title="SİYASAL BİLGİLER FAKÜLTESİ - İKTİSAT  - İKTİSAT(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">WELFARE ECONOMICS AND SOCIAL POLICY</span>
+                            </td><td>B373-D3(DERSLİK3)[70]</td><td>Doç.Dr. NERGİS DAMA  </td>
+		</tr><tr>
+			<td>10:00-10:50</td><td>ECON372(1)</td><td>
+                                <span id="grd4_Label17_1" title="SİYASAL BİLGİLER FAKÜLTESİ - İKTİSAT  - İKTİSAT(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">WELFARE ECONOMICS AND SOCIAL POLICY</span>
+                            </td><td>B373-D3(DERSLİK3)[70]</td><td>Doç.Dr. NERGİS DAMA  </td>
+		</tr><tr>
+			<td>11:00-11:50</td><td>ECON372(1)</td><td>
+                                <span id="grd4_Label17_2" title="SİYASAL BİLGİLER FAKÜLTESİ - İKTİSAT  - İKTİSAT(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">WELFARE ECONOMICS AND SOCIAL POLICY</span>
+                            </td><td>B373-D3(DERSLİK3)[70]</td><td>Doç.Dr. NERGİS DAMA  </td>
+		</tr><tr>
+			<td>14:00-14:50</td><td>ECON320(1)</td><td>
+                                <span id="grd4_Label17_3" title="SİYASAL BİLGİLER FAKÜLTESİ - İKTİSAT  - İKTİSAT(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">FINANCIAL MARKETS AND INSTITUTIONS</span>
+                            </td><td>B379-D7(DERSLİK7)[70]</td><td>Dr. Öğr. Üyesi MEHMET FATİH ÖZTEK  </td>
+		</tr><tr>
+			<td>15:00-15:50</td><td>ECON320(1)</td><td>
+                                <span id="grd4_Label17_4" title="SİYASAL BİLGİLER FAKÜLTESİ - İKTİSAT  - İKTİSAT(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">FINANCIAL MARKETS AND INSTITUTIONS</span>
+                            </td><td>B379-D7(DERSLİK7)[70]</td><td>Dr. Öğr. Üyesi MEHMET FATİH ÖZTEK  </td>
+		</tr><tr>
+			<td>16:00-16:50</td><td>ECON320(1)</td><td>
+                                <span id="grd4_Label17_5" title="SİYASAL BİLGİLER FAKÜLTESİ - İKTİSAT  - İKTİSAT(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">FINANCIAL MARKETS AND INSTITUTIONS</span>
+                            </td><td>B379-D7(DERSLİK7)[70]</td><td>Dr. Öğr. Üyesi MEHMET FATİH ÖZTEK  </td>
+		</tr>
+	</tbody></table>
+</div>
+            </td>
+            <td style="vertical-align: top; text-align: left">
+                &nbsp;</td>
+            <td style="vertical-align: top; text-align: left">
+                
+            </td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top; text-align: left; background-color: gray;">
+                
+            </td>
+            <td></td>
+            <td style="vertical-align: top; text-align: left; background-color: gray;"></td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top; text-align: left">
+                
+            </td>
+            <td style="vertical-align: top; text-align: left">&nbsp;</td>
+            <td style="vertical-align: top; text-align: left">&nbsp;</td>
+        </tr>
+    </tbody></table>
+       </div>
+<span id="Label211" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;font-style:italic;">Not: Uygulama saatleri yeşil renkle gösterilir</span>
+<span id="lblDuyuru" title="DP_OGR" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;text-align: left;"></span>
+<br>
+</div>
+</div>
+<div id="UpdateProgress1" style="display: none;" role="status" aria-hidden="true">
+	
+<div class="mycontainer" style="padding:5%;position :absolute;z-index: 1;"><div class="spinner-frame"><span style="font-size: 11px; color: #fff">Yükleniyor</span><div class="spinner-cover"></div><div class="spinner-bar"></div></div></div>
+
+</div>
+</div>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+theForm.oldSubmit = theForm.submit;
+theForm.submit = WebForm_SaveScrollPositionSubmit;
+
+theForm.oldOnSubmit = theForm.onsubmit;
+theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
+Sys.Application.add_init(function() {
+    $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":"UpdatePanel1","displayAfter":50,"dynamicLayout":true}, null, null, $get("UpdateProgress1"));
+});
+//]]>
+</script>
+<span style="display: none !important;"><input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value=""></span><span style="display: none !important;"><input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value=""></span><span style="display: none !important;"><input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value=""></span><span style="display: none !important;"><input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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"></span><span style="display: none !important;"><input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="71823A3D"></span><span style="display: none !important;"><input type="hidden" name="__SCROLLPOSITIONX" id="__SCROLLPOSITIONX" value="0"></span><span style="display: none !important;"><input type="hidden" name="__SCROLLPOSITIONY" id="__SCROLLPOSITIONY" value="0"></span></form>
+
+
+<span class="select2-container select2-container--default select2-container--open" style="position: absolute; top: 77.7917px; left: 463.667px;"><span class="select2-dropdown select2-dropdown--below" dir="ltr" style="width: auto; min-width: 80px; position: relative;"><span class="select2-search select2-search--dropdown"><input class="select2-search__field" type="search" tabindex="0" autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false" role="searchbox" aria-autocomplete="list" aria-controls="select2-cmbSinif-results" aria-activedescendant="select2-cmbSinif-result-brd2-3"></span><span class="select2-results"><ul class="select2-results__options" role="listbox" id="select2-cmbSinif-results" aria-expanded="true" aria-hidden="false"><li class="select2-results__option" id="select2-cmbSinif-result-84u7-1" role="option" aria-selected="false" data-select2-id="select2-cmbSinif-result-84u7-1">1.Sınıf</li><li class="select2-results__option" id="select2-cmbSinif-result-y7gf-2" role="option" aria-selected="false" data-select2-id="select2-cmbSinif-result-y7gf-2">2.Sınıf</li><li class="select2-results__option select2-results__option--highlighted" id="select2-cmbSinif-result-brd2-3" role="option" aria-selected="true" data-select2-id="select2-cmbSinif-result-brd2-3">3.Sınıf</li><li class="select2-results__option" id="select2-cmbSinif-result-m5v8-4" role="option" aria-selected="false" data-select2-id="select2-cmbSinif-result-m5v8-4">4.Sınıf</li><li class="select2-results__option" id="select2-cmbSinif-result-vo1g-5" role="option" aria-selected="false" data-select2-id="select2-cmbSinif-result-vo1g-5">5.Sınıf</li><li class="select2-results__option" id="select2-cmbSinif-result-hziv-6" role="option" aria-selected="false" data-select2-id="select2-cmbSinif-result-hziv-6">6.Sınıf</li><li class="select2-results__option" id="select2-cmbSinif-result-egeh-0" role="option" aria-selected="false" data-select2-id="select2-cmbSinif-result-egeh-0">Hazırlık</li></ul></span></span></span></body></html>

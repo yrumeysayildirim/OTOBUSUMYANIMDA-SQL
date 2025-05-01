@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<!-- saved from url=(0056)https://obs.aybu.edu.tr/oibs/std/std_time_table_dep.aspx -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Ders Programı</title><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport"><link href="./bootstrap.min.css" rel="stylesheet">
+<style>
+.myGridClass {width: 100%;margin: 0px;border: solid 1px #525252;border-collapse:collapse;}
+.myGridClass Caption {padding: 4px 2px;background: #f0f0f0;border-left: solid 1px #525252;font-size: 1.2em !important;}
+.myGridClass td {padding: 1px;border: solid 1px #c1c1c1;color: #717171;}
+.myGridClass th {padding: 4px 2px;background: #fcfcfc;border:solid 0px;font-size: 1em !important;}
+.myGridClass .myAltRowClass { background: #fcfcfc repeat-x top; }
+.myGridClass .myPagerClass { background: #424242; }
+.myGridClass .myPagerClass table { margin: 5px 0; }
+.myGridClass .myPagerClass td {border-width: 0;padding: 0 0px;border-left: solid 1px #666;line-height: 10px;}
+.myGridClass .myPagerClass a { color: #666; text-decoration: none; }
+.myGridClass .myPagerClass a:hover { color: #000; text-decoration: none; } 
+</style>
+<link href="./oibs18.css" type="text/css" rel="stylesheet"><link rel="stylesheet" type="text/css" href="./all.min.css"><link rel="stylesheet" type="text/css" href="./select2.min.css"><style>@-webkit-keyframes swal2-show{0%{-webkit-transform:scale(.7);transform:scale(.7)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}100%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes swal2-show{0%{-webkit-transform:scale(.7);transform:scale(.7)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}100%{-webkit-transform:scale(1);transform:scale(1)}}@-webkit-keyframes swal2-hide{0%{-webkit-transform:scale(1);transform:scale(1);opacity:1}100%{-webkit-transform:scale(.5);transform:scale(.5);opacity:0}}@keyframes swal2-hide{0%{-webkit-transform:scale(1);transform:scale(1);opacity:1}100%{-webkit-transform:scale(.5);transform:scale(.5);opacity:0}}@-webkit-keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.875em;width:1.5625em}}@keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.875em;width:1.5625em}}@-webkit-keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@-webkit-keyframes swal2-rotate-success-circular-line{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}100%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@keyframes swal2-rotate-success-circular-line{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}100%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@-webkit-keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;-webkit-transform:scale(.4);transform:scale(.4);opacity:0}50%{margin-top:1.625em;-webkit-transform:scale(.4);transform:scale(.4);opacity:0}80%{margin-top:-.375em;-webkit-transform:scale(1.15);transform:scale(1.15)}100%{margin-top:0;-webkit-transform:scale(1);transform:scale(1);opacity:1}}@keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;-webkit-transform:scale(.4);transform:scale(.4);opacity:0}50%{margin-top:1.625em;-webkit-transform:scale(.4);transform:scale(.4);opacity:0}80%{margin-top:-.375em;-webkit-transform:scale(1.15);transform:scale(1.15)}100%{margin-top:0;-webkit-transform:scale(1);transform:scale(1);opacity:1}}@-webkit-keyframes swal2-animate-error-icon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}100%{-webkit-transform:rotateX(0);transform:rotateX(0);opacity:1}}@keyframes swal2-animate-error-icon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}100%{-webkit-transform:rotateX(0);transform:rotateX(0);opacity:1}}body.swal2-toast-shown .swal2-container{position:fixed;background-color:transparent}body.swal2-toast-shown .swal2-container.swal2-shown{background-color:transparent}body.swal2-toast-shown .swal2-container.swal2-top{top:0;right:auto;bottom:auto;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-top-end,body.swal2-toast-shown .swal2-container.swal2-top-right{top:0;right:0;bottom:auto;left:auto}body.swal2-toast-shown .swal2-container.swal2-top-left,body.swal2-toast-shown .swal2-container.swal2-top-start{top:0;right:auto;bottom:auto;left:0}body.swal2-toast-shown .swal2-container.swal2-center-left,body.swal2-toast-shown .swal2-container.swal2-center-start{top:50%;right:auto;bottom:auto;left:0;-webkit-transform:translateY(-50%);transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-center{top:50%;right:auto;bottom:auto;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}body.swal2-toast-shown .swal2-container.swal2-center-end,body.swal2-toast-shown .swal2-container.swal2-center-right{top:50%;right:0;bottom:auto;left:auto;-webkit-transform:translateY(-50%);transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-left,body.swal2-toast-shown .swal2-container.swal2-bottom-start{top:auto;right:auto;bottom:0;left:0}body.swal2-toast-shown .swal2-container.swal2-bottom{top:auto;right:auto;bottom:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-end,body.swal2-toast-shown .swal2-container.swal2-bottom-right{top:auto;right:0;bottom:0;left:auto}body.swal2-toast-column .swal2-toast{flex-direction:column;align-items:stretch}body.swal2-toast-column .swal2-toast .swal2-actions{flex:1;align-self:stretch;height:2.2em;margin-top:.3125em}body.swal2-toast-column .swal2-toast .swal2-loading{justify-content:center}body.swal2-toast-column .swal2-toast .swal2-input{height:2em;margin:.3125em auto;font-size:1em}body.swal2-toast-column .swal2-toast .swal2-validation-message{font-size:1em}.swal2-popup.swal2-toast{flex-direction:row;align-items:center;width:auto;padding:.625em;box-shadow:0 0 .625em #d9d9d9;overflow-y:hidden}.swal2-popup.swal2-toast .swal2-header{flex-direction:row}.swal2-popup.swal2-toast .swal2-title{flex-grow:1;justify-content:flex-start;margin:0 .6em;font-size:1em}.swal2-popup.swal2-toast .swal2-footer{margin:.5em 0 0;padding:.5em 0 0;font-size:.8em}.swal2-popup.swal2-toast .swal2-close{position:initial;width:.8em;height:.8em;line-height:.8}.swal2-popup.swal2-toast .swal2-content{justify-content:flex-start;font-size:1em}.swal2-popup.swal2-toast .swal2-icon{width:2em;min-width:2em;height:2em;margin:0}.swal2-popup.swal2-toast .swal2-icon-text{font-size:2em;font-weight:700;line-height:1em}.swal2-popup.swal2-toast .swal2-icon.swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line]{top:.875em;width:1.375em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:.3125em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:.3125em}.swal2-popup.swal2-toast .swal2-actions{height:auto;margin:0 .3125em}.swal2-popup.swal2-toast .swal2-styled{margin:0 .3125em;padding:.3125em .625em;font-size:1em}.swal2-popup.swal2-toast .swal2-styled:focus{box-shadow:0 0 0 .0625em #fff,0 0 0 .125em rgba(50,100,150,.4)}.swal2-popup.swal2-toast .swal2-success{border-color:#a5dc86}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line]{position:absolute;width:2em;height:2.8125em;-webkit-transform:rotate(45deg);transform:rotate(45deg);border-radius:50%}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=left]{top:-.25em;left:-.9375em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:2em 2em;transform-origin:2em 2em;border-radius:4em 0 0 4em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=right]{top:-.25em;left:.9375em;-webkit-transform-origin:0 2em;transform-origin:0 2em;border-radius:0 4em 4em 0}.swal2-popup.swal2-toast .swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-success .swal2-success-fix{top:0;left:.4375em;width:.4375em;height:2.6875em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line]{height:.3125em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=tip]{top:1.125em;left:.1875em;width:.75em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=long]{top:.9375em;right:.1875em;width:1.375em}.swal2-popup.swal2-toast.swal2-show{-webkit-animation:showSweetToast .5s;animation:showSweetToast .5s}.swal2-popup.swal2-toast.swal2-hide{-webkit-animation:hideSweetToast .2s forwards;animation:hideSweetToast .2s forwards}.swal2-popup.swal2-toast .swal2-animate-success-icon .swal2-success-line-tip{-webkit-animation:animate-toast-success-tip .75s;animation:animate-toast-success-tip .75s}.swal2-popup.swal2-toast .swal2-animate-success-icon .swal2-success-line-long{-webkit-animation:animate-toast-success-long .75s;animation:animate-toast-success-long .75s}@-webkit-keyframes showSweetToast{0%{-webkit-transform:translateY(-.625em) rotateZ(2deg);transform:translateY(-.625em) rotateZ(2deg);opacity:0}33%{-webkit-transform:translateY(0) rotateZ(-2deg);transform:translateY(0) rotateZ(-2deg);opacity:.5}66%{-webkit-transform:translateY(.3125em) rotateZ(2deg);transform:translateY(.3125em) rotateZ(2deg);opacity:.7}100%{-webkit-transform:translateY(0) rotateZ(0);transform:translateY(0) rotateZ(0);opacity:1}}@keyframes showSweetToast{0%{-webkit-transform:translateY(-.625em) rotateZ(2deg);transform:translateY(-.625em) rotateZ(2deg);opacity:0}33%{-webkit-transform:translateY(0) rotateZ(-2deg);transform:translateY(0) rotateZ(-2deg);opacity:.5}66%{-webkit-transform:translateY(.3125em) rotateZ(2deg);transform:translateY(.3125em) rotateZ(2deg);opacity:.7}100%{-webkit-transform:translateY(0) rotateZ(0);transform:translateY(0) rotateZ(0);opacity:1}}@-webkit-keyframes hideSweetToast{0%{opacity:1}33%{opacity:.5}100%{-webkit-transform:rotateZ(1deg);transform:rotateZ(1deg);opacity:0}}@keyframes hideSweetToast{0%{opacity:1}33%{opacity:.5}100%{-webkit-transform:rotateZ(1deg);transform:rotateZ(1deg);opacity:0}}@-webkit-keyframes animate-toast-success-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@keyframes animate-toast-success-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@-webkit-keyframes animate-toast-success-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}@keyframes animate-toast-success-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown){overflow:hidden}body.swal2-height-auto{height:auto!important}body.swal2-no-backdrop .swal2-shown{top:auto;right:auto;bottom:auto;left:auto;background-color:transparent}body.swal2-no-backdrop .swal2-shown>.swal2-modal{box-shadow:0 0 10px rgba(0,0,0,.4)}body.swal2-no-backdrop .swal2-shown.swal2-top{top:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}body.swal2-no-backdrop .swal2-shown.swal2-top-left,body.swal2-no-backdrop .swal2-shown.swal2-top-start{top:0;left:0}body.swal2-no-backdrop .swal2-shown.swal2-top-end,body.swal2-no-backdrop .swal2-shown.swal2-top-right{top:0;right:0}body.swal2-no-backdrop .swal2-shown.swal2-center{top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}body.swal2-no-backdrop .swal2-shown.swal2-center-left,body.swal2-no-backdrop .swal2-shown.swal2-center-start{top:50%;left:0;-webkit-transform:translateY(-50%);transform:translateY(-50%)}body.swal2-no-backdrop .swal2-shown.swal2-center-end,body.swal2-no-backdrop .swal2-shown.swal2-center-right{top:50%;right:0;-webkit-transform:translateY(-50%);transform:translateY(-50%)}body.swal2-no-backdrop .swal2-shown.swal2-bottom{bottom:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}body.swal2-no-backdrop .swal2-shown.swal2-bottom-left,body.swal2-no-backdrop .swal2-shown.swal2-bottom-start{bottom:0;left:0}body.swal2-no-backdrop .swal2-shown.swal2-bottom-end,body.swal2-no-backdrop .swal2-shown.swal2-bottom-right{right:0;bottom:0}.swal2-container{display:flex;position:fixed;top:0;right:0;bottom:0;left:0;flex-direction:row;align-items:center;justify-content:center;padding:10px;background-color:transparent;z-index:1060;overflow-x:hidden;-webkit-overflow-scrolling:touch}.swal2-container.swal2-top{align-items:flex-start}.swal2-container.swal2-top-left,.swal2-container.swal2-top-start{align-items:flex-start;justify-content:flex-start}.swal2-container.swal2-top-end,.swal2-container.swal2-top-right{align-items:flex-start;justify-content:flex-end}.swal2-container.swal2-center{align-items:center}.swal2-container.swal2-center-left,.swal2-container.swal2-center-start{align-items:center;justify-content:flex-start}.swal2-container.swal2-center-end,.swal2-container.swal2-center-right{align-items:center;justify-content:flex-end}.swal2-container.swal2-bottom{align-items:flex-end}.swal2-container.swal2-bottom-left,.swal2-container.swal2-bottom-start{align-items:flex-end;justify-content:flex-start}.swal2-container.swal2-bottom-end,.swal2-container.swal2-bottom-right{align-items:flex-end;justify-content:flex-end}.swal2-container.swal2-grow-fullscreen>.swal2-modal{display:flex!important;flex:1;align-self:stretch;justify-content:center}.swal2-container.swal2-grow-row>.swal2-modal{display:flex!important;flex:1;align-content:center;justify-content:center}.swal2-container.swal2-grow-column{flex:1;flex-direction:column}.swal2-container.swal2-grow-column.swal2-bottom,.swal2-container.swal2-grow-column.swal2-center,.swal2-container.swal2-grow-column.swal2-top{align-items:center}.swal2-container.swal2-grow-column.swal2-bottom-left,.swal2-container.swal2-grow-column.swal2-bottom-start,.swal2-container.swal2-grow-column.swal2-center-left,.swal2-container.swal2-grow-column.swal2-center-start,.swal2-container.swal2-grow-column.swal2-top-left,.swal2-container.swal2-grow-column.swal2-top-start{align-items:flex-start}.swal2-container.swal2-grow-column.swal2-bottom-end,.swal2-container.swal2-grow-column.swal2-bottom-right,.swal2-container.swal2-grow-column.swal2-center-end,.swal2-container.swal2-grow-column.swal2-center-right,.swal2-container.swal2-grow-column.swal2-top-end,.swal2-container.swal2-grow-column.swal2-top-right{align-items:flex-end}.swal2-container.swal2-grow-column>.swal2-modal{display:flex!important;flex:1;align-content:center;justify-content:center}.swal2-container:not(.swal2-top):not(.swal2-top-start):not(.swal2-top-end):not(.swal2-top-left):not(.swal2-top-right):not(.swal2-center-start):not(.swal2-center-end):not(.swal2-center-left):not(.swal2-center-right):not(.swal2-bottom):not(.swal2-bottom-start):not(.swal2-bottom-end):not(.swal2-bottom-left):not(.swal2-bottom-right):not(.swal2-grow-fullscreen)>.swal2-modal{margin:auto}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-container .swal2-modal{margin:0!important}}.swal2-container.swal2-fade{transition:background-color .1s}.swal2-container.swal2-shown{background-color:rgba(0,0,0,.4)}.swal2-popup{display:none;position:relative;flex-direction:column;justify-content:center;width:32em;max-width:100%;padding:1.25em;border-radius:.3125em;background:#fff;font-family:inherit;font-size:1rem;box-sizing:border-box}.swal2-popup:focus{outline:0}.swal2-popup.swal2-loading{overflow-y:hidden}.swal2-popup .swal2-header{display:flex;flex-direction:column;align-items:center}.swal2-popup .swal2-title{display:block;position:relative;max-width:100%;margin:0 0 .4em;padding:0;color:#595959;font-size:1.875em;font-weight:600;text-align:center;text-transform:none;word-wrap:break-word}.swal2-popup .swal2-actions{flex-wrap:wrap;align-items:center;justify-content:center;margin:1.25em auto 0;z-index:1}.swal2-popup .swal2-actions:not(.swal2-loading) .swal2-styled[disabled]{opacity:.4}.swal2-popup .swal2-actions:not(.swal2-loading) .swal2-styled:hover{background-image:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1))}.swal2-popup .swal2-actions:not(.swal2-loading) .swal2-styled:active{background-image:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2))}.swal2-popup .swal2-actions.swal2-loading .swal2-styled.swal2-confirm{width:2.5em;height:2.5em;margin:.46875em;padding:0;border:.25em solid transparent;border-radius:100%;border-color:transparent;background-color:transparent!important;color:transparent;cursor:default;box-sizing:border-box;-webkit-animation:swal2-rotate-loading 1.5s linear 0s infinite normal;animation:swal2-rotate-loading 1.5s linear 0s infinite normal;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.swal2-popup .swal2-actions.swal2-loading .swal2-styled.swal2-cancel{margin-right:30px;margin-left:30px}.swal2-popup .swal2-actions.swal2-loading :not(.swal2-styled).swal2-confirm::after{display:inline-block;width:15px;height:15px;margin-left:5px;border:3px solid #999;border-radius:50%;border-right-color:transparent;box-shadow:1px 1px 1px #fff;content:'';-webkit-animation:swal2-rotate-loading 1.5s linear 0s infinite normal;animation:swal2-rotate-loading 1.5s linear 0s infinite normal}.swal2-popup .swal2-styled{margin:.3125em;padding:.625em 2em;font-weight:500;box-shadow:none}.swal2-popup .swal2-styled:not([disabled]){cursor:pointer}.swal2-popup .swal2-styled.swal2-confirm{border:0;border-radius:.25em;background:initial;background-color:#3085d6;color:#fff;font-size:1.0625em}.swal2-popup .swal2-styled.swal2-cancel{border:0;border-radius:.25em;background:initial;background-color:#aaa;color:#fff;font-size:1.0625em}.swal2-popup .swal2-styled:focus{outline:0;box-shadow:0 0 0 2px #fff,0 0 0 4px rgba(50,100,150,.4)}.swal2-popup .swal2-styled::-moz-focus-inner{border:0}.swal2-popup .swal2-footer{justify-content:center;margin:1.25em 0 0;padding:1em 0 0;border-top:1px solid #eee;color:#545454;font-size:1em}.swal2-popup .swal2-image{max-width:100%;margin:0.0em auto}.swal2-popup .swal2-close{position:absolute;top:0;right:0;justify-content:center;width:1.2em;height:1.2em;padding:0;transition:color .1s ease-out;border:none;border-radius:0;background:0 0;color:#ccc;font-family:serif;font-size:2.5em;line-height:1.2;cursor:pointer;overflow:hidden}.swal2-popup .swal2-close:hover{-webkit-transform:none;transform:none;color:#f27474}.swal2-popup>.swal2-checkbox,.swal2-popup>.swal2-file,.swal2-popup>.swal2-input,.swal2-popup>.swal2-radio,.swal2-popup>.swal2-select,.swal2-popup>.swal2-textarea{display:none}.swal2-popup .swal2-content{justify-content:center;margin:0;padding:0;color:#545454;font-size:1.125em;font-weight:300;line-height:normal;z-index:1;word-wrap:break-word}.swal2-popup #swal2-content{text-align:center}.swal2-popup .swal2-checkbox,.swal2-popup .swal2-file,.swal2-popup .swal2-input,.swal2-popup .swal2-radio,.swal2-popup .swal2-select,.swal2-popup .swal2-textarea{margin:1em auto}.swal2-popup .swal2-file,.swal2-popup .swal2-input,.swal2-popup .swal2-textarea{width:100%;transition:border-color .3s,box-shadow .3s;border:1px solid #d9d9d9;border-radius:.1875em;font-size:1.125em;box-shadow:inset 0 1px 1px rgba(0,0,0,.06);box-sizing:border-box}.swal2-popup .swal2-file.swal2-inputerror,.swal2-popup .swal2-input.swal2-inputerror,.swal2-popup .swal2-textarea.swal2-inputerror{border-color:#f27474!important;box-shadow:0 0 2px #f27474!important}.swal2-popup .swal2-file:focus,.swal2-popup .swal2-input:focus,.swal2-popup .swal2-textarea:focus{border:1px solid #b4dbed;outline:0;box-shadow:0 0 3px #c4e6f5}.swal2-popup .swal2-file::-webkit-input-placeholder,.swal2-popup .swal2-input::-webkit-input-placeholder,.swal2-popup .swal2-textarea::-webkit-input-placeholder{color:#ccc}.swal2-popup .swal2-file:-ms-input-placeholder,.swal2-popup .swal2-input:-ms-input-placeholder,.swal2-popup .swal2-textarea:-ms-input-placeholder{color:#ccc}.swal2-popup .swal2-file::-ms-input-placeholder,.swal2-popup .swal2-input::-ms-input-placeholder,.swal2-popup .swal2-textarea::-ms-input-placeholder{color:#ccc}.swal2-popup .swal2-file::placeholder,.swal2-popup .swal2-input::placeholder,.swal2-popup .swal2-textarea::placeholder{color:#ccc}.swal2-popup .swal2-range input{width:80%}.swal2-popup .swal2-range output{width:20%;font-weight:600;text-align:center}.swal2-popup .swal2-range input,.swal2-popup .swal2-range output{height:2.625em;margin:1em auto;padding:0;font-size:1.125em;line-height:2.625em}.swal2-popup .swal2-input{height:2.625em;padding:0 .75em}.swal2-popup .swal2-input[type=number]{max-width:10em}.swal2-popup .swal2-file{font-size:1.125em}.swal2-popup .swal2-textarea{height:6.75em;padding:.75em}.swal2-popup .swal2-select{min-width:50%;max-width:100%;padding:.375em .625em;color:#545454;font-size:1.125em}.swal2-popup .swal2-checkbox,.swal2-popup .swal2-radio{align-items:center;justify-content:center}.swal2-popup .swal2-checkbox label,.swal2-popup .swal2-radio label{margin:0 .6em;font-size:1.125em}.swal2-popup .swal2-checkbox input,.swal2-popup .swal2-radio input{margin:0 .4em}.swal2-popup .swal2-validation-message{display:none;align-items:center;justify-content:center;padding:.625em;background:#f0f0f0;color:#666;font-size:1em;font-weight:300;overflow:hidden}.swal2-popup .swal2-validation-message::before{display:inline-block;width:1.5em;min-width:1.5em;height:1.5em;margin:0 .625em;border-radius:50%;background-color:#f27474;color:#fff;font-weight:600;line-height:1.5em;text-align:center;content:'!';zoom:normal}@supports (-ms-accelerator:true){.swal2-range input{width:100%!important}.swal2-range output{display:none}}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-range input{width:100%!important}.swal2-range output{display:none}}@-moz-document url-prefix(){.swal2-close:focus{outline:2px solid rgba(50,100,150,.4)}}.swal2-icon{position:relative;justify-content:center;width:5em;height:5em;margin:0em auto 0em;border:.25em solid transparent;border-radius:50%;line-height:5em;cursor:default;box-sizing:content-box;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;zoom:normal}.swal2-icon-text{font-size:3.75em}.swal2-icon.swal2-error{border-color:#f27474}.swal2-icon.swal2-error .swal2-x-mark{position:relative;flex-grow:1}.swal2-icon.swal2-error [class^=swal2-x-mark-line]{display:block;position:absolute;top:2.3125em;width:2.9375em;height:.3125em;border-radius:.125em;background-color:#f27474}.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:1.0625em;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:1em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal2-icon.swal2-warning{border-color:#facea8;color:#f8bb86}.swal2-icon.swal2-info{border-color:#9de0f6;color:#3fc3ee}.swal2-icon.swal2-question{border-color:#c9dae1;color:#87adbd}.swal2-icon.swal2-success{border-color:#a5dc86}.swal2-icon.swal2-success [class^=swal2-success-circular-line]{position:absolute;width:3.75em;height:7.5em;-webkit-transform:rotate(45deg);transform:rotate(45deg);border-radius:50%}.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=left]{top:-.4375em;left:-2.0635em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:3.75em 3.75em;transform-origin:3.75em 3.75em;border-radius:7.5em 0 0 7.5em}.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=right]{top:-.6875em;left:1.875em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:0 3.75em;transform-origin:0 3.75em;border-radius:0 7.5em 7.5em 0}.swal2-icon.swal2-success .swal2-success-ring{position:absolute;top:-.25em;left:-.25em;width:100%;height:100%;border:.25em solid rgba(165,220,134,.3);border-radius:50%;z-index:2;box-sizing:content-box}.swal2-icon.swal2-success .swal2-success-fix{position:absolute;top:.5em;left:1.625em;width:.4375em;height:5.625em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);z-index:1}.swal2-icon.swal2-success [class^=swal2-success-line]{display:block;position:absolute;height:.3125em;border-radius:.125em;background-color:#a5dc86;z-index:2}.swal2-icon.swal2-success [class^=swal2-success-line][class$=tip]{top:2.875em;left:.875em;width:1.5625em;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.swal2-icon.swal2-success [class^=swal2-success-line][class$=long]{top:2.375em;right:.5em;width:2.9375em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal2-progresssteps{align-items:center;margin:0 0 1.25em;padding:0;font-weight:600}.swal2-progresssteps li{display:inline-block;position:relative}.swal2-progresssteps .swal2-progresscircle{width:2em;height:2em;border-radius:2em;background:#3085d6;color:#fff;line-height:2em;text-align:center;z-index:20}.swal2-progresssteps .swal2-progresscircle:first-child{margin-left:0}.swal2-progresssteps .swal2-progresscircle:last-child{margin-right:0}.swal2-progresssteps .swal2-progresscircle.swal2-activeprogressstep{background:#3085d6}.swal2-progresssteps .swal2-progresscircle.swal2-activeprogressstep~.swal2-progresscircle{background:#add8e6}.swal2-progresssteps .swal2-progresscircle.swal2-activeprogressstep~.swal2-progressline{background:#add8e6}.swal2-progresssteps .swal2-progressline{width:2.5em;height:.4em;margin:0 -1px;background:#3085d6;z-index:10}[class^=swal2]{-webkit-tap-highlight-color:transparent}.swal2-show{-webkit-animation:swal2-show .3s;animation:swal2-show .3s}.swal2-show.swal2-noanimation{-webkit-animation:none;animation:none}.swal2-hide{-webkit-animation:swal2-hide .15s forwards;animation:swal2-hide .15s forwards}.swal2-hide.swal2-noanimation{-webkit-animation:none;animation:none}.swal2-rtl .swal2-close{right:auto;left:0}.swal2-animate-success-icon .swal2-success-line-tip{-webkit-animation:swal2-animate-success-line-tip .75s;animation:swal2-animate-success-line-tip .75s}.swal2-animate-success-icon .swal2-success-line-long{-webkit-animation:swal2-animate-success-line-long .75s;animation:swal2-animate-success-line-long .75s}.swal2-animate-success-icon .swal2-success-circular-line-right{-webkit-animation:swal2-rotate-success-circular-line 4.25s ease-in;animation:swal2-rotate-success-circular-line 4.25s ease-in}.swal2-animate-error-icon{-webkit-animation:swal2-animate-error-icon .5s;animation:swal2-animate-error-icon .5s}.swal2-animate-error-icon .swal2-x-mark{-webkit-animation:swal2-animate-error-x-mark .5s;animation:swal2-animate-error-x-mark .5s}@-webkit-keyframes swal2-rotate-loading{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes swal2-rotate-loading{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@media print{body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown){overflow-y:scroll!important}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown)>[aria-hidden=true]{display:none}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) .swal2-container{position:initial!important}}</style></head>
+<body>
+<form method="post" action="https://obs.aybu.edu.tr/oibs/std/std_time_table_dep.aspx" id="form1" data-select2-id="form1">
+<div class="aspNetHidden">
+
+
+
+
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="./WebResource.axd" type="text/javascript"></script>
+
+
+<script src="./jquery-3.7.1.min.js.indir" type="text/javascript"></script>
+<script src="./sweetalert.min.js.indir" type="text/javascript"></script>
+<script src="./select2.min.js.indir" type="text/javascript"></script>
+<script src="./ModalPopupWindow_v22_min.js.indir" type="text/javascript"></script><script type="text/javascript">var baseUrl = '/oibs/';var modalWin = new CreateModalPopUpObject();</script>
+                     <div id="bailwal_div_overlay" style="position:absolute;z-index:10; background-color:white;filter: alpha(opacity = 70);opacity:0.7;"></div>
+                         <div id="bailwal_div_frame_parent" style="position:absolute;z-index:12; display:none;background-color:white;">
+                         <table style="border:solid 1px #121e2d; height: 100%" onmouseup="bailwal_modalPopupWindow.StopDragging()">
+                                <tbody><tr style="height:28px;vertical-align:middle;background-color:#121e2d" id="bailwal_tr_title">
+                                    <td style="vertical-align:top;text-align:left;border:none">
+                                        <div style="display: table; width: 100%;">
+                                        <div style="display: table-row;">
+                                        <div style="text-align:left; display: table-cell;">
+                                            <i id="bailwal_img_overlay_close_logo2" ondblclick="bailwal_modalPopupWindow.HideModalPopUp(&#39;1&#39;);" style="padding:6px;vertical-align:middle;" class="fal fa-chevron-circle-down text-white"></i>
+                                            <span id="bailwal_span_title" style="vertical-align:middle;color:White;font-size:8pt;text-align: left;"></span>
+                                        </div>
+                                        <div style="text-align:right; display: table-cell; ">
+                                            <span id="bailwal_span_loading" style="vertical-align: middle; display: none;">
+                                                <i class="fas fa-spinner fa-spin text-white"></i>
+                                            </span>
+                                            <span id="bailwal_span_overlay_window_refresh" onclick="bailwal_modalPopupWindow.Refresh();" style="vertical-align:middle;cursor:pointer;">
+                                               <i id="bailwal_img_overlay_refresh" class="fal fa-sync" style="font-size:17px; color:white; background-color:transparent;padding-bottom:3px; vertical-align:middle;"></i>
+                                            </span>
+                                            <span id="bailwal_span_overlay_window_max" onclick="bailwal_modalPopupWindow.Maximisze();" style="vertical-align:middle;cursor:pointer;">
+                                               <i id="bailwal_img_overlay_max" class="fal fa-window-maximize" style="font-size:19px; color:white;padding-bottom:3px;  vertical-align:middle;"></i>
+                                            </span>                                            
+                                            <span onclick="bailwal_modalPopupWindow.HideModalPopUp(&#39;1&#39;);" class="mr-3" style="vertical-align:middle;cursor:pointer;background-color:#c90000;margin-right:3px;margin-top:3px;">
+                                                <i id="bailwal_img_overlay_close" class="fal fa-times" style="font-size:15px; color:white; padding-left:6px;padding-right:3px; padding-bottom:5px; vertical-align:middle;"></i>
+                                            </span>
+                                        </div>
+                                        </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr style="vertical-align: middle;">
+                                    <td colspan="2" align="center" id="bailwal_td_overlay" style="vertical-align: top;border:none">
+                                        <div id="bailwal_div_message" style="margin-top:0px;display:none;vertical-align: middle;">
+                                            <span id="bailwal_span_message" style="padding-left:3px;padding-right:3px;vertical-align: middle;font-size:8pt;" ondblclick="selectElementText(this)"></span>
+                                        </div>
+                                        <iframe onload="OnUrlLoaded()" name="bailwal_overlay_frame" id="bailwal_overlay_frame" frameborder="0" scrolling="auto" style="padding: 0px !important;padding-bottom: 0px !important;margin: 0px !important;margin-bottom: 0px !important;" src="./saved_resource(1).html"></iframe>
+                                    </td>
+                                </tr>
+                           </tbody></table>
+                           </div>
+                           
+<script type="text/javascript">
+//<![CDATA[
+var __cultureInfo = {"name":"tr-TR","numberFormat":{"CurrencyDecimalDigits":2,"CurrencyDecimalSeparator":",","IsReadOnly":true,"CurrencyGroupSizes":[3],"NumberGroupSizes":[3],"PercentGroupSizes":[3],"CurrencyGroupSeparator":".","CurrencySymbol":"₺","NaNSymbol":"NaN","CurrencyNegativePattern":8,"NumberNegativePattern":1,"PercentPositivePattern":2,"PercentNegativePattern":2,"NegativeInfinitySymbol":"-Sonsuz","NegativeSign":"-","NumberDecimalDigits":2,"NumberDecimalSeparator":",","NumberGroupSeparator":".","CurrencyPositivePattern":3,"PositiveInfinitySymbol":"Sonsuz","PositiveSign":"+","PercentDecimalDigits":2,"PercentDecimalSeparator":",","PercentGroupSeparator":".","PercentSymbol":"%","PerMilleSymbol":"‰","NativeDigits":["0","1","2","3","4","5","6","7","8","9"],"DigitSubstitution":1},"dateTimeFormat":{"AMDesignator":"","Calendar":{"MinSupportedDateTime":"\/Date(-62135596800000)\/","MaxSupportedDateTime":"\/Date(253402289999999)\/","AlgorithmType":1,"CalendarType":1,"Eras":[1],"TwoDigitYearMax":2029,"IsReadOnly":true},"DateSeparator":".","FirstDayOfWeek":1,"CalendarWeekRule":0,"FullDateTimePattern":"d MMMM yyyy dddd HH:mm:ss","LongDatePattern":"d MMMM yyyy dddd","LongTimePattern":"HH:mm:ss","MonthDayPattern":"d MMMM","PMDesignator":"","RFC1123Pattern":"ddd, dd MMM yyyy HH\u0027:\u0027mm\u0027:\u0027ss \u0027GMT\u0027","ShortDatePattern":"dd.MM.yyyy","ShortTimePattern":"HH:mm","SortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd\u0027T\u0027HH\u0027:\u0027mm\u0027:\u0027ss","TimeSeparator":":","UniversalSortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd HH\u0027:\u0027mm\u0027:\u0027ss\u0027Z\u0027","YearMonthPattern":"MMMM yyyy","AbbreviatedDayNames":["Paz","Pzt","Sal","Çar","Per","Cum","Cmt"],"ShortestDayNames":["Pz","Pt","Sa","Ça","Pe","Cu","Ct"],"DayNames":["Pazar","Pazartesi","Salı","Çarşamba","Perşembe","Cuma","Cumartesi"],"AbbreviatedMonthNames":["Oca","Şub","Mar","Nis","May","Haz","Tem","Ağu","Eyl","Eki","Kas","Ara",""],"MonthNames":["Ocak","Şubat","Mart","Nisan","Mayıs","Haziran","Temmuz","Ağustos","Eylül","Ekim","Kasım","Aralık",""],"IsReadOnly":true,"NativeCalendarName":"Gregoryen Takvim","AbbreviatedMonthGenitiveNames":["Oca","Şub","Mar","Nis","May","Haz","Tem","Ağu","Eyl","Eki","Kas","Ara",""],"MonthGenitiveNames":["Ocak","Şubat","Mart","Nisan","Mayıs","Haziran","Temmuz","Ağustos","Eylül","Ekim","Kasım","Aralık",""]},"eras":[1,"MS",null,0]};//]]>
+</script>
+
+<script src="./ScriptResource.axd" type="text/javascript"></script>
+<script src="./ScriptResource(1).axd" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	
+	
+	
+</div>
+<div data-select2-id="9">
+<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager1', 'form1', ['tUpdatePanel1','UpdatePanel1'], [], [], 600, '');
+//]]>
+</script>
+
+<div id="UpdatePanel1" data-select2-id="UpdatePanel1">
+<div class="panel panel-default">
+    <div class="panel-heading">
+<span id="lblHeader" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">Bölüm Ders Programı</span><br>
+<span id="lblHeader2" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">MİMARLIK(İNG) </span>
+    </div>
+<table style="width:100%">
+<tbody><tr>
+<td style="height:35px">
+<span id="Label1" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt; text-align: left">Dönem</span>&nbsp;<select name="cmbDonemler" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;cmbDonemler\&#39;,\&#39;\&#39;)&#39;, 0)" id="cmbDonemler" class="form-control select2 select2-hidden-accessible" style="font-family:Open Sans;font-size:8pt;width:170px; text-align: left" data-select2-id="cmbDonemler" tabindex="-1" aria-hidden="true">
+	<option selected="selected" value="20242" data-select2-id="21">2024-2025 BAHAR</option>
+	<option value="20231">2023-2024 GÜZ</option>
+	<option value="20232">2023-2024 BAHAR </option>
+	<option value="20233">2023-2024 YAZ</option>
+	<option value="20241">2024-2025 GÜZ</option>
+
+</select><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="20" style="width: 170px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-cmbDonemler-container"><span class="select2-selection__rendered" id="select2-cmbDonemler-container" role="textbox" aria-readonly="true" title="2024-2025 BAHAR">2024-2025 BAHAR</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+    <span id="Label7" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt; text-align: left">Program</span>
+    <select name="cmbProgram" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;cmbProgram\&#39;,\&#39;\&#39;)&#39;, 0)" id="cmbProgram" class="form-control select2 select2-hidden-accessible" style="font-family:Open Sans;font-size:8pt;width:170px;" data-select2-id="cmbProgram" tabindex="-1" aria-hidden="true">
+	<option selected="selected" value="7608" data-select2-id="23">MİMARLIK(İNG)</option>
+
+</select><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="22" style="width: 170px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-cmbProgram-container"><span class="select2-selection__rendered" id="select2-cmbProgram-container" role="textbox" aria-readonly="true" title="MİMARLIK(İNG)">MİMARLIK(İNG)</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+    <span id="lblSinif" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt; text-align: left">Sınıf</span>
+    <select name="cmbSinif" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;cmbSinif\&#39;,\&#39;\&#39;)&#39;, 0)" id="cmbSinif" class="form-control select2 select2-hidden-accessible" style="font-family:Open Sans;font-size:8pt;width:80px;
+text-align: left" data-select2-id="cmbSinif" tabindex="-1" aria-hidden="true">
+	<option value="1">1.Sınıf</option>
+	<option selected="selected" value="2" data-select2-id="25">2.Sınıf</option>
+	<option value="3">3.Sınıf</option>
+	<option value="4">4.Sınıf</option>
+	<option value="5">5.Sınıf</option>
+	<option value="6">6.Sınıf</option>
+	<option value="0">Hazırlık</option>
+
+</select><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="24" style="width: 80px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-cmbSinif-container"><span class="select2-selection__rendered" id="select2-cmbSinif-container" role="textbox" aria-readonly="true" title="2.Sınıf">2.Sınıf</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+    
+    
+    
+</td>
+<td style="text-align: right">
+<a id="btnYazdir0" accesskey="y" class="btn btn-default btn-xs" href="javascript:__doPostBack(&#39;btnYazdir0&#39;,&#39;&#39;)" style="display:inline-block;color:#5B636A;font-family:Open Sans;font-size:9pt;width:90px;"><span class="fal fa-print"></span>Yazdır</a>
+    </td>
+</tr>
+</tbody></table>
+   <div class="panel panel-default">
+    
+    <table class="w-100">
+        <tbody><tr>
+            <td style="vertical-align: top; text-align: left; width: 50%; background-color:gray; ">
+                <span id="Label222" class="text-white" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">Pazartesi</span>
+            </td>
+            <td>
+                &nbsp;</td>
+            <td style="vertical-align: top; text-align: left; width: 50%; background-color:gray; ">
+                <span id="Label223" class="text-white" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">Salı</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top; text-align: left;">
+                <div>
+	<table cellspacing="0" rules="all" class="myGridClass" border="1" id="grd0" style="border-color:LightGrey;font-family:Open Sans;font-size:8pt;font-weight:normal;text-decoration:none;width:100%;border-collapse:collapse;font-family: Tahoma; font-size: 7pt;">
+		<tbody><tr>
+			<th scope="col">Saat</th><th scope="col">Ders Kodu</th><th scope="col">Ders Adı</th><th scope="col">Derslik</th><th scope="col">Öğretim Elemanı</th>
+		</tr><tr>
+			<td>09:00-09:50</td><td>ARCH202(1)</td><td>
+                                <span id="grd0_Label1_0" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L-301(MAKET ATÖLYESİ)[65]</td><td>Doç.Dr. AHMET EMRE DİNÇER  </td>
+		</tr><tr>
+			<td>09:00-09:50</td><td>ARCH202(2)</td><td>
+                                <span id="grd0_Label1_1" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L215(ATÖLYE V)[80]</td><td>Dr. Öğr. Üyesi CEMİLE FEYZAN ŞİMŞEK  </td>
+		</tr><tr>
+			<td>09:00-09:50</td><td>ARCH202(3)</td><td>
+                                <span id="grd0_Label1_2" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L-301(MAKET ATÖLYESİ)[65]</td><td>Doç.Dr. HATİCE KALFAOĞLU HATİPOĞLU  </td>
+		</tr><tr>
+			<td>09:00-09:50</td><td>ARCH202(4)</td><td>
+                                <span id="grd0_Label1_3" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L216(ATÖLYE VI)[80]</td><td>Doç.Dr. FİLİZ KARAKUŞ  </td>
+		</tr><tr>
+			<td>09:00-09:50</td><td>ARCH202(5)</td><td>
+                                <span id="grd0_Label1_4" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L215(ATÖLYE V)[80]</td><td>Dr. Öğr. Üyesi CEMİLE FEYZAN ŞİMŞEK  </td>
+		</tr><tr>
+			<td>09:00-09:50</td><td>ARCH202(6)</td><td>
+                                <span id="grd0_Label1_5" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L-302(ATÖLYE I)[65]</td><td>Dr. Öğr. Üyesi EKREM BAHADIR ÇALIŞKAN  </td>
+		</tr><tr>
+			<td>10:00-10:50</td><td>ARCH202(1)</td><td>
+                                <span id="grd0_Label1_6" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L-301(MAKET ATÖLYESİ)[65]</td><td>Doç.Dr. AHMET EMRE DİNÇER  </td>
+		</tr><tr>
+			<td>10:00-10:50</td><td>ARCH202(2)</td><td>
+                                <span id="grd0_Label1_7" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L215(ATÖLYE V)[80]</td><td>Dr. Öğr. Üyesi CEMİLE FEYZAN ŞİMŞEK  </td>
+		</tr><tr>
+			<td>10:00-10:50</td><td>ARCH202(3)</td><td>
+                                <span id="grd0_Label1_8" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L-301(MAKET ATÖLYESİ)[65]</td><td>Doç.Dr. HATİCE KALFAOĞLU HATİPOĞLU  </td>
+		</tr><tr>
+			<td>10:00-10:50</td><td>ARCH202(4)</td><td>
+                                <span id="grd0_Label1_9" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L216(ATÖLYE VI)[80]</td><td>Doç.Dr. FİLİZ KARAKUŞ  </td>
+		</tr><tr>
+			<td>10:00-10:50</td><td>ARCH202(5)</td><td>
+                                <span id="grd0_Label1_10" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L215(ATÖLYE V)[80]</td><td>Dr. Öğr. Üyesi CEMİLE FEYZAN ŞİMŞEK  </td>
+		</tr><tr>
+			<td>10:00-10:50</td><td>ARCH202(6)</td><td>
+                                <span id="grd0_Label1_11" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L-302(ATÖLYE I)[65]</td><td>Dr. Öğr. Üyesi EKREM BAHADIR ÇALIŞKAN  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">11:00-11:50</td><td>ARCH202(1)</td><td>
+                                <span id="grd0_Label1_12" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L-301(MAKET ATÖLYESİ)[65]</td><td>Doç.Dr. AHMET EMRE DİNÇER  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">11:00-11:50</td><td>ARCH202(2)</td><td>
+                                <span id="grd0_Label1_13" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L215(ATÖLYE V)[80]</td><td>Dr. Öğr. Üyesi CEMİLE FEYZAN ŞİMŞEK  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">11:00-11:50</td><td>ARCH202(3)</td><td>
+                                <span id="grd0_Label1_14" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L-301(MAKET ATÖLYESİ)[65]</td><td>Doç.Dr. HATİCE KALFAOĞLU HATİPOĞLU  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">11:00-11:50</td><td>ARCH202(4)</td><td>
+                                <span id="grd0_Label1_15" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L216(ATÖLYE VI)[80]</td><td>Doç.Dr. FİLİZ KARAKUŞ  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">11:00-11:50</td><td>ARCH202(5)</td><td>
+                                <span id="grd0_Label1_16" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L215(ATÖLYE V)[80]</td><td>Dr. Öğr. Üyesi CEMİLE FEYZAN ŞİMŞEK  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">11:00-11:50</td><td>ARCH202(6)</td><td>
+                                <span id="grd0_Label1_17" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L-302(ATÖLYE I)[65]</td><td>Dr. Öğr. Üyesi EKREM BAHADIR ÇALIŞKAN  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">12:00-12:50</td><td>ARCH202(1)</td><td>
+                                <span id="grd0_Label1_18" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L-301(MAKET ATÖLYESİ)[65]</td><td>Doç.Dr. AHMET EMRE DİNÇER  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">12:00-12:50</td><td>ARCH202(2)</td><td>
+                                <span id="grd0_Label1_19" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L215(ATÖLYE V)[80]</td><td>Dr. Öğr. Üyesi CEMİLE FEYZAN ŞİMŞEK  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">12:00-12:50</td><td>ARCH202(3)</td><td>
+                                <span id="grd0_Label1_20" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L-301(MAKET ATÖLYESİ)[65]</td><td>Doç.Dr. HATİCE KALFAOĞLU HATİPOĞLU  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">12:00-12:50</td><td>ARCH202(4)</td><td>
+                                <span id="grd0_Label1_21" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L216(ATÖLYE VI)[80]</td><td>Doç.Dr. FİLİZ KARAKUŞ  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">12:00-12:50</td><td>ARCH202(5)</td><td>
+                                <span id="grd0_Label1_22" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L215(ATÖLYE V)[80]</td><td>Dr. Öğr. Üyesi CEMİLE FEYZAN ŞİMŞEK  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">12:00-12:50</td><td>ARCH202(6)</td><td>
+                                <span id="grd0_Label1_23" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L-302(ATÖLYE I)[65]</td><td>Dr. Öğr. Üyesi EKREM BAHADIR ÇALIŞKAN  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">14:00-14:50</td><td>ARCH202(1)</td><td>
+                                <span id="grd0_Label1_24" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L-301(MAKET ATÖLYESİ)[65]</td><td>Doç.Dr. AHMET EMRE DİNÇER  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">14:00-14:50</td><td>ARCH202(2)</td><td>
+                                <span id="grd0_Label1_25" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L215(ATÖLYE V)[80]</td><td>Dr. Öğr. Üyesi CEMİLE FEYZAN ŞİMŞEK  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">14:00-14:50</td><td>ARCH202(3)</td><td>
+                                <span id="grd0_Label1_26" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L-301(MAKET ATÖLYESİ)[65]</td><td>Doç.Dr. HATİCE KALFAOĞLU HATİPOĞLU  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">14:00-14:50</td><td>ARCH202(4)</td><td>
+                                <span id="grd0_Label1_27" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L216(ATÖLYE VI)[80]</td><td>Doç.Dr. FİLİZ KARAKUŞ  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">14:00-14:50</td><td>ARCH202(5)</td><td>
+                                <span id="grd0_Label1_28" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L215(ATÖLYE V)[80]</td><td>Dr. Öğr. Üyesi CEMİLE FEYZAN ŞİMŞEK  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">14:00-14:50</td><td>ARCH202(6)</td><td>
+                                <span id="grd0_Label1_29" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L-302(ATÖLYE I)[65]</td><td>Dr. Öğr. Üyesi EKREM BAHADIR ÇALIŞKAN  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">15:00-15:50</td><td>ARCH202(1)</td><td>
+                                <span id="grd0_Label1_30" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L-301(MAKET ATÖLYESİ)[65]</td><td>Doç.Dr. AHMET EMRE DİNÇER  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">15:00-15:50</td><td>ARCH202(2)</td><td>
+                                <span id="grd0_Label1_31" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L215(ATÖLYE V)[80]</td><td>Dr. Öğr. Üyesi CEMİLE FEYZAN ŞİMŞEK  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">15:00-15:50</td><td>ARCH202(3)</td><td>
+                                <span id="grd0_Label1_32" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L-301(MAKET ATÖLYESİ)[65]</td><td>Doç.Dr. HATİCE KALFAOĞLU HATİPOĞLU  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">15:00-15:50</td><td>ARCH202(4)</td><td>
+                                <span id="grd0_Label1_33" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L216(ATÖLYE VI)[80]</td><td>Doç.Dr. FİLİZ KARAKUŞ  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">15:00-15:50</td><td>ARCH202(5)</td><td>
+                                <span id="grd0_Label1_34" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L215(ATÖLYE V)[80]</td><td>Dr. Öğr. Üyesi CEMİLE FEYZAN ŞİMŞEK  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">15:00-15:50</td><td>ARCH202(6)</td><td>
+                                <span id="grd0_Label1_35" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L-302(ATÖLYE I)[65]</td><td>Dr. Öğr. Üyesi EKREM BAHADIR ÇALIŞKAN  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">16:00-16:50</td><td>ARCH202(1)</td><td>
+                                <span id="grd0_Label1_36" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L-301(MAKET ATÖLYESİ)[65]</td><td>Doç.Dr. AHMET EMRE DİNÇER  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">16:00-16:50</td><td>ARCH202(2)</td><td>
+                                <span id="grd0_Label1_37" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L215(ATÖLYE V)[80]</td><td>Dr. Öğr. Üyesi CEMİLE FEYZAN ŞİMŞEK  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">16:00-16:50</td><td>ARCH202(3)</td><td>
+                                <span id="grd0_Label1_38" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L-301(MAKET ATÖLYESİ)[65]</td><td>Doç.Dr. HATİCE KALFAOĞLU HATİPOĞLU  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">16:00-16:50</td><td>ARCH202(4)</td><td>
+                                <span id="grd0_Label1_39" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L216(ATÖLYE VI)[80]</td><td>Doç.Dr. FİLİZ KARAKUŞ  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">16:00-16:50</td><td>ARCH202(5)</td><td>
+                                <span id="grd0_Label1_40" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L215(ATÖLYE V)[80]</td><td>Dr. Öğr. Üyesi CEMİLE FEYZAN ŞİMŞEK  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">16:00-16:50</td><td>ARCH202(6)</td><td>
+                                <span id="grd0_Label1_41" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L-302(ATÖLYE I)[65]</td><td>Dr. Öğr. Üyesi EKREM BAHADIR ÇALIŞKAN  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">17:00-17:50</td><td>ARCH202(1)</td><td>
+                                <span id="grd0_Label1_42" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L-301(MAKET ATÖLYESİ)[65]</td><td>Doç.Dr. AHMET EMRE DİNÇER  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">17:00-17:50</td><td>ARCH202(2)</td><td>
+                                <span id="grd0_Label1_43" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L215(ATÖLYE V)[80]</td><td>Dr. Öğr. Üyesi CEMİLE FEYZAN ŞİMŞEK  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">17:00-17:50</td><td>ARCH202(3)</td><td>
+                                <span id="grd0_Label1_44" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L-301(MAKET ATÖLYESİ)[65]</td><td>Doç.Dr. HATİCE KALFAOĞLU HATİPOĞLU  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">17:00-17:50</td><td>ARCH202(4)</td><td>
+                                <span id="grd0_Label1_45" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L216(ATÖLYE VI)[80]</td><td>Doç.Dr. FİLİZ KARAKUŞ  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">17:00-17:50</td><td>ARCH202(5)</td><td>
+                                <span id="grd0_Label1_46" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L215(ATÖLYE V)[80]</td><td>Dr. Öğr. Üyesi CEMİLE FEYZAN ŞİMŞEK  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">17:00-17:50</td><td>ARCH202(6)</td><td>
+                                <span id="grd0_Label1_47" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STUDIO IV</span>
+                            </td><td>L-302(ATÖLYE I)[65]</td><td>Dr. Öğr. Üyesi EKREM BAHADIR ÇALIŞKAN  </td>
+		</tr>
+	</tbody></table>
+</div>
+            </td>
+            <td style="vertical-align: top; text-align: left;">
+                &nbsp;</td>
+            <td style="vertical-align: top; text-align: left;">
+                <div>
+	<table cellspacing="0" rules="all" class="myGridClass" border="1" id="grd1" style="border-color:LightGrey;font-family:Open Sans;font-size:8pt;font-weight:normal;text-decoration:none;width:100%;border-collapse:collapse;font-family: Tahoma; font-size: 7pt;">
+		<tbody><tr>
+			<th scope="col">Saat</th><th scope="col">Ders Kodu</th><th scope="col">Ders Adı</th><th scope="col">Derslik</th><th scope="col">Öğretim Elemanı</th>
+		</tr><tr>
+			<td>13:00-13:50</td><td>ARCH216(1)</td><td>
+                                <span id="grd1_Label14_0" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STRUCTURAL BUILDING SYSTEMS AND COMPONENTS</span>
+                            </td><td>L-303(DERSLİK)[120]</td><td>Dr. Öğr. Üyesi EKREM BAHADIR ÇALIŞKAN  </td>
+		</tr><tr>
+			<td>14:00-14:50</td><td>ARCH216(1)</td><td>
+                                <span id="grd1_Label14_1" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STRUCTURAL BUILDING SYSTEMS AND COMPONENTS</span>
+                            </td><td>L-303(DERSLİK)[120]</td><td>Dr. Öğr. Üyesi EKREM BAHADIR ÇALIŞKAN  </td>
+		</tr><tr>
+			<td>15:00-15:50</td><td>ARCH216(1)</td><td>
+                                <span id="grd1_Label14_2" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STRUCTURAL BUILDING SYSTEMS AND COMPONENTS</span>
+                            </td><td>L-303(DERSLİK)[120]</td><td>Dr. Öğr. Üyesi EKREM BAHADIR ÇALIŞKAN  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">16:00-16:50</td><td>ARCH216(1)</td><td>
+                                <span id="grd1_Label14_3" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STRUCTURAL BUILDING SYSTEMS AND COMPONENTS</span>
+                            </td><td>L-318/319(ATÖLYE IV)[140]</td><td>Dr. Öğr. Üyesi EKREM BAHADIR ÇALIŞKAN  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">17:00-17:50</td><td>ARCH216(1)</td><td>
+                                <span id="grd1_Label14_4" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">STRUCTURAL BUILDING SYSTEMS AND COMPONENTS</span>
+                            </td><td>L-318/319(ATÖLYE IV)[140]</td><td>Dr. Öğr. Üyesi EKREM BAHADIR ÇALIŞKAN  </td>
+		</tr>
+	</tbody></table>
+</div>
+            </td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top; text-align: left; background-color: gray; ">
+                <span id="Label2" class="text-white" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">Çarşamba</span>
+            </td>
+            <td>
+                &nbsp;</td>
+            <td style="vertical-align: top; text-align: left; background-color: gray; ">
+                <span id="Label3" class="text-white" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">Perşembe</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top; text-align: left">
+                <div>
+	<table cellspacing="0" rules="all" class="myGridClass" border="1" id="grd2" style="border-color:LightGrey;font-family:Open Sans;font-size:8pt;font-weight:normal;text-decoration:none;width:100%;border-collapse:collapse;font-family: Tahoma; font-size: 7pt;">
+		<tbody><tr>
+			<th scope="col">Saat</th><th scope="col">Ders Kodu</th><th scope="col">Ders Adı</th><th scope="col">Derslik</th><th scope="col">Öğretim Elemanı</th>
+		</tr><tr>
+			<td>09:00-09:50</td><td>ARCH242(1)</td><td>
+                                <span id="grd2_Label15_0" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">BUILDING INFORMATION MODELING</span>
+                            </td><td>L-304(BİLGİSAYAR LABORATUVARI)[50]</td><td>Doç.Dr. AHMET EMRE DİNÇER  </td>
+		</tr><tr>
+			<td>10:00-10:50</td><td>ARCH242(1)</td><td>
+                                <span id="grd2_Label15_1" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">BUILDING INFORMATION MODELING</span>
+                            </td><td>L-304(BİLGİSAYAR LABORATUVARI)[50]</td><td>Doç.Dr. AHMET EMRE DİNÇER  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">11:00-11:50</td><td>ARCH242(1)</td><td>
+                                <span id="grd2_Label15_2" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">BUILDING INFORMATION MODELING</span>
+                            </td><td>L-304(BİLGİSAYAR LABORATUVARI)[50]</td><td>Doç.Dr. AHMET EMRE DİNÇER  </td>
+		</tr><tr>
+			<td>13:00-13:50</td><td>ARCHE241(1)</td><td>
+                                <span id="grd2_Label15_3" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">PARAMETRIC DESIGN</span>
+                            </td><td>L215(ATÖLYE V)[80]</td><td>Doç.Dr. AHMET EMRE DİNÇER  </td>
+		</tr><tr>
+			<td>14:00-14:50</td><td>ARCHE241(1)</td><td>
+                                <span id="grd2_Label15_4" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">PARAMETRIC DESIGN</span>
+                            </td><td>L215(ATÖLYE V)[80]</td><td>Doç.Dr. AHMET EMRE DİNÇER  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">15:00-15:50</td><td>ARCHE241(1)</td><td>
+                                <span id="grd2_Label15_5" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">PARAMETRIC DESIGN</span>
+                            </td><td>L215(ATÖLYE V)[80]</td><td>Doç.Dr. AHMET EMRE DİNÇER  </td>
+		</tr><tr>
+			<td>16:00-16:50</td><td>ARCHE233(1)</td><td>
+                                <span id="grd2_Label15_6" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">INTRODUCTION TO SOCIOLOGY </span>
+                            </td><td>L-301(MAKET ATÖLYESİ)[65]</td><td>Dr. Öğr. Üyesi RÜYA ARDIÇOĞLU  </td>
+		</tr><tr>
+			<td>17:00-17:50</td><td>ARCHE233(1)</td><td>
+                                <span id="grd2_Label15_7" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">INTRODUCTION TO SOCIOLOGY </span>
+                            </td><td>L-301(MAKET ATÖLYESİ)[65]</td><td>Dr. Öğr. Üyesi RÜYA ARDIÇOĞLU  </td>
+		</tr><tr>
+			<td>18:00-18:50</td><td>ARCHE233(1)</td><td>
+                                <span id="grd2_Label15_8" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">INTRODUCTION TO SOCIOLOGY </span>
+                            </td><td>L-301(MAKET ATÖLYESİ)[65]</td><td>Dr. Öğr. Üyesi RÜYA ARDIÇOĞLU  </td>
+		</tr>
+	</tbody></table>
+</div>
+            </td>
+            <td style="vertical-align: top; text-align: left">
+                &nbsp;</td>
+            <td style="vertical-align: top; text-align: left">
+                <div>
+	<table cellspacing="0" rules="all" class="myGridClass" border="1" id="grd3" style="border-color:LightGrey;font-family:Open Sans;font-size:8pt;font-weight:normal;text-decoration:none;width:100%;border-collapse:collapse;font-family: Tahoma; font-size: 7pt;">
+		<tbody><tr>
+			<th scope="col">Saat</th><th scope="col">Ders Kodu</th><th scope="col">Ders Adı</th><th scope="col">Derslik</th><th scope="col">Öğretim Elemanı</th>
+		</tr><tr>
+			<td>09:00-09:50</td><td>ARCHE231(1)</td><td>
+                                <span id="grd3_Label16_0" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">URBAN ECOLOGY</span>
+                            </td><td>L-301(MAKET ATÖLYESİ)[65]</td><td>Doç.Dr. KÜBRA YILDIRIM ÖZCAN  </td>
+		</tr><tr>
+			<td>10:00-10:50</td><td>ARCHE231(1)</td><td>
+                                <span id="grd3_Label16_1" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">URBAN ECOLOGY</span>
+                            </td><td>L-301(MAKET ATÖLYESİ)[65]</td><td>Doç.Dr. KÜBRA YILDIRIM ÖZCAN  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">11:00-11:50</td><td>ARCHE231(1)</td><td>
+                                <span id="grd3_Label16_2" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">URBAN ECOLOGY</span>
+                            </td><td>L-301(MAKET ATÖLYESİ)[65]</td><td>Doç.Dr. KÜBRA YILDIRIM ÖZCAN  </td>
+		</tr><tr>
+			<td>13:00-13:50</td><td>ARCH224(1)</td><td>
+                                <span id="grd3_Label16_3" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">ARCHITECTURAL HISTORY III</span>
+                            </td><td>L-303(DERSLİK)[120]</td><td>Dr. Öğr. Üyesi GÜLŞAH ÇELİK BAŞOK  </td>
+		</tr><tr>
+			<td>14:00-14:50</td><td>ARCH224(1)</td><td>
+                                <span id="grd3_Label16_4" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">ARCHITECTURAL HISTORY III</span>
+                            </td><td>L-303(DERSLİK)[120]</td><td>Dr. Öğr. Üyesi GÜLŞAH ÇELİK BAŞOK  </td>
+		</tr><tr>
+			<td>15:00-15:50</td><td>ARCH224(1)</td><td>
+                                <span id="grd3_Label16_5" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">ARCHITECTURAL HISTORY III</span>
+                            </td><td>L-303(DERSLİK)[120]</td><td>Dr. Öğr. Üyesi GÜLŞAH ÇELİK BAŞOK  </td>
+		</tr><tr>
+			<td>16:00-16:50</td><td>ARCH234(1)</td><td>
+                                <span id="grd3_Label16_6" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">THEORIES OF URBAN DESIGN</span>
+                            </td><td>L-318/319(ATÖLYE IV)[140]</td><td>Doç.Dr. KÜBRA YILDIRIM ÖZCAN  </td>
+		</tr><tr>
+			<td>17:00-17:50</td><td>ARCH234(1)</td><td>
+                                <span id="grd3_Label16_7" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">THEORIES OF URBAN DESIGN</span>
+                            </td><td>L-318/319(ATÖLYE IV)[140]</td><td>Doç.Dr. KÜBRA YILDIRIM ÖZCAN  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">18:00-18:50</td><td>ARCH234(1)</td><td>
+                                <span id="grd3_Label16_8" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">THEORIES OF URBAN DESIGN</span>
+                            </td><td>L-318/319(ATÖLYE IV)[140]</td><td>Doç.Dr. KÜBRA YILDIRIM ÖZCAN  </td>
+		</tr>
+	</tbody></table>
+</div>
+            </td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top; text-align: left; background-color: gray; ">
+                <span id="Label4" class="text-white" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">Cuma</span>
+            </td>
+            <td></td>
+            <td style="vertical-align: top; text-align: left; background-color: gray; ">
+                
+            </td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top; text-align: left">
+                <div>
+	<table cellspacing="0" rules="all" class="myGridClass" border="1" id="grd4" style="border-color:LightGrey;font-family:Open Sans;font-size:8pt;font-weight:normal;text-decoration:none;width:100%;border-collapse:collapse;font-family: Tahoma; font-size: 7pt;">
+		<tbody><tr>
+			<th scope="col">Saat</th><th scope="col">Ders Kodu</th><th scope="col">Ders Adı</th><th scope="col">Derslik</th><th scope="col">Öğretim Elemanı</th>
+		</tr><tr>
+			<td>09:00-09:50</td><td>ARCHE204(1)</td><td>
+                                <span id="grd4_Label17_0" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">PHOTOGRAPHY</span>
+                            </td><td>L-301(MAKET ATÖLYESİ)[65]</td><td>Doç.Dr. KÜBRA YILDIRIM ÖZCAN  </td>
+		</tr><tr>
+			<td>10:00-10:50</td><td>ARCHE204(1)</td><td>
+                                <span id="grd4_Label17_1" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">PHOTOGRAPHY</span>
+                            </td><td>L-301(MAKET ATÖLYESİ)[65]</td><td>Doç.Dr. KÜBRA YILDIRIM ÖZCAN  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">11:00-11:50</td><td>ARCHE204(1)</td><td>
+                                <span id="grd4_Label17_2" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - MİMARLIK - MİMARLIK(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">PHOTOGRAPHY</span>
+                            </td><td>L-301(MAKET ATÖLYESİ)[65]</td><td>Doç.Dr. KÜBRA YILDIRIM ÖZCAN  </td>
+		</tr>
+	</tbody></table>
+</div>
+            </td>
+            <td style="vertical-align: top; text-align: left">
+                &nbsp;</td>
+            <td style="vertical-align: top; text-align: left">
+                
+            </td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top; text-align: left; background-color: gray;">
+                
+            </td>
+            <td></td>
+            <td style="vertical-align: top; text-align: left; background-color: gray;"></td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top; text-align: left">
+                
+            </td>
+            <td style="vertical-align: top; text-align: left">&nbsp;</td>
+            <td style="vertical-align: top; text-align: left">&nbsp;</td>
+        </tr>
+    </tbody></table>
+       </div>
+<span id="Label211" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;font-style:italic;">Not: Uygulama saatleri yeşil renkle gösterilir</span>
+<span id="lblDuyuru" title="DP_OGR" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;text-align: left;"></span>
+<br>
+</div>
+</div>
+<div id="UpdateProgress1" style="display: none;" role="status" aria-hidden="true">
+	
+<div class="mycontainer" style="padding:5%;position :absolute;z-index: 1;"><div class="spinner-frame"><span style="font-size: 11px; color: #fff">Yükleniyor</span><div class="spinner-cover"></div><div class="spinner-bar"></div></div></div>
+
+</div>
+</div>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+theForm.oldSubmit = theForm.submit;
+theForm.submit = WebForm_SaveScrollPositionSubmit;
+
+theForm.oldOnSubmit = theForm.onsubmit;
+theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
+Sys.Application.add_init(function() {
+    $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":"UpdatePanel1","displayAfter":50,"dynamicLayout":true}, null, null, $get("UpdateProgress1"));
+});
+//]]>
+</script>
+<span style="display: none !important;"><input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value=""></span><span style="display: none !important;"><input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value=""></span><span style="display: none !important;"><input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value=""></span><span style="display: none !important;"><input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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"></span><span style="display: none !important;"><input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="71823A3D"></span><span style="display: none !important;"><input type="hidden" name="__SCROLLPOSITIONX" id="__SCROLLPOSITIONX" value="0"></span><span style="display: none !important;"><input type="hidden" name="__SCROLLPOSITIONY" id="__SCROLLPOSITIONY" value="0"></span></form>
+
+
+</body></html>

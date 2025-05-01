@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<!-- saved from url=(0056)https://obs.aybu.edu.tr/oibs/std/std_time_table_dep.aspx -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Ders Programı</title><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport"><link href="./bootstrap.min.css" rel="stylesheet">
+<style>
+.myGridClass {width: 100%;margin: 0px;border: solid 1px #525252;border-collapse:collapse;}
+.myGridClass Caption {padding: 4px 2px;background: #f0f0f0;border-left: solid 1px #525252;font-size: 1.2em !important;}
+.myGridClass td {padding: 1px;border: solid 1px #c1c1c1;color: #717171;}
+.myGridClass th {padding: 4px 2px;background: #fcfcfc;border:solid 0px;font-size: 1em !important;}
+.myGridClass .myAltRowClass { background: #fcfcfc repeat-x top; }
+.myGridClass .myPagerClass { background: #424242; }
+.myGridClass .myPagerClass table { margin: 5px 0; }
+.myGridClass .myPagerClass td {border-width: 0;padding: 0 0px;border-left: solid 1px #666;line-height: 10px;}
+.myGridClass .myPagerClass a { color: #666; text-decoration: none; }
+.myGridClass .myPagerClass a:hover { color: #000; text-decoration: none; } 
+</style>
+<link href="./oibs18.css" type="text/css" rel="stylesheet"><link rel="stylesheet" type="text/css" href="./all.min.css"><link rel="stylesheet" type="text/css" href="./select2.min.css"><style>@-webkit-keyframes swal2-show{0%{-webkit-transform:scale(.7);transform:scale(.7)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}100%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes swal2-show{0%{-webkit-transform:scale(.7);transform:scale(.7)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}100%{-webkit-transform:scale(1);transform:scale(1)}}@-webkit-keyframes swal2-hide{0%{-webkit-transform:scale(1);transform:scale(1);opacity:1}100%{-webkit-transform:scale(.5);transform:scale(.5);opacity:0}}@keyframes swal2-hide{0%{-webkit-transform:scale(1);transform:scale(1);opacity:1}100%{-webkit-transform:scale(.5);transform:scale(.5);opacity:0}}@-webkit-keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.875em;width:1.5625em}}@keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.875em;width:1.5625em}}@-webkit-keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@-webkit-keyframes swal2-rotate-success-circular-line{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}100%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@keyframes swal2-rotate-success-circular-line{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}100%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@-webkit-keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;-webkit-transform:scale(.4);transform:scale(.4);opacity:0}50%{margin-top:1.625em;-webkit-transform:scale(.4);transform:scale(.4);opacity:0}80%{margin-top:-.375em;-webkit-transform:scale(1.15);transform:scale(1.15)}100%{margin-top:0;-webkit-transform:scale(1);transform:scale(1);opacity:1}}@keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;-webkit-transform:scale(.4);transform:scale(.4);opacity:0}50%{margin-top:1.625em;-webkit-transform:scale(.4);transform:scale(.4);opacity:0}80%{margin-top:-.375em;-webkit-transform:scale(1.15);transform:scale(1.15)}100%{margin-top:0;-webkit-transform:scale(1);transform:scale(1);opacity:1}}@-webkit-keyframes swal2-animate-error-icon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}100%{-webkit-transform:rotateX(0);transform:rotateX(0);opacity:1}}@keyframes swal2-animate-error-icon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}100%{-webkit-transform:rotateX(0);transform:rotateX(0);opacity:1}}body.swal2-toast-shown .swal2-container{position:fixed;background-color:transparent}body.swal2-toast-shown .swal2-container.swal2-shown{background-color:transparent}body.swal2-toast-shown .swal2-container.swal2-top{top:0;right:auto;bottom:auto;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-top-end,body.swal2-toast-shown .swal2-container.swal2-top-right{top:0;right:0;bottom:auto;left:auto}body.swal2-toast-shown .swal2-container.swal2-top-left,body.swal2-toast-shown .swal2-container.swal2-top-start{top:0;right:auto;bottom:auto;left:0}body.swal2-toast-shown .swal2-container.swal2-center-left,body.swal2-toast-shown .swal2-container.swal2-center-start{top:50%;right:auto;bottom:auto;left:0;-webkit-transform:translateY(-50%);transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-center{top:50%;right:auto;bottom:auto;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}body.swal2-toast-shown .swal2-container.swal2-center-end,body.swal2-toast-shown .swal2-container.swal2-center-right{top:50%;right:0;bottom:auto;left:auto;-webkit-transform:translateY(-50%);transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-left,body.swal2-toast-shown .swal2-container.swal2-bottom-start{top:auto;right:auto;bottom:0;left:0}body.swal2-toast-shown .swal2-container.swal2-bottom{top:auto;right:auto;bottom:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-end,body.swal2-toast-shown .swal2-container.swal2-bottom-right{top:auto;right:0;bottom:0;left:auto}body.swal2-toast-column .swal2-toast{flex-direction:column;align-items:stretch}body.swal2-toast-column .swal2-toast .swal2-actions{flex:1;align-self:stretch;height:2.2em;margin-top:.3125em}body.swal2-toast-column .swal2-toast .swal2-loading{justify-content:center}body.swal2-toast-column .swal2-toast .swal2-input{height:2em;margin:.3125em auto;font-size:1em}body.swal2-toast-column .swal2-toast .swal2-validation-message{font-size:1em}.swal2-popup.swal2-toast{flex-direction:row;align-items:center;width:auto;padding:.625em;box-shadow:0 0 .625em #d9d9d9;overflow-y:hidden}.swal2-popup.swal2-toast .swal2-header{flex-direction:row}.swal2-popup.swal2-toast .swal2-title{flex-grow:1;justify-content:flex-start;margin:0 .6em;font-size:1em}.swal2-popup.swal2-toast .swal2-footer{margin:.5em 0 0;padding:.5em 0 0;font-size:.8em}.swal2-popup.swal2-toast .swal2-close{position:initial;width:.8em;height:.8em;line-height:.8}.swal2-popup.swal2-toast .swal2-content{justify-content:flex-start;font-size:1em}.swal2-popup.swal2-toast .swal2-icon{width:2em;min-width:2em;height:2em;margin:0}.swal2-popup.swal2-toast .swal2-icon-text{font-size:2em;font-weight:700;line-height:1em}.swal2-popup.swal2-toast .swal2-icon.swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line]{top:.875em;width:1.375em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:.3125em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:.3125em}.swal2-popup.swal2-toast .swal2-actions{height:auto;margin:0 .3125em}.swal2-popup.swal2-toast .swal2-styled{margin:0 .3125em;padding:.3125em .625em;font-size:1em}.swal2-popup.swal2-toast .swal2-styled:focus{box-shadow:0 0 0 .0625em #fff,0 0 0 .125em rgba(50,100,150,.4)}.swal2-popup.swal2-toast .swal2-success{border-color:#a5dc86}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line]{position:absolute;width:2em;height:2.8125em;-webkit-transform:rotate(45deg);transform:rotate(45deg);border-radius:50%}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=left]{top:-.25em;left:-.9375em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:2em 2em;transform-origin:2em 2em;border-radius:4em 0 0 4em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=right]{top:-.25em;left:.9375em;-webkit-transform-origin:0 2em;transform-origin:0 2em;border-radius:0 4em 4em 0}.swal2-popup.swal2-toast .swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-success .swal2-success-fix{top:0;left:.4375em;width:.4375em;height:2.6875em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line]{height:.3125em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=tip]{top:1.125em;left:.1875em;width:.75em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=long]{top:.9375em;right:.1875em;width:1.375em}.swal2-popup.swal2-toast.swal2-show{-webkit-animation:showSweetToast .5s;animation:showSweetToast .5s}.swal2-popup.swal2-toast.swal2-hide{-webkit-animation:hideSweetToast .2s forwards;animation:hideSweetToast .2s forwards}.swal2-popup.swal2-toast .swal2-animate-success-icon .swal2-success-line-tip{-webkit-animation:animate-toast-success-tip .75s;animation:animate-toast-success-tip .75s}.swal2-popup.swal2-toast .swal2-animate-success-icon .swal2-success-line-long{-webkit-animation:animate-toast-success-long .75s;animation:animate-toast-success-long .75s}@-webkit-keyframes showSweetToast{0%{-webkit-transform:translateY(-.625em) rotateZ(2deg);transform:translateY(-.625em) rotateZ(2deg);opacity:0}33%{-webkit-transform:translateY(0) rotateZ(-2deg);transform:translateY(0) rotateZ(-2deg);opacity:.5}66%{-webkit-transform:translateY(.3125em) rotateZ(2deg);transform:translateY(.3125em) rotateZ(2deg);opacity:.7}100%{-webkit-transform:translateY(0) rotateZ(0);transform:translateY(0) rotateZ(0);opacity:1}}@keyframes showSweetToast{0%{-webkit-transform:translateY(-.625em) rotateZ(2deg);transform:translateY(-.625em) rotateZ(2deg);opacity:0}33%{-webkit-transform:translateY(0) rotateZ(-2deg);transform:translateY(0) rotateZ(-2deg);opacity:.5}66%{-webkit-transform:translateY(.3125em) rotateZ(2deg);transform:translateY(.3125em) rotateZ(2deg);opacity:.7}100%{-webkit-transform:translateY(0) rotateZ(0);transform:translateY(0) rotateZ(0);opacity:1}}@-webkit-keyframes hideSweetToast{0%{opacity:1}33%{opacity:.5}100%{-webkit-transform:rotateZ(1deg);transform:rotateZ(1deg);opacity:0}}@keyframes hideSweetToast{0%{opacity:1}33%{opacity:.5}100%{-webkit-transform:rotateZ(1deg);transform:rotateZ(1deg);opacity:0}}@-webkit-keyframes animate-toast-success-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@keyframes animate-toast-success-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@-webkit-keyframes animate-toast-success-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}@keyframes animate-toast-success-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown){overflow:hidden}body.swal2-height-auto{height:auto!important}body.swal2-no-backdrop .swal2-shown{top:auto;right:auto;bottom:auto;left:auto;background-color:transparent}body.swal2-no-backdrop .swal2-shown>.swal2-modal{box-shadow:0 0 10px rgba(0,0,0,.4)}body.swal2-no-backdrop .swal2-shown.swal2-top{top:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}body.swal2-no-backdrop .swal2-shown.swal2-top-left,body.swal2-no-backdrop .swal2-shown.swal2-top-start{top:0;left:0}body.swal2-no-backdrop .swal2-shown.swal2-top-end,body.swal2-no-backdrop .swal2-shown.swal2-top-right{top:0;right:0}body.swal2-no-backdrop .swal2-shown.swal2-center{top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}body.swal2-no-backdrop .swal2-shown.swal2-center-left,body.swal2-no-backdrop .swal2-shown.swal2-center-start{top:50%;left:0;-webkit-transform:translateY(-50%);transform:translateY(-50%)}body.swal2-no-backdrop .swal2-shown.swal2-center-end,body.swal2-no-backdrop .swal2-shown.swal2-center-right{top:50%;right:0;-webkit-transform:translateY(-50%);transform:translateY(-50%)}body.swal2-no-backdrop .swal2-shown.swal2-bottom{bottom:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}body.swal2-no-backdrop .swal2-shown.swal2-bottom-left,body.swal2-no-backdrop .swal2-shown.swal2-bottom-start{bottom:0;left:0}body.swal2-no-backdrop .swal2-shown.swal2-bottom-end,body.swal2-no-backdrop .swal2-shown.swal2-bottom-right{right:0;bottom:0}.swal2-container{display:flex;position:fixed;top:0;right:0;bottom:0;left:0;flex-direction:row;align-items:center;justify-content:center;padding:10px;background-color:transparent;z-index:1060;overflow-x:hidden;-webkit-overflow-scrolling:touch}.swal2-container.swal2-top{align-items:flex-start}.swal2-container.swal2-top-left,.swal2-container.swal2-top-start{align-items:flex-start;justify-content:flex-start}.swal2-container.swal2-top-end,.swal2-container.swal2-top-right{align-items:flex-start;justify-content:flex-end}.swal2-container.swal2-center{align-items:center}.swal2-container.swal2-center-left,.swal2-container.swal2-center-start{align-items:center;justify-content:flex-start}.swal2-container.swal2-center-end,.swal2-container.swal2-center-right{align-items:center;justify-content:flex-end}.swal2-container.swal2-bottom{align-items:flex-end}.swal2-container.swal2-bottom-left,.swal2-container.swal2-bottom-start{align-items:flex-end;justify-content:flex-start}.swal2-container.swal2-bottom-end,.swal2-container.swal2-bottom-right{align-items:flex-end;justify-content:flex-end}.swal2-container.swal2-grow-fullscreen>.swal2-modal{display:flex!important;flex:1;align-self:stretch;justify-content:center}.swal2-container.swal2-grow-row>.swal2-modal{display:flex!important;flex:1;align-content:center;justify-content:center}.swal2-container.swal2-grow-column{flex:1;flex-direction:column}.swal2-container.swal2-grow-column.swal2-bottom,.swal2-container.swal2-grow-column.swal2-center,.swal2-container.swal2-grow-column.swal2-top{align-items:center}.swal2-container.swal2-grow-column.swal2-bottom-left,.swal2-container.swal2-grow-column.swal2-bottom-start,.swal2-container.swal2-grow-column.swal2-center-left,.swal2-container.swal2-grow-column.swal2-center-start,.swal2-container.swal2-grow-column.swal2-top-left,.swal2-container.swal2-grow-column.swal2-top-start{align-items:flex-start}.swal2-container.swal2-grow-column.swal2-bottom-end,.swal2-container.swal2-grow-column.swal2-bottom-right,.swal2-container.swal2-grow-column.swal2-center-end,.swal2-container.swal2-grow-column.swal2-center-right,.swal2-container.swal2-grow-column.swal2-top-end,.swal2-container.swal2-grow-column.swal2-top-right{align-items:flex-end}.swal2-container.swal2-grow-column>.swal2-modal{display:flex!important;flex:1;align-content:center;justify-content:center}.swal2-container:not(.swal2-top):not(.swal2-top-start):not(.swal2-top-end):not(.swal2-top-left):not(.swal2-top-right):not(.swal2-center-start):not(.swal2-center-end):not(.swal2-center-left):not(.swal2-center-right):not(.swal2-bottom):not(.swal2-bottom-start):not(.swal2-bottom-end):not(.swal2-bottom-left):not(.swal2-bottom-right):not(.swal2-grow-fullscreen)>.swal2-modal{margin:auto}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-container .swal2-modal{margin:0!important}}.swal2-container.swal2-fade{transition:background-color .1s}.swal2-container.swal2-shown{background-color:rgba(0,0,0,.4)}.swal2-popup{display:none;position:relative;flex-direction:column;justify-content:center;width:32em;max-width:100%;padding:1.25em;border-radius:.3125em;background:#fff;font-family:inherit;font-size:1rem;box-sizing:border-box}.swal2-popup:focus{outline:0}.swal2-popup.swal2-loading{overflow-y:hidden}.swal2-popup .swal2-header{display:flex;flex-direction:column;align-items:center}.swal2-popup .swal2-title{display:block;position:relative;max-width:100%;margin:0 0 .4em;padding:0;color:#595959;font-size:1.875em;font-weight:600;text-align:center;text-transform:none;word-wrap:break-word}.swal2-popup .swal2-actions{flex-wrap:wrap;align-items:center;justify-content:center;margin:1.25em auto 0;z-index:1}.swal2-popup .swal2-actions:not(.swal2-loading) .swal2-styled[disabled]{opacity:.4}.swal2-popup .swal2-actions:not(.swal2-loading) .swal2-styled:hover{background-image:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1))}.swal2-popup .swal2-actions:not(.swal2-loading) .swal2-styled:active{background-image:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2))}.swal2-popup .swal2-actions.swal2-loading .swal2-styled.swal2-confirm{width:2.5em;height:2.5em;margin:.46875em;padding:0;border:.25em solid transparent;border-radius:100%;border-color:transparent;background-color:transparent!important;color:transparent;cursor:default;box-sizing:border-box;-webkit-animation:swal2-rotate-loading 1.5s linear 0s infinite normal;animation:swal2-rotate-loading 1.5s linear 0s infinite normal;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.swal2-popup .swal2-actions.swal2-loading .swal2-styled.swal2-cancel{margin-right:30px;margin-left:30px}.swal2-popup .swal2-actions.swal2-loading :not(.swal2-styled).swal2-confirm::after{display:inline-block;width:15px;height:15px;margin-left:5px;border:3px solid #999;border-radius:50%;border-right-color:transparent;box-shadow:1px 1px 1px #fff;content:'';-webkit-animation:swal2-rotate-loading 1.5s linear 0s infinite normal;animation:swal2-rotate-loading 1.5s linear 0s infinite normal}.swal2-popup .swal2-styled{margin:.3125em;padding:.625em 2em;font-weight:500;box-shadow:none}.swal2-popup .swal2-styled:not([disabled]){cursor:pointer}.swal2-popup .swal2-styled.swal2-confirm{border:0;border-radius:.25em;background:initial;background-color:#3085d6;color:#fff;font-size:1.0625em}.swal2-popup .swal2-styled.swal2-cancel{border:0;border-radius:.25em;background:initial;background-color:#aaa;color:#fff;font-size:1.0625em}.swal2-popup .swal2-styled:focus{outline:0;box-shadow:0 0 0 2px #fff,0 0 0 4px rgba(50,100,150,.4)}.swal2-popup .swal2-styled::-moz-focus-inner{border:0}.swal2-popup .swal2-footer{justify-content:center;margin:1.25em 0 0;padding:1em 0 0;border-top:1px solid #eee;color:#545454;font-size:1em}.swal2-popup .swal2-image{max-width:100%;margin:0.0em auto}.swal2-popup .swal2-close{position:absolute;top:0;right:0;justify-content:center;width:1.2em;height:1.2em;padding:0;transition:color .1s ease-out;border:none;border-radius:0;background:0 0;color:#ccc;font-family:serif;font-size:2.5em;line-height:1.2;cursor:pointer;overflow:hidden}.swal2-popup .swal2-close:hover{-webkit-transform:none;transform:none;color:#f27474}.swal2-popup>.swal2-checkbox,.swal2-popup>.swal2-file,.swal2-popup>.swal2-input,.swal2-popup>.swal2-radio,.swal2-popup>.swal2-select,.swal2-popup>.swal2-textarea{display:none}.swal2-popup .swal2-content{justify-content:center;margin:0;padding:0;color:#545454;font-size:1.125em;font-weight:300;line-height:normal;z-index:1;word-wrap:break-word}.swal2-popup #swal2-content{text-align:center}.swal2-popup .swal2-checkbox,.swal2-popup .swal2-file,.swal2-popup .swal2-input,.swal2-popup .swal2-radio,.swal2-popup .swal2-select,.swal2-popup .swal2-textarea{margin:1em auto}.swal2-popup .swal2-file,.swal2-popup .swal2-input,.swal2-popup .swal2-textarea{width:100%;transition:border-color .3s,box-shadow .3s;border:1px solid #d9d9d9;border-radius:.1875em;font-size:1.125em;box-shadow:inset 0 1px 1px rgba(0,0,0,.06);box-sizing:border-box}.swal2-popup .swal2-file.swal2-inputerror,.swal2-popup .swal2-input.swal2-inputerror,.swal2-popup .swal2-textarea.swal2-inputerror{border-color:#f27474!important;box-shadow:0 0 2px #f27474!important}.swal2-popup .swal2-file:focus,.swal2-popup .swal2-input:focus,.swal2-popup .swal2-textarea:focus{border:1px solid #b4dbed;outline:0;box-shadow:0 0 3px #c4e6f5}.swal2-popup .swal2-file::-webkit-input-placeholder,.swal2-popup .swal2-input::-webkit-input-placeholder,.swal2-popup .swal2-textarea::-webkit-input-placeholder{color:#ccc}.swal2-popup .swal2-file:-ms-input-placeholder,.swal2-popup .swal2-input:-ms-input-placeholder,.swal2-popup .swal2-textarea:-ms-input-placeholder{color:#ccc}.swal2-popup .swal2-file::-ms-input-placeholder,.swal2-popup .swal2-input::-ms-input-placeholder,.swal2-popup .swal2-textarea::-ms-input-placeholder{color:#ccc}.swal2-popup .swal2-file::placeholder,.swal2-popup .swal2-input::placeholder,.swal2-popup .swal2-textarea::placeholder{color:#ccc}.swal2-popup .swal2-range input{width:80%}.swal2-popup .swal2-range output{width:20%;font-weight:600;text-align:center}.swal2-popup .swal2-range input,.swal2-popup .swal2-range output{height:2.625em;margin:1em auto;padding:0;font-size:1.125em;line-height:2.625em}.swal2-popup .swal2-input{height:2.625em;padding:0 .75em}.swal2-popup .swal2-input[type=number]{max-width:10em}.swal2-popup .swal2-file{font-size:1.125em}.swal2-popup .swal2-textarea{height:6.75em;padding:.75em}.swal2-popup .swal2-select{min-width:50%;max-width:100%;padding:.375em .625em;color:#545454;font-size:1.125em}.swal2-popup .swal2-checkbox,.swal2-popup .swal2-radio{align-items:center;justify-content:center}.swal2-popup .swal2-checkbox label,.swal2-popup .swal2-radio label{margin:0 .6em;font-size:1.125em}.swal2-popup .swal2-checkbox input,.swal2-popup .swal2-radio input{margin:0 .4em}.swal2-popup .swal2-validation-message{display:none;align-items:center;justify-content:center;padding:.625em;background:#f0f0f0;color:#666;font-size:1em;font-weight:300;overflow:hidden}.swal2-popup .swal2-validation-message::before{display:inline-block;width:1.5em;min-width:1.5em;height:1.5em;margin:0 .625em;border-radius:50%;background-color:#f27474;color:#fff;font-weight:600;line-height:1.5em;text-align:center;content:'!';zoom:normal}@supports (-ms-accelerator:true){.swal2-range input{width:100%!important}.swal2-range output{display:none}}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-range input{width:100%!important}.swal2-range output{display:none}}@-moz-document url-prefix(){.swal2-close:focus{outline:2px solid rgba(50,100,150,.4)}}.swal2-icon{position:relative;justify-content:center;width:5em;height:5em;margin:0em auto 0em;border:.25em solid transparent;border-radius:50%;line-height:5em;cursor:default;box-sizing:content-box;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;zoom:normal}.swal2-icon-text{font-size:3.75em}.swal2-icon.swal2-error{border-color:#f27474}.swal2-icon.swal2-error .swal2-x-mark{position:relative;flex-grow:1}.swal2-icon.swal2-error [class^=swal2-x-mark-line]{display:block;position:absolute;top:2.3125em;width:2.9375em;height:.3125em;border-radius:.125em;background-color:#f27474}.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:1.0625em;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:1em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal2-icon.swal2-warning{border-color:#facea8;color:#f8bb86}.swal2-icon.swal2-info{border-color:#9de0f6;color:#3fc3ee}.swal2-icon.swal2-question{border-color:#c9dae1;color:#87adbd}.swal2-icon.swal2-success{border-color:#a5dc86}.swal2-icon.swal2-success [class^=swal2-success-circular-line]{position:absolute;width:3.75em;height:7.5em;-webkit-transform:rotate(45deg);transform:rotate(45deg);border-radius:50%}.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=left]{top:-.4375em;left:-2.0635em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:3.75em 3.75em;transform-origin:3.75em 3.75em;border-radius:7.5em 0 0 7.5em}.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=right]{top:-.6875em;left:1.875em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:0 3.75em;transform-origin:0 3.75em;border-radius:0 7.5em 7.5em 0}.swal2-icon.swal2-success .swal2-success-ring{position:absolute;top:-.25em;left:-.25em;width:100%;height:100%;border:.25em solid rgba(165,220,134,.3);border-radius:50%;z-index:2;box-sizing:content-box}.swal2-icon.swal2-success .swal2-success-fix{position:absolute;top:.5em;left:1.625em;width:.4375em;height:5.625em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);z-index:1}.swal2-icon.swal2-success [class^=swal2-success-line]{display:block;position:absolute;height:.3125em;border-radius:.125em;background-color:#a5dc86;z-index:2}.swal2-icon.swal2-success [class^=swal2-success-line][class$=tip]{top:2.875em;left:.875em;width:1.5625em;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.swal2-icon.swal2-success [class^=swal2-success-line][class$=long]{top:2.375em;right:.5em;width:2.9375em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal2-progresssteps{align-items:center;margin:0 0 1.25em;padding:0;font-weight:600}.swal2-progresssteps li{display:inline-block;position:relative}.swal2-progresssteps .swal2-progresscircle{width:2em;height:2em;border-radius:2em;background:#3085d6;color:#fff;line-height:2em;text-align:center;z-index:20}.swal2-progresssteps .swal2-progresscircle:first-child{margin-left:0}.swal2-progresssteps .swal2-progresscircle:last-child{margin-right:0}.swal2-progresssteps .swal2-progresscircle.swal2-activeprogressstep{background:#3085d6}.swal2-progresssteps .swal2-progresscircle.swal2-activeprogressstep~.swal2-progresscircle{background:#add8e6}.swal2-progresssteps .swal2-progresscircle.swal2-activeprogressstep~.swal2-progressline{background:#add8e6}.swal2-progresssteps .swal2-progressline{width:2.5em;height:.4em;margin:0 -1px;background:#3085d6;z-index:10}[class^=swal2]{-webkit-tap-highlight-color:transparent}.swal2-show{-webkit-animation:swal2-show .3s;animation:swal2-show .3s}.swal2-show.swal2-noanimation{-webkit-animation:none;animation:none}.swal2-hide{-webkit-animation:swal2-hide .15s forwards;animation:swal2-hide .15s forwards}.swal2-hide.swal2-noanimation{-webkit-animation:none;animation:none}.swal2-rtl .swal2-close{right:auto;left:0}.swal2-animate-success-icon .swal2-success-line-tip{-webkit-animation:swal2-animate-success-line-tip .75s;animation:swal2-animate-success-line-tip .75s}.swal2-animate-success-icon .swal2-success-line-long{-webkit-animation:swal2-animate-success-line-long .75s;animation:swal2-animate-success-line-long .75s}.swal2-animate-success-icon .swal2-success-circular-line-right{-webkit-animation:swal2-rotate-success-circular-line 4.25s ease-in;animation:swal2-rotate-success-circular-line 4.25s ease-in}.swal2-animate-error-icon{-webkit-animation:swal2-animate-error-icon .5s;animation:swal2-animate-error-icon .5s}.swal2-animate-error-icon .swal2-x-mark{-webkit-animation:swal2-animate-error-x-mark .5s;animation:swal2-animate-error-x-mark .5s}@-webkit-keyframes swal2-rotate-loading{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes swal2-rotate-loading{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@media print{body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown){overflow-y:scroll!important}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown)>[aria-hidden=true]{display:none}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) .swal2-container{position:initial!important}}</style></head>
+<body>
+<form method="post" action="https://obs.aybu.edu.tr/oibs/std/std_time_table_dep.aspx" id="form1" data-select2-id="form1">
+<div class="aspNetHidden">
+
+
+
+
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="./WebResource.axd" type="text/javascript"></script>
+
+
+<script src="./jquery-3.7.1.min.js.indir" type="text/javascript"></script>
+<script src="./sweetalert.min.js.indir" type="text/javascript"></script>
+<script src="./select2.min.js.indir" type="text/javascript"></script>
+<script src="./ModalPopupWindow_v22_min.js.indir" type="text/javascript"></script><script type="text/javascript">var baseUrl = '/oibs/';var modalWin = new CreateModalPopUpObject();</script>
+                     <div id="bailwal_div_overlay" style="position:absolute;z-index:10; background-color:white;filter: alpha(opacity = 70);opacity:0.7;"></div>
+                         <div id="bailwal_div_frame_parent" style="position:absolute;z-index:12; display:none;background-color:white;">
+                         <table style="border:solid 1px #121e2d; height: 100%" onmouseup="bailwal_modalPopupWindow.StopDragging()">
+                                <tbody><tr style="height:28px;vertical-align:middle;background-color:#121e2d" id="bailwal_tr_title">
+                                    <td style="vertical-align:top;text-align:left;border:none">
+                                        <div style="display: table; width: 100%;">
+                                        <div style="display: table-row;">
+                                        <div style="text-align:left; display: table-cell;">
+                                            <i id="bailwal_img_overlay_close_logo2" ondblclick="bailwal_modalPopupWindow.HideModalPopUp(&#39;1&#39;);" style="padding:6px;vertical-align:middle;" class="fal fa-chevron-circle-down text-white"></i>
+                                            <span id="bailwal_span_title" style="vertical-align:middle;color:White;font-size:8pt;text-align: left;"></span>
+                                        </div>
+                                        <div style="text-align:right; display: table-cell; ">
+                                            <span id="bailwal_span_loading" style="vertical-align: middle; display: none;">
+                                                <i class="fas fa-spinner fa-spin text-white"></i>
+                                            </span>
+                                            <span id="bailwal_span_overlay_window_refresh" onclick="bailwal_modalPopupWindow.Refresh();" style="vertical-align:middle;cursor:pointer;">
+                                               <i id="bailwal_img_overlay_refresh" class="fal fa-sync" style="font-size:17px; color:white; background-color:transparent;padding-bottom:3px; vertical-align:middle;"></i>
+                                            </span>
+                                            <span id="bailwal_span_overlay_window_max" onclick="bailwal_modalPopupWindow.Maximisze();" style="vertical-align:middle;cursor:pointer;">
+                                               <i id="bailwal_img_overlay_max" class="fal fa-window-maximize" style="font-size:19px; color:white;padding-bottom:3px;  vertical-align:middle;"></i>
+                                            </span>                                            
+                                            <span onclick="bailwal_modalPopupWindow.HideModalPopUp(&#39;1&#39;);" class="mr-3" style="vertical-align:middle;cursor:pointer;background-color:#c90000;margin-right:3px;margin-top:3px;">
+                                                <i id="bailwal_img_overlay_close" class="fal fa-times" style="font-size:15px; color:white; padding-left:6px;padding-right:3px; padding-bottom:5px; vertical-align:middle;"></i>
+                                            </span>
+                                        </div>
+                                        </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr style="vertical-align: middle;">
+                                    <td colspan="2" align="center" id="bailwal_td_overlay" style="vertical-align: top;border:none">
+                                        <div id="bailwal_div_message" style="margin-top:0px;display:none;vertical-align: middle;">
+                                            <span id="bailwal_span_message" style="padding-left:3px;padding-right:3px;vertical-align: middle;font-size:8pt;" ondblclick="selectElementText(this)"></span>
+                                        </div>
+                                        <iframe onload="OnUrlLoaded()" name="bailwal_overlay_frame" id="bailwal_overlay_frame" frameborder="0" scrolling="auto" style="padding: 0px !important;padding-bottom: 0px !important;margin: 0px !important;margin-bottom: 0px !important;" src="./saved_resource(2).html"></iframe>
+                                    </td>
+                                </tr>
+                           </tbody></table>
+                           </div>
+                           
+<script type="text/javascript">
+//<![CDATA[
+var __cultureInfo = {"name":"tr-TR","numberFormat":{"CurrencyDecimalDigits":2,"CurrencyDecimalSeparator":",","IsReadOnly":true,"CurrencyGroupSizes":[3],"NumberGroupSizes":[3],"PercentGroupSizes":[3],"CurrencyGroupSeparator":".","CurrencySymbol":"₺","NaNSymbol":"NaN","CurrencyNegativePattern":8,"NumberNegativePattern":1,"PercentPositivePattern":2,"PercentNegativePattern":2,"NegativeInfinitySymbol":"-Sonsuz","NegativeSign":"-","NumberDecimalDigits":2,"NumberDecimalSeparator":",","NumberGroupSeparator":".","CurrencyPositivePattern":3,"PositiveInfinitySymbol":"Sonsuz","PositiveSign":"+","PercentDecimalDigits":2,"PercentDecimalSeparator":",","PercentGroupSeparator":".","PercentSymbol":"%","PerMilleSymbol":"‰","NativeDigits":["0","1","2","3","4","5","6","7","8","9"],"DigitSubstitution":1},"dateTimeFormat":{"AMDesignator":"","Calendar":{"MinSupportedDateTime":"\/Date(-62135596800000)\/","MaxSupportedDateTime":"\/Date(253402289999999)\/","AlgorithmType":1,"CalendarType":1,"Eras":[1],"TwoDigitYearMax":2029,"IsReadOnly":true},"DateSeparator":".","FirstDayOfWeek":1,"CalendarWeekRule":0,"FullDateTimePattern":"d MMMM yyyy dddd HH:mm:ss","LongDatePattern":"d MMMM yyyy dddd","LongTimePattern":"HH:mm:ss","MonthDayPattern":"d MMMM","PMDesignator":"","RFC1123Pattern":"ddd, dd MMM yyyy HH\u0027:\u0027mm\u0027:\u0027ss \u0027GMT\u0027","ShortDatePattern":"dd.MM.yyyy","ShortTimePattern":"HH:mm","SortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd\u0027T\u0027HH\u0027:\u0027mm\u0027:\u0027ss","TimeSeparator":":","UniversalSortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd HH\u0027:\u0027mm\u0027:\u0027ss\u0027Z\u0027","YearMonthPattern":"MMMM yyyy","AbbreviatedDayNames":["Paz","Pzt","Sal","Çar","Per","Cum","Cmt"],"ShortestDayNames":["Pz","Pt","Sa","Ça","Pe","Cu","Ct"],"DayNames":["Pazar","Pazartesi","Salı","Çarşamba","Perşembe","Cuma","Cumartesi"],"AbbreviatedMonthNames":["Oca","Şub","Mar","Nis","May","Haz","Tem","Ağu","Eyl","Eki","Kas","Ara",""],"MonthNames":["Ocak","Şubat","Mart","Nisan","Mayıs","Haziran","Temmuz","Ağustos","Eylül","Ekim","Kasım","Aralık",""],"IsReadOnly":true,"NativeCalendarName":"Gregoryen Takvim","AbbreviatedMonthGenitiveNames":["Oca","Şub","Mar","Nis","May","Haz","Tem","Ağu","Eyl","Eki","Kas","Ara",""],"MonthGenitiveNames":["Ocak","Şubat","Mart","Nisan","Mayıs","Haziran","Temmuz","Ağustos","Eylül","Ekim","Kasım","Aralık",""]},"eras":[1,"MS",null,0]};//]]>
+</script>
+
+<script src="./ScriptResource.axd" type="text/javascript"></script>
+<script src="./ScriptResource(1).axd" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	
+	
+	
+</div>
+<div data-select2-id="12">
+<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager1', 'form1', ['tUpdatePanel1','UpdatePanel1'], [], [], 600, '');
+//]]>
+</script>
+
+<div id="UpdatePanel1" data-select2-id="UpdatePanel1">
+<div class="panel panel-default">
+    <div class="panel-heading">
+<span id="lblHeader" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">Bölüm Ders Programı</span><br>
+<span id="lblHeader2" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">GÖRSEL İLETİŞİM TASARIMI </span>
+    </div>
+<table style="width:100%">
+<tbody><tr>
+<td style="height:35px">
+<span id="Label1" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt; text-align: left">Dönem</span>&nbsp;<select name="cmbDonemler" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;cmbDonemler\&#39;,\&#39;\&#39;)&#39;, 0)" id="cmbDonemler" class="form-control select2 select2-hidden-accessible" style="font-family:Open Sans;font-size:8pt;width:170px; text-align: left" data-select2-id="cmbDonemler" tabindex="-1" aria-hidden="true">
+	<option selected="selected" value="20242" data-select2-id="45">2024-2025 BAHAR</option>
+	<option value="20231">2023-2024 GÜZ</option>
+	<option value="20232">2023-2024 BAHAR </option>
+	<option value="20233">2023-2024 YAZ</option>
+	<option value="20241">2024-2025 GÜZ</option>
+
+</select><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="44" style="width: 170px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-cmbDonemler-container"><span class="select2-selection__rendered" id="select2-cmbDonemler-container" role="textbox" aria-readonly="true" title="2024-2025 BAHAR">2024-2025 BAHAR</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+    <span id="Label7" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt; text-align: left">Program</span>
+    <select name="cmbProgram" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;cmbProgram\&#39;,\&#39;\&#39;)&#39;, 0)" id="cmbProgram" class="form-control select2 select2-hidden-accessible" style="font-family:Open Sans;font-size:8pt;width:170px;" data-select2-id="cmbProgram" tabindex="-1" aria-hidden="true">
+	<option selected="selected" value="7606" data-select2-id="47">GÖRSEL İLETİŞİM TASARIMI </option>
+
+</select><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="46" style="width: 170px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-cmbProgram-container"><span class="select2-selection__rendered" id="select2-cmbProgram-container" role="textbox" aria-readonly="true" title="GÖRSEL İLETİŞİM TASARIMI ">GÖRSEL İLETİŞİM TASARIMI </span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+    <span id="lblSinif" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt; text-align: left">Sınıf</span>
+    <select name="cmbSinif" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;cmbSinif\&#39;,\&#39;\&#39;)&#39;, 0)" id="cmbSinif" class="form-control select2 select2-hidden-accessible" style="font-family:Open Sans;font-size:8pt;width:80px;
+text-align: left" data-select2-id="cmbSinif" tabindex="-1" aria-hidden="true">
+	<option value="1">1.Sınıf</option>
+	<option value="2">2.Sınıf</option>
+	<option selected="selected" value="3" data-select2-id="49">3.Sınıf</option>
+	<option value="4">4.Sınıf</option>
+	<option value="5">5.Sınıf</option>
+	<option value="6">6.Sınıf</option>
+	<option value="0">Hazırlık</option>
+
+</select><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="48" style="width: 80px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-cmbSinif-container"><span class="select2-selection__rendered" id="select2-cmbSinif-container" role="textbox" aria-readonly="true" title="3.Sınıf">3.Sınıf</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+    
+    
+    
+</td>
+<td style="text-align: right">
+<a id="btnYazdir0" accesskey="y" class="btn btn-default btn-xs" href="javascript:__doPostBack(&#39;btnYazdir0&#39;,&#39;&#39;)" style="display:inline-block;color:#5B636A;font-family:Open Sans;font-size:9pt;width:90px;"><span class="fal fa-print"></span>Yazdır</a>
+    </td>
+</tr>
+</tbody></table>
+   <div class="panel panel-default">
+    
+    <table class="w-100">
+        <tbody><tr>
+            <td style="vertical-align: top; text-align: left; width: 50%; background-color:gray; ">
+                <span id="Label222" class="text-white" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">Pazartesi</span>
+            </td>
+            <td>
+                &nbsp;</td>
+            <td style="vertical-align: top; text-align: left; width: 50%; background-color:gray; ">
+                <span id="Label223" class="text-white" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">Salı</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top; text-align: left;">
+                <div>
+	<table cellspacing="0" rules="all" class="myGridClass" border="1" id="grd0" style="border-color:LightGrey;font-family:Open Sans;font-size:8pt;font-weight:normal;text-decoration:none;width:100%;border-collapse:collapse;font-family: Tahoma; font-size: 7pt;">
+		<tbody><tr class="text-danger" style="font-size:7pt;">
+			<td colspan="6">Tanımlı Ders Programı Bulunamadı!</td>
+		</tr>
+	</tbody></table>
+</div>
+            </td>
+            <td style="vertical-align: top; text-align: left;">
+                &nbsp;</td>
+            <td style="vertical-align: top; text-align: left;">
+                <div>
+	<table cellspacing="0" rules="all" class="myGridClass" border="1" id="grd1" style="border-color:LightGrey;font-family:Open Sans;font-size:8pt;font-weight:normal;text-decoration:none;width:100%;border-collapse:collapse;font-family: Tahoma; font-size: 7pt;">
+		<tbody><tr class="text-danger" style="font-size:7pt;">
+			<td colspan="6">Tanımlı Ders Programı Bulunamadı!</td>
+		</tr>
+	</tbody></table>
+</div>
+            </td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top; text-align: left; background-color: gray; ">
+                <span id="Label2" class="text-white" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">Çarşamba</span>
+            </td>
+            <td>
+                &nbsp;</td>
+            <td style="vertical-align: top; text-align: left; background-color: gray; ">
+                <span id="Label3" class="text-white" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">Perşembe</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top; text-align: left">
+                <div>
+	<table cellspacing="0" rules="all" class="myGridClass" border="1" id="grd2" style="border-color:LightGrey;font-family:Open Sans;font-size:8pt;font-weight:normal;text-decoration:none;width:100%;border-collapse:collapse;font-family: Tahoma; font-size: 7pt;">
+		<tbody><tr class="text-danger" style="font-size:7pt;">
+			<td colspan="6">Tanımlı Ders Programı Bulunamadı!</td>
+		</tr>
+	</tbody></table>
+</div>
+            </td>
+            <td style="vertical-align: top; text-align: left">
+                &nbsp;</td>
+            <td style="vertical-align: top; text-align: left">
+                <div>
+	<table cellspacing="0" rules="all" class="myGridClass" border="1" id="grd3" style="border-color:LightGrey;font-family:Open Sans;font-size:8pt;font-weight:normal;text-decoration:none;width:100%;border-collapse:collapse;font-family: Tahoma; font-size: 7pt;">
+		<tbody><tr>
+			<th scope="col">Saat</th><th scope="col">Ders Kodu</th><th scope="col">Ders Adı</th><th scope="col">Derslik</th><th scope="col">Öğretim Elemanı</th>
+		</tr><tr>
+			<td>09:00-09:50</td><td>GTS314(1)</td><td>
+                                <span id="grd3_Label16_0" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - GÖRSEL İLETİŞİM TASARIMI - GÖRSEL İLETİŞİM TASARIMI " style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">DENEYSEL TİPOGRAFİ</span>
+                            </td><td>L-110(BİLGİSAYAR LABORATUVARI)[30]</td><td>Dr. Öğr. Üyesi CENGİZ ŞAHİN  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">10:00-10:50</td><td>GTS314(1)</td><td>
+                                <span id="grd3_Label16_1" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - GÖRSEL İLETİŞİM TASARIMI - GÖRSEL İLETİŞİM TASARIMI " style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">DENEYSEL TİPOGRAFİ</span>
+                            </td><td>L-110(BİLGİSAYAR LABORATUVARI)[30]</td><td>Dr. Öğr. Üyesi CENGİZ ŞAHİN  </td>
+		</tr><tr>
+			<td>12:00-12:50</td><td>GTS318(1)</td><td>
+                                <span id="grd3_Label16_2" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - GÖRSEL İLETİŞİM TASARIMI - GÖRSEL İLETİŞİM TASARIMI " style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">SANAT ETKİNLİKLERİ İZLEME</span>
+                            </td><td>L-115(DERSLİK I)[70]</td><td>Dr. Öğr. Üyesi GÜVEN MERAL  </td>
+		</tr><tr>
+			<td>13:00-13:50</td><td>GTS318(1)</td><td>
+                                <span id="grd3_Label16_3" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - GÖRSEL İLETİŞİM TASARIMI - GÖRSEL İLETİŞİM TASARIMI " style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">SANAT ETKİNLİKLERİ İZLEME</span>
+                            </td><td>L-115(DERSLİK I)[70]</td><td>Dr. Öğr. Üyesi GÜVEN MERAL  </td>
+		</tr><tr>
+			<td>14:00-14:50</td><td>GTS302(1)</td><td>
+                                <span id="grd3_Label16_4" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - GÖRSEL İLETİŞİM TASARIMI - GÖRSEL İLETİŞİM TASARIMI " style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">TASARIM ATÖLYE IV</span>
+                            </td><td>L-104(BİLGİSAYAR LABORATUVARI II)[60]</td><td>Öğr.Gör. İSMAİL FURKAN YAVUZ  </td>
+		</tr><tr>
+			<td>15:00-15:50</td><td>GTS302(1)</td><td>
+                                <span id="grd3_Label16_5" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - GÖRSEL İLETİŞİM TASARIMI - GÖRSEL İLETİŞİM TASARIMI " style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">TASARIM ATÖLYE IV</span>
+                            </td><td>L-104(BİLGİSAYAR LABORATUVARI II)[60]</td><td>Öğr.Gör. İSMAİL FURKAN YAVUZ  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">16:00-16:50</td><td>GTS302(1)</td><td>
+                                <span id="grd3_Label16_6" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - GÖRSEL İLETİŞİM TASARIMI - GÖRSEL İLETİŞİM TASARIMI " style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">TASARIM ATÖLYE IV</span>
+                            </td><td>L-104(BİLGİSAYAR LABORATUVARI II)[60]</td><td>Öğr.Gör. İSMAİL FURKAN YAVUZ  </td>
+		</tr>
+	</tbody></table>
+</div>
+            </td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top; text-align: left; background-color: gray; ">
+                <span id="Label4" class="text-white" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">Cuma</span>
+            </td>
+            <td></td>
+            <td style="vertical-align: top; text-align: left; background-color: gray; ">
+                
+            </td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top; text-align: left">
+                <div>
+	<table cellspacing="0" rules="all" class="myGridClass" border="1" id="grd4" style="border-color:LightGrey;font-family:Open Sans;font-size:8pt;font-weight:normal;text-decoration:none;width:100%;border-collapse:collapse;font-family: Tahoma; font-size: 7pt;">
+		<tbody><tr>
+			<th scope="col">Saat</th><th scope="col">Ders Kodu</th><th scope="col">Ders Adı</th><th scope="col">Derslik</th><th scope="col">Öğretim Elemanı</th>
+		</tr><tr>
+			<td>10:00-10:50</td><td>GTS304(2)</td><td>
+                                <span id="grd4_Label17_0" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - GÖRSEL İLETİŞİM TASARIMI - GÖRSEL İLETİŞİM TASARIMI " style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">ÜÇ BOYUTLU MODELLEME II</span>
+                            </td><td>L-104(BİLGİSAYAR LABORATUVARI II)[60]</td><td>Dr. Öğr. Üyesi GÜVEN MERAL  </td>
+		</tr><tr>
+			<td>10:00-10:50</td><td>GTS306(1)</td><td>
+                                <span id="grd4_Label17_1" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - GÖRSEL İLETİŞİM TASARIMI - GÖRSEL İLETİŞİM TASARIMI " style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">KURGU TEKNİKLERİ</span>
+                            </td><td>L-110(BİLGİSAYAR LABORATUVARI)[30]</td><td>Öğr.Gör. İSMAİL FURKAN YAVUZ  </td>
+		</tr><tr>
+			<td>11:00-11:50</td><td>GTS304(2)</td><td>
+                                <span id="grd4_Label17_2" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - GÖRSEL İLETİŞİM TASARIMI - GÖRSEL İLETİŞİM TASARIMI " style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">ÜÇ BOYUTLU MODELLEME II</span>
+                            </td><td>L-104(BİLGİSAYAR LABORATUVARI II)[60]</td><td>Dr. Öğr. Üyesi GÜVEN MERAL  </td>
+		</tr><tr>
+			<td>11:00-11:50</td><td>GTS306(1)</td><td>
+                                <span id="grd4_Label17_3" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - GÖRSEL İLETİŞİM TASARIMI - GÖRSEL İLETİŞİM TASARIMI " style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">KURGU TEKNİKLERİ</span>
+                            </td><td>L-110(BİLGİSAYAR LABORATUVARI)[30]</td><td>Öğr.Gör. İSMAİL FURKAN YAVUZ  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">12:00-12:50</td><td>GTS304(2)</td><td>
+                                <span id="grd4_Label17_4" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - GÖRSEL İLETİŞİM TASARIMI - GÖRSEL İLETİŞİM TASARIMI " style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">ÜÇ BOYUTLU MODELLEME II</span>
+                            </td><td>L-104(BİLGİSAYAR LABORATUVARI II)[60]</td><td>Dr. Öğr. Üyesi GÜVEN MERAL  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">12:00-12:50</td><td>GTS306(1)</td><td>
+                                <span id="grd4_Label17_5" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - GÖRSEL İLETİŞİM TASARIMI - GÖRSEL İLETİŞİM TASARIMI " style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">KURGU TEKNİKLERİ</span>
+                            </td><td>L-110(BİLGİSAYAR LABORATUVARI)[30]</td><td>Öğr.Gör. İSMAİL FURKAN YAVUZ  </td>
+		</tr><tr>
+			<td>14:00-14:50</td><td>GTS304(1)</td><td>
+                                <span id="grd4_Label17_6" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - GÖRSEL İLETİŞİM TASARIMI - GÖRSEL İLETİŞİM TASARIMI " style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">ÜÇ BOYUTLU MODELLEME II</span>
+                            </td><td>L-104(BİLGİSAYAR LABORATUVARI II)[60]</td><td>Dr. Öğr. Üyesi GÜVEN MERAL  </td>
+		</tr><tr>
+			<td>14:00-14:50</td><td>GTS306(2)</td><td>
+                                <span id="grd4_Label17_7" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - GÖRSEL İLETİŞİM TASARIMI - GÖRSEL İLETİŞİM TASARIMI " style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">KURGU TEKNİKLERİ</span>
+                            </td><td>L-110(BİLGİSAYAR LABORATUVARI)[30]</td><td>Öğr.Gör. İSMAİL FURKAN YAVUZ  </td>
+		</tr><tr>
+			<td>15:00-15:50</td><td>GTS304(1)</td><td>
+                                <span id="grd4_Label17_8" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - GÖRSEL İLETİŞİM TASARIMI - GÖRSEL İLETİŞİM TASARIMI " style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">ÜÇ BOYUTLU MODELLEME II</span>
+                            </td><td>L-104(BİLGİSAYAR LABORATUVARI II)[60]</td><td>Dr. Öğr. Üyesi GÜVEN MERAL  </td>
+		</tr><tr>
+			<td>15:00-15:50</td><td>GTS306(2)</td><td>
+                                <span id="grd4_Label17_9" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - GÖRSEL İLETİŞİM TASARIMI - GÖRSEL İLETİŞİM TASARIMI " style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">KURGU TEKNİKLERİ</span>
+                            </td><td>L-110(BİLGİSAYAR LABORATUVARI)[30]</td><td>Öğr.Gör. İSMAİL FURKAN YAVUZ  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">16:00-16:50</td><td>GTS304(1)</td><td>
+                                <span id="grd4_Label17_10" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - GÖRSEL İLETİŞİM TASARIMI - GÖRSEL İLETİŞİM TASARIMI " style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">ÜÇ BOYUTLU MODELLEME II</span>
+                            </td><td>L-104(BİLGİSAYAR LABORATUVARI II)[60]</td><td>Dr. Öğr. Üyesi GÜVEN MERAL  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">16:00-16:50</td><td>GTS306(2)</td><td>
+                                <span id="grd4_Label17_11" title="MİMARLIK VE GÜZEL SANATLAR FAKÜLTESİ - GÖRSEL İLETİŞİM TASARIMI - GÖRSEL İLETİŞİM TASARIMI " style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">KURGU TEKNİKLERİ</span>
+                            </td><td>L-110(BİLGİSAYAR LABORATUVARI)[30]</td><td>Öğr.Gör. İSMAİL FURKAN YAVUZ  </td>
+		</tr>
+	</tbody></table>
+</div>
+            </td>
+            <td style="vertical-align: top; text-align: left">
+                &nbsp;</td>
+            <td style="vertical-align: top; text-align: left">
+                
+            </td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top; text-align: left; background-color: gray;">
+                
+            </td>
+            <td></td>
+            <td style="vertical-align: top; text-align: left; background-color: gray;"></td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top; text-align: left">
+                
+            </td>
+            <td style="vertical-align: top; text-align: left">&nbsp;</td>
+            <td style="vertical-align: top; text-align: left">&nbsp;</td>
+        </tr>
+    </tbody></table>
+       </div>
+<span id="Label211" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;font-style:italic;">Not: Uygulama saatleri yeşil renkle gösterilir</span>
+<span id="lblDuyuru" title="DP_OGR" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;text-align: left;"></span>
+<br>
+</div>
+</div>
+<div id="UpdateProgress1" style="display: none;" role="status" aria-hidden="true">
+	
+<div class="mycontainer" style="padding:5%;position :absolute;z-index: 1;"><div class="spinner-frame"><span style="font-size: 11px; color: #fff">Yükleniyor</span><div class="spinner-cover"></div><div class="spinner-bar"></div></div></div>
+
+</div>
+</div>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+theForm.oldSubmit = theForm.submit;
+theForm.submit = WebForm_SaveScrollPositionSubmit;
+
+theForm.oldOnSubmit = theForm.onsubmit;
+theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
+Sys.Application.add_init(function() {
+    $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":"UpdatePanel1","displayAfter":50,"dynamicLayout":true}, null, null, $get("UpdateProgress1"));
+});
+//]]>
+</script>
+<span style="display: none !important;"><input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value=""></span><span style="display: none !important;"><input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value=""></span><span style="display: none !important;"><input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value=""></span><span style="display: none !important;"><input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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"></span><span style="display: none !important;"><input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="71823A3D"></span><span style="display: none !important;"><input type="hidden" name="__SCROLLPOSITIONX" id="__SCROLLPOSITIONX" value="0"></span><span style="display: none !important;"><input type="hidden" name="__SCROLLPOSITIONY" id="__SCROLLPOSITIONY" value="0"></span></form>
+
+
+</body></html>

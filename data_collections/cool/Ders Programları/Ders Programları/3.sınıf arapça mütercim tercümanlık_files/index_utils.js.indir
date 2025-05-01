@@ -1,0 +1,4 @@
+﻿var timeleft = document.getElementById("hidTimerBase").value; var expireTimeLeft = 60;
+function countDownExpireTime() { document.getElementById("lblTimer").innerText = '00:' + expireTimeLeft; if (expireTimeLeft - 1 == 0) { __doPostBack('btnLogout', ''); } expireTimeLeft -= 1; }
+var downloadTimer = setInterval(function () { if (timeleft <= 0) { clearInterval(downloadTimer); $(document).ready(function () { if (document.hidden) { __doPostBack('btnLogout', ''); } else { $("#modalExpire").modal(); } }); var countDownTimer = setInterval(countDownExpireTime, 1000); } document.getElementById("hidTimer").value = timeleft; timeleft -= 1; }, 1000);
+function extendTime() { expireTimeLeft = 60; timeleft = document.getElementById("hidTimerBase").value; clearInterval(countDownExpireTime); }

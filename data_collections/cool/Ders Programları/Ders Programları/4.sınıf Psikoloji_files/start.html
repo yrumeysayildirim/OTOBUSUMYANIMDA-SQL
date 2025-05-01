@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<!-- saved from url=(0056)https://obs.aybu.edu.tr/oibs/std/std_time_table_dep.aspx -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Ders Programı</title><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport"><link href="./bootstrap.min.css" rel="stylesheet">
+<style>
+.myGridClass {width: 100%;margin: 0px;border: solid 1px #525252;border-collapse:collapse;}
+.myGridClass Caption {padding: 4px 2px;background: #f0f0f0;border-left: solid 1px #525252;font-size: 1.2em !important;}
+.myGridClass td {padding: 1px;border: solid 1px #c1c1c1;color: #717171;}
+.myGridClass th {padding: 4px 2px;background: #fcfcfc;border:solid 0px;font-size: 1em !important;}
+.myGridClass .myAltRowClass { background: #fcfcfc repeat-x top; }
+.myGridClass .myPagerClass { background: #424242; }
+.myGridClass .myPagerClass table { margin: 5px 0; }
+.myGridClass .myPagerClass td {border-width: 0;padding: 0 0px;border-left: solid 1px #666;line-height: 10px;}
+.myGridClass .myPagerClass a { color: #666; text-decoration: none; }
+.myGridClass .myPagerClass a:hover { color: #000; text-decoration: none; } 
+</style>
+<link href="./oibs18.css" type="text/css" rel="stylesheet"><link rel="stylesheet" type="text/css" href="./all.min.css"><link rel="stylesheet" type="text/css" href="./select2.min.css"><style>@-webkit-keyframes swal2-show{0%{-webkit-transform:scale(.7);transform:scale(.7)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}100%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes swal2-show{0%{-webkit-transform:scale(.7);transform:scale(.7)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}100%{-webkit-transform:scale(1);transform:scale(1)}}@-webkit-keyframes swal2-hide{0%{-webkit-transform:scale(1);transform:scale(1);opacity:1}100%{-webkit-transform:scale(.5);transform:scale(.5);opacity:0}}@keyframes swal2-hide{0%{-webkit-transform:scale(1);transform:scale(1);opacity:1}100%{-webkit-transform:scale(.5);transform:scale(.5);opacity:0}}@-webkit-keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.875em;width:1.5625em}}@keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.875em;width:1.5625em}}@-webkit-keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@-webkit-keyframes swal2-rotate-success-circular-line{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}100%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@keyframes swal2-rotate-success-circular-line{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}100%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@-webkit-keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;-webkit-transform:scale(.4);transform:scale(.4);opacity:0}50%{margin-top:1.625em;-webkit-transform:scale(.4);transform:scale(.4);opacity:0}80%{margin-top:-.375em;-webkit-transform:scale(1.15);transform:scale(1.15)}100%{margin-top:0;-webkit-transform:scale(1);transform:scale(1);opacity:1}}@keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;-webkit-transform:scale(.4);transform:scale(.4);opacity:0}50%{margin-top:1.625em;-webkit-transform:scale(.4);transform:scale(.4);opacity:0}80%{margin-top:-.375em;-webkit-transform:scale(1.15);transform:scale(1.15)}100%{margin-top:0;-webkit-transform:scale(1);transform:scale(1);opacity:1}}@-webkit-keyframes swal2-animate-error-icon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}100%{-webkit-transform:rotateX(0);transform:rotateX(0);opacity:1}}@keyframes swal2-animate-error-icon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}100%{-webkit-transform:rotateX(0);transform:rotateX(0);opacity:1}}body.swal2-toast-shown .swal2-container{position:fixed;background-color:transparent}body.swal2-toast-shown .swal2-container.swal2-shown{background-color:transparent}body.swal2-toast-shown .swal2-container.swal2-top{top:0;right:auto;bottom:auto;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-top-end,body.swal2-toast-shown .swal2-container.swal2-top-right{top:0;right:0;bottom:auto;left:auto}body.swal2-toast-shown .swal2-container.swal2-top-left,body.swal2-toast-shown .swal2-container.swal2-top-start{top:0;right:auto;bottom:auto;left:0}body.swal2-toast-shown .swal2-container.swal2-center-left,body.swal2-toast-shown .swal2-container.swal2-center-start{top:50%;right:auto;bottom:auto;left:0;-webkit-transform:translateY(-50%);transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-center{top:50%;right:auto;bottom:auto;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}body.swal2-toast-shown .swal2-container.swal2-center-end,body.swal2-toast-shown .swal2-container.swal2-center-right{top:50%;right:0;bottom:auto;left:auto;-webkit-transform:translateY(-50%);transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-left,body.swal2-toast-shown .swal2-container.swal2-bottom-start{top:auto;right:auto;bottom:0;left:0}body.swal2-toast-shown .swal2-container.swal2-bottom{top:auto;right:auto;bottom:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-end,body.swal2-toast-shown .swal2-container.swal2-bottom-right{top:auto;right:0;bottom:0;left:auto}body.swal2-toast-column .swal2-toast{flex-direction:column;align-items:stretch}body.swal2-toast-column .swal2-toast .swal2-actions{flex:1;align-self:stretch;height:2.2em;margin-top:.3125em}body.swal2-toast-column .swal2-toast .swal2-loading{justify-content:center}body.swal2-toast-column .swal2-toast .swal2-input{height:2em;margin:.3125em auto;font-size:1em}body.swal2-toast-column .swal2-toast .swal2-validation-message{font-size:1em}.swal2-popup.swal2-toast{flex-direction:row;align-items:center;width:auto;padding:.625em;box-shadow:0 0 .625em #d9d9d9;overflow-y:hidden}.swal2-popup.swal2-toast .swal2-header{flex-direction:row}.swal2-popup.swal2-toast .swal2-title{flex-grow:1;justify-content:flex-start;margin:0 .6em;font-size:1em}.swal2-popup.swal2-toast .swal2-footer{margin:.5em 0 0;padding:.5em 0 0;font-size:.8em}.swal2-popup.swal2-toast .swal2-close{position:initial;width:.8em;height:.8em;line-height:.8}.swal2-popup.swal2-toast .swal2-content{justify-content:flex-start;font-size:1em}.swal2-popup.swal2-toast .swal2-icon{width:2em;min-width:2em;height:2em;margin:0}.swal2-popup.swal2-toast .swal2-icon-text{font-size:2em;font-weight:700;line-height:1em}.swal2-popup.swal2-toast .swal2-icon.swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line]{top:.875em;width:1.375em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:.3125em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:.3125em}.swal2-popup.swal2-toast .swal2-actions{height:auto;margin:0 .3125em}.swal2-popup.swal2-toast .swal2-styled{margin:0 .3125em;padding:.3125em .625em;font-size:1em}.swal2-popup.swal2-toast .swal2-styled:focus{box-shadow:0 0 0 .0625em #fff,0 0 0 .125em rgba(50,100,150,.4)}.swal2-popup.swal2-toast .swal2-success{border-color:#a5dc86}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line]{position:absolute;width:2em;height:2.8125em;-webkit-transform:rotate(45deg);transform:rotate(45deg);border-radius:50%}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=left]{top:-.25em;left:-.9375em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:2em 2em;transform-origin:2em 2em;border-radius:4em 0 0 4em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=right]{top:-.25em;left:.9375em;-webkit-transform-origin:0 2em;transform-origin:0 2em;border-radius:0 4em 4em 0}.swal2-popup.swal2-toast .swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-success .swal2-success-fix{top:0;left:.4375em;width:.4375em;height:2.6875em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line]{height:.3125em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=tip]{top:1.125em;left:.1875em;width:.75em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=long]{top:.9375em;right:.1875em;width:1.375em}.swal2-popup.swal2-toast.swal2-show{-webkit-animation:showSweetToast .5s;animation:showSweetToast .5s}.swal2-popup.swal2-toast.swal2-hide{-webkit-animation:hideSweetToast .2s forwards;animation:hideSweetToast .2s forwards}.swal2-popup.swal2-toast .swal2-animate-success-icon .swal2-success-line-tip{-webkit-animation:animate-toast-success-tip .75s;animation:animate-toast-success-tip .75s}.swal2-popup.swal2-toast .swal2-animate-success-icon .swal2-success-line-long{-webkit-animation:animate-toast-success-long .75s;animation:animate-toast-success-long .75s}@-webkit-keyframes showSweetToast{0%{-webkit-transform:translateY(-.625em) rotateZ(2deg);transform:translateY(-.625em) rotateZ(2deg);opacity:0}33%{-webkit-transform:translateY(0) rotateZ(-2deg);transform:translateY(0) rotateZ(-2deg);opacity:.5}66%{-webkit-transform:translateY(.3125em) rotateZ(2deg);transform:translateY(.3125em) rotateZ(2deg);opacity:.7}100%{-webkit-transform:translateY(0) rotateZ(0);transform:translateY(0) rotateZ(0);opacity:1}}@keyframes showSweetToast{0%{-webkit-transform:translateY(-.625em) rotateZ(2deg);transform:translateY(-.625em) rotateZ(2deg);opacity:0}33%{-webkit-transform:translateY(0) rotateZ(-2deg);transform:translateY(0) rotateZ(-2deg);opacity:.5}66%{-webkit-transform:translateY(.3125em) rotateZ(2deg);transform:translateY(.3125em) rotateZ(2deg);opacity:.7}100%{-webkit-transform:translateY(0) rotateZ(0);transform:translateY(0) rotateZ(0);opacity:1}}@-webkit-keyframes hideSweetToast{0%{opacity:1}33%{opacity:.5}100%{-webkit-transform:rotateZ(1deg);transform:rotateZ(1deg);opacity:0}}@keyframes hideSweetToast{0%{opacity:1}33%{opacity:.5}100%{-webkit-transform:rotateZ(1deg);transform:rotateZ(1deg);opacity:0}}@-webkit-keyframes animate-toast-success-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@keyframes animate-toast-success-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@-webkit-keyframes animate-toast-success-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}@keyframes animate-toast-success-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown){overflow:hidden}body.swal2-height-auto{height:auto!important}body.swal2-no-backdrop .swal2-shown{top:auto;right:auto;bottom:auto;left:auto;background-color:transparent}body.swal2-no-backdrop .swal2-shown>.swal2-modal{box-shadow:0 0 10px rgba(0,0,0,.4)}body.swal2-no-backdrop .swal2-shown.swal2-top{top:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}body.swal2-no-backdrop .swal2-shown.swal2-top-left,body.swal2-no-backdrop .swal2-shown.swal2-top-start{top:0;left:0}body.swal2-no-backdrop .swal2-shown.swal2-top-end,body.swal2-no-backdrop .swal2-shown.swal2-top-right{top:0;right:0}body.swal2-no-backdrop .swal2-shown.swal2-center{top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}body.swal2-no-backdrop .swal2-shown.swal2-center-left,body.swal2-no-backdrop .swal2-shown.swal2-center-start{top:50%;left:0;-webkit-transform:translateY(-50%);transform:translateY(-50%)}body.swal2-no-backdrop .swal2-shown.swal2-center-end,body.swal2-no-backdrop .swal2-shown.swal2-center-right{top:50%;right:0;-webkit-transform:translateY(-50%);transform:translateY(-50%)}body.swal2-no-backdrop .swal2-shown.swal2-bottom{bottom:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}body.swal2-no-backdrop .swal2-shown.swal2-bottom-left,body.swal2-no-backdrop .swal2-shown.swal2-bottom-start{bottom:0;left:0}body.swal2-no-backdrop .swal2-shown.swal2-bottom-end,body.swal2-no-backdrop .swal2-shown.swal2-bottom-right{right:0;bottom:0}.swal2-container{display:flex;position:fixed;top:0;right:0;bottom:0;left:0;flex-direction:row;align-items:center;justify-content:center;padding:10px;background-color:transparent;z-index:1060;overflow-x:hidden;-webkit-overflow-scrolling:touch}.swal2-container.swal2-top{align-items:flex-start}.swal2-container.swal2-top-left,.swal2-container.swal2-top-start{align-items:flex-start;justify-content:flex-start}.swal2-container.swal2-top-end,.swal2-container.swal2-top-right{align-items:flex-start;justify-content:flex-end}.swal2-container.swal2-center{align-items:center}.swal2-container.swal2-center-left,.swal2-container.swal2-center-start{align-items:center;justify-content:flex-start}.swal2-container.swal2-center-end,.swal2-container.swal2-center-right{align-items:center;justify-content:flex-end}.swal2-container.swal2-bottom{align-items:flex-end}.swal2-container.swal2-bottom-left,.swal2-container.swal2-bottom-start{align-items:flex-end;justify-content:flex-start}.swal2-container.swal2-bottom-end,.swal2-container.swal2-bottom-right{align-items:flex-end;justify-content:flex-end}.swal2-container.swal2-grow-fullscreen>.swal2-modal{display:flex!important;flex:1;align-self:stretch;justify-content:center}.swal2-container.swal2-grow-row>.swal2-modal{display:flex!important;flex:1;align-content:center;justify-content:center}.swal2-container.swal2-grow-column{flex:1;flex-direction:column}.swal2-container.swal2-grow-column.swal2-bottom,.swal2-container.swal2-grow-column.swal2-center,.swal2-container.swal2-grow-column.swal2-top{align-items:center}.swal2-container.swal2-grow-column.swal2-bottom-left,.swal2-container.swal2-grow-column.swal2-bottom-start,.swal2-container.swal2-grow-column.swal2-center-left,.swal2-container.swal2-grow-column.swal2-center-start,.swal2-container.swal2-grow-column.swal2-top-left,.swal2-container.swal2-grow-column.swal2-top-start{align-items:flex-start}.swal2-container.swal2-grow-column.swal2-bottom-end,.swal2-container.swal2-grow-column.swal2-bottom-right,.swal2-container.swal2-grow-column.swal2-center-end,.swal2-container.swal2-grow-column.swal2-center-right,.swal2-container.swal2-grow-column.swal2-top-end,.swal2-container.swal2-grow-column.swal2-top-right{align-items:flex-end}.swal2-container.swal2-grow-column>.swal2-modal{display:flex!important;flex:1;align-content:center;justify-content:center}.swal2-container:not(.swal2-top):not(.swal2-top-start):not(.swal2-top-end):not(.swal2-top-left):not(.swal2-top-right):not(.swal2-center-start):not(.swal2-center-end):not(.swal2-center-left):not(.swal2-center-right):not(.swal2-bottom):not(.swal2-bottom-start):not(.swal2-bottom-end):not(.swal2-bottom-left):not(.swal2-bottom-right):not(.swal2-grow-fullscreen)>.swal2-modal{margin:auto}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-container .swal2-modal{margin:0!important}}.swal2-container.swal2-fade{transition:background-color .1s}.swal2-container.swal2-shown{background-color:rgba(0,0,0,.4)}.swal2-popup{display:none;position:relative;flex-direction:column;justify-content:center;width:32em;max-width:100%;padding:1.25em;border-radius:.3125em;background:#fff;font-family:inherit;font-size:1rem;box-sizing:border-box}.swal2-popup:focus{outline:0}.swal2-popup.swal2-loading{overflow-y:hidden}.swal2-popup .swal2-header{display:flex;flex-direction:column;align-items:center}.swal2-popup .swal2-title{display:block;position:relative;max-width:100%;margin:0 0 .4em;padding:0;color:#595959;font-size:1.875em;font-weight:600;text-align:center;text-transform:none;word-wrap:break-word}.swal2-popup .swal2-actions{flex-wrap:wrap;align-items:center;justify-content:center;margin:1.25em auto 0;z-index:1}.swal2-popup .swal2-actions:not(.swal2-loading) .swal2-styled[disabled]{opacity:.4}.swal2-popup .swal2-actions:not(.swal2-loading) .swal2-styled:hover{background-image:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1))}.swal2-popup .swal2-actions:not(.swal2-loading) .swal2-styled:active{background-image:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2))}.swal2-popup .swal2-actions.swal2-loading .swal2-styled.swal2-confirm{width:2.5em;height:2.5em;margin:.46875em;padding:0;border:.25em solid transparent;border-radius:100%;border-color:transparent;background-color:transparent!important;color:transparent;cursor:default;box-sizing:border-box;-webkit-animation:swal2-rotate-loading 1.5s linear 0s infinite normal;animation:swal2-rotate-loading 1.5s linear 0s infinite normal;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.swal2-popup .swal2-actions.swal2-loading .swal2-styled.swal2-cancel{margin-right:30px;margin-left:30px}.swal2-popup .swal2-actions.swal2-loading :not(.swal2-styled).swal2-confirm::after{display:inline-block;width:15px;height:15px;margin-left:5px;border:3px solid #999;border-radius:50%;border-right-color:transparent;box-shadow:1px 1px 1px #fff;content:'';-webkit-animation:swal2-rotate-loading 1.5s linear 0s infinite normal;animation:swal2-rotate-loading 1.5s linear 0s infinite normal}.swal2-popup .swal2-styled{margin:.3125em;padding:.625em 2em;font-weight:500;box-shadow:none}.swal2-popup .swal2-styled:not([disabled]){cursor:pointer}.swal2-popup .swal2-styled.swal2-confirm{border:0;border-radius:.25em;background:initial;background-color:#3085d6;color:#fff;font-size:1.0625em}.swal2-popup .swal2-styled.swal2-cancel{border:0;border-radius:.25em;background:initial;background-color:#aaa;color:#fff;font-size:1.0625em}.swal2-popup .swal2-styled:focus{outline:0;box-shadow:0 0 0 2px #fff,0 0 0 4px rgba(50,100,150,.4)}.swal2-popup .swal2-styled::-moz-focus-inner{border:0}.swal2-popup .swal2-footer{justify-content:center;margin:1.25em 0 0;padding:1em 0 0;border-top:1px solid #eee;color:#545454;font-size:1em}.swal2-popup .swal2-image{max-width:100%;margin:0.0em auto}.swal2-popup .swal2-close{position:absolute;top:0;right:0;justify-content:center;width:1.2em;height:1.2em;padding:0;transition:color .1s ease-out;border:none;border-radius:0;background:0 0;color:#ccc;font-family:serif;font-size:2.5em;line-height:1.2;cursor:pointer;overflow:hidden}.swal2-popup .swal2-close:hover{-webkit-transform:none;transform:none;color:#f27474}.swal2-popup>.swal2-checkbox,.swal2-popup>.swal2-file,.swal2-popup>.swal2-input,.swal2-popup>.swal2-radio,.swal2-popup>.swal2-select,.swal2-popup>.swal2-textarea{display:none}.swal2-popup .swal2-content{justify-content:center;margin:0;padding:0;color:#545454;font-size:1.125em;font-weight:300;line-height:normal;z-index:1;word-wrap:break-word}.swal2-popup #swal2-content{text-align:center}.swal2-popup .swal2-checkbox,.swal2-popup .swal2-file,.swal2-popup .swal2-input,.swal2-popup .swal2-radio,.swal2-popup .swal2-select,.swal2-popup .swal2-textarea{margin:1em auto}.swal2-popup .swal2-file,.swal2-popup .swal2-input,.swal2-popup .swal2-textarea{width:100%;transition:border-color .3s,box-shadow .3s;border:1px solid #d9d9d9;border-radius:.1875em;font-size:1.125em;box-shadow:inset 0 1px 1px rgba(0,0,0,.06);box-sizing:border-box}.swal2-popup .swal2-file.swal2-inputerror,.swal2-popup .swal2-input.swal2-inputerror,.swal2-popup .swal2-textarea.swal2-inputerror{border-color:#f27474!important;box-shadow:0 0 2px #f27474!important}.swal2-popup .swal2-file:focus,.swal2-popup .swal2-input:focus,.swal2-popup .swal2-textarea:focus{border:1px solid #b4dbed;outline:0;box-shadow:0 0 3px #c4e6f5}.swal2-popup .swal2-file::-webkit-input-placeholder,.swal2-popup .swal2-input::-webkit-input-placeholder,.swal2-popup .swal2-textarea::-webkit-input-placeholder{color:#ccc}.swal2-popup .swal2-file:-ms-input-placeholder,.swal2-popup .swal2-input:-ms-input-placeholder,.swal2-popup .swal2-textarea:-ms-input-placeholder{color:#ccc}.swal2-popup .swal2-file::-ms-input-placeholder,.swal2-popup .swal2-input::-ms-input-placeholder,.swal2-popup .swal2-textarea::-ms-input-placeholder{color:#ccc}.swal2-popup .swal2-file::placeholder,.swal2-popup .swal2-input::placeholder,.swal2-popup .swal2-textarea::placeholder{color:#ccc}.swal2-popup .swal2-range input{width:80%}.swal2-popup .swal2-range output{width:20%;font-weight:600;text-align:center}.swal2-popup .swal2-range input,.swal2-popup .swal2-range output{height:2.625em;margin:1em auto;padding:0;font-size:1.125em;line-height:2.625em}.swal2-popup .swal2-input{height:2.625em;padding:0 .75em}.swal2-popup .swal2-input[type=number]{max-width:10em}.swal2-popup .swal2-file{font-size:1.125em}.swal2-popup .swal2-textarea{height:6.75em;padding:.75em}.swal2-popup .swal2-select{min-width:50%;max-width:100%;padding:.375em .625em;color:#545454;font-size:1.125em}.swal2-popup .swal2-checkbox,.swal2-popup .swal2-radio{align-items:center;justify-content:center}.swal2-popup .swal2-checkbox label,.swal2-popup .swal2-radio label{margin:0 .6em;font-size:1.125em}.swal2-popup .swal2-checkbox input,.swal2-popup .swal2-radio input{margin:0 .4em}.swal2-popup .swal2-validation-message{display:none;align-items:center;justify-content:center;padding:.625em;background:#f0f0f0;color:#666;font-size:1em;font-weight:300;overflow:hidden}.swal2-popup .swal2-validation-message::before{display:inline-block;width:1.5em;min-width:1.5em;height:1.5em;margin:0 .625em;border-radius:50%;background-color:#f27474;color:#fff;font-weight:600;line-height:1.5em;text-align:center;content:'!';zoom:normal}@supports (-ms-accelerator:true){.swal2-range input{width:100%!important}.swal2-range output{display:none}}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-range input{width:100%!important}.swal2-range output{display:none}}@-moz-document url-prefix(){.swal2-close:focus{outline:2px solid rgba(50,100,150,.4)}}.swal2-icon{position:relative;justify-content:center;width:5em;height:5em;margin:0em auto 0em;border:.25em solid transparent;border-radius:50%;line-height:5em;cursor:default;box-sizing:content-box;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;zoom:normal}.swal2-icon-text{font-size:3.75em}.swal2-icon.swal2-error{border-color:#f27474}.swal2-icon.swal2-error .swal2-x-mark{position:relative;flex-grow:1}.swal2-icon.swal2-error [class^=swal2-x-mark-line]{display:block;position:absolute;top:2.3125em;width:2.9375em;height:.3125em;border-radius:.125em;background-color:#f27474}.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:1.0625em;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:1em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal2-icon.swal2-warning{border-color:#facea8;color:#f8bb86}.swal2-icon.swal2-info{border-color:#9de0f6;color:#3fc3ee}.swal2-icon.swal2-question{border-color:#c9dae1;color:#87adbd}.swal2-icon.swal2-success{border-color:#a5dc86}.swal2-icon.swal2-success [class^=swal2-success-circular-line]{position:absolute;width:3.75em;height:7.5em;-webkit-transform:rotate(45deg);transform:rotate(45deg);border-radius:50%}.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=left]{top:-.4375em;left:-2.0635em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:3.75em 3.75em;transform-origin:3.75em 3.75em;border-radius:7.5em 0 0 7.5em}.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=right]{top:-.6875em;left:1.875em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:0 3.75em;transform-origin:0 3.75em;border-radius:0 7.5em 7.5em 0}.swal2-icon.swal2-success .swal2-success-ring{position:absolute;top:-.25em;left:-.25em;width:100%;height:100%;border:.25em solid rgba(165,220,134,.3);border-radius:50%;z-index:2;box-sizing:content-box}.swal2-icon.swal2-success .swal2-success-fix{position:absolute;top:.5em;left:1.625em;width:.4375em;height:5.625em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);z-index:1}.swal2-icon.swal2-success [class^=swal2-success-line]{display:block;position:absolute;height:.3125em;border-radius:.125em;background-color:#a5dc86;z-index:2}.swal2-icon.swal2-success [class^=swal2-success-line][class$=tip]{top:2.875em;left:.875em;width:1.5625em;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.swal2-icon.swal2-success [class^=swal2-success-line][class$=long]{top:2.375em;right:.5em;width:2.9375em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal2-progresssteps{align-items:center;margin:0 0 1.25em;padding:0;font-weight:600}.swal2-progresssteps li{display:inline-block;position:relative}.swal2-progresssteps .swal2-progresscircle{width:2em;height:2em;border-radius:2em;background:#3085d6;color:#fff;line-height:2em;text-align:center;z-index:20}.swal2-progresssteps .swal2-progresscircle:first-child{margin-left:0}.swal2-progresssteps .swal2-progresscircle:last-child{margin-right:0}.swal2-progresssteps .swal2-progresscircle.swal2-activeprogressstep{background:#3085d6}.swal2-progresssteps .swal2-progresscircle.swal2-activeprogressstep~.swal2-progresscircle{background:#add8e6}.swal2-progresssteps .swal2-progresscircle.swal2-activeprogressstep~.swal2-progressline{background:#add8e6}.swal2-progresssteps .swal2-progressline{width:2.5em;height:.4em;margin:0 -1px;background:#3085d6;z-index:10}[class^=swal2]{-webkit-tap-highlight-color:transparent}.swal2-show{-webkit-animation:swal2-show .3s;animation:swal2-show .3s}.swal2-show.swal2-noanimation{-webkit-animation:none;animation:none}.swal2-hide{-webkit-animation:swal2-hide .15s forwards;animation:swal2-hide .15s forwards}.swal2-hide.swal2-noanimation{-webkit-animation:none;animation:none}.swal2-rtl .swal2-close{right:auto;left:0}.swal2-animate-success-icon .swal2-success-line-tip{-webkit-animation:swal2-animate-success-line-tip .75s;animation:swal2-animate-success-line-tip .75s}.swal2-animate-success-icon .swal2-success-line-long{-webkit-animation:swal2-animate-success-line-long .75s;animation:swal2-animate-success-line-long .75s}.swal2-animate-success-icon .swal2-success-circular-line-right{-webkit-animation:swal2-rotate-success-circular-line 4.25s ease-in;animation:swal2-rotate-success-circular-line 4.25s ease-in}.swal2-animate-error-icon{-webkit-animation:swal2-animate-error-icon .5s;animation:swal2-animate-error-icon .5s}.swal2-animate-error-icon .swal2-x-mark{-webkit-animation:swal2-animate-error-x-mark .5s;animation:swal2-animate-error-x-mark .5s}@-webkit-keyframes swal2-rotate-loading{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes swal2-rotate-loading{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@media print{body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown){overflow-y:scroll!important}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown)>[aria-hidden=true]{display:none}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) .swal2-container{position:initial!important}}</style></head>
+<body>
+<form method="post" action="https://obs.aybu.edu.tr/oibs/std/std_time_table_dep.aspx" id="form1" data-select2-id="form1">
+<div class="aspNetHidden">
+
+
+
+
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="./WebResource.axd" type="text/javascript"></script>
+
+
+<script src="./jquery-3.7.1.min.js.indir" type="text/javascript"></script>
+<script src="./sweetalert.min.js.indir" type="text/javascript"></script>
+<script src="./select2.min.js.indir" type="text/javascript"></script>
+<script src="./ModalPopupWindow_v22_min.js.indir" type="text/javascript"></script><script type="text/javascript">var baseUrl = '/oibs/';var modalWin = new CreateModalPopUpObject();</script>
+                     <div id="bailwal_div_overlay" style="position:absolute;z-index:10; background-color:white;filter: alpha(opacity = 70);opacity:0.7;"></div>
+                         <div id="bailwal_div_frame_parent" style="position:absolute;z-index:12; display:none;background-color:white;">
+                         <table style="border:solid 1px #121e2d; height: 100%" onmouseup="bailwal_modalPopupWindow.StopDragging()">
+                                <tbody><tr style="height:28px;vertical-align:middle;background-color:#121e2d" id="bailwal_tr_title">
+                                    <td style="vertical-align:top;text-align:left;border:none">
+                                        <div style="display: table; width: 100%;">
+                                        <div style="display: table-row;">
+                                        <div style="text-align:left; display: table-cell;">
+                                            <i id="bailwal_img_overlay_close_logo2" ondblclick="bailwal_modalPopupWindow.HideModalPopUp(&#39;1&#39;);" style="padding:6px;vertical-align:middle;" class="fal fa-chevron-circle-down text-white"></i>
+                                            <span id="bailwal_span_title" style="vertical-align:middle;color:White;font-size:8pt;text-align: left;"></span>
+                                        </div>
+                                        <div style="text-align:right; display: table-cell; ">
+                                            <span id="bailwal_span_loading" style="vertical-align: middle; display: none;">
+                                                <i class="fas fa-spinner fa-spin text-white"></i>
+                                            </span>
+                                            <span id="bailwal_span_overlay_window_refresh" onclick="bailwal_modalPopupWindow.Refresh();" style="vertical-align:middle;cursor:pointer;">
+                                               <i id="bailwal_img_overlay_refresh" class="fal fa-sync" style="font-size:17px; color:white; background-color:transparent;padding-bottom:3px; vertical-align:middle;"></i>
+                                            </span>
+                                            <span id="bailwal_span_overlay_window_max" onclick="bailwal_modalPopupWindow.Maximisze();" style="vertical-align:middle;cursor:pointer;">
+                                               <i id="bailwal_img_overlay_max" class="fal fa-window-maximize" style="font-size:19px; color:white;padding-bottom:3px;  vertical-align:middle;"></i>
+                                            </span>                                            
+                                            <span onclick="bailwal_modalPopupWindow.HideModalPopUp(&#39;1&#39;);" class="mr-3" style="vertical-align:middle;cursor:pointer;background-color:#c90000;margin-right:3px;margin-top:3px;">
+                                                <i id="bailwal_img_overlay_close" class="fal fa-times" style="font-size:15px; color:white; padding-left:6px;padding-right:3px; padding-bottom:5px; vertical-align:middle;"></i>
+                                            </span>
+                                        </div>
+                                        </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr style="vertical-align: middle;">
+                                    <td colspan="2" align="center" id="bailwal_td_overlay" style="vertical-align: top;border:none">
+                                        <div id="bailwal_div_message" style="margin-top:0px;display:none;vertical-align: middle;">
+                                            <span id="bailwal_span_message" style="padding-left:3px;padding-right:3px;vertical-align: middle;font-size:8pt;" ondblclick="selectElementText(this)"></span>
+                                        </div>
+                                        <iframe onload="OnUrlLoaded()" name="bailwal_overlay_frame" id="bailwal_overlay_frame" frameborder="0" scrolling="auto" style="padding: 0px !important;padding-bottom: 0px !important;margin: 0px !important;margin-bottom: 0px !important;" src="./saved_resource(1).html"></iframe>
+                                    </td>
+                                </tr>
+                           </tbody></table>
+                           </div>
+                           
+<script type="text/javascript">
+//<![CDATA[
+var __cultureInfo = {"name":"tr-TR","numberFormat":{"CurrencyDecimalDigits":2,"CurrencyDecimalSeparator":",","IsReadOnly":true,"CurrencyGroupSizes":[3],"NumberGroupSizes":[3],"PercentGroupSizes":[3],"CurrencyGroupSeparator":".","CurrencySymbol":"₺","NaNSymbol":"NaN","CurrencyNegativePattern":8,"NumberNegativePattern":1,"PercentPositivePattern":2,"PercentNegativePattern":2,"NegativeInfinitySymbol":"-Sonsuz","NegativeSign":"-","NumberDecimalDigits":2,"NumberDecimalSeparator":",","NumberGroupSeparator":".","CurrencyPositivePattern":3,"PositiveInfinitySymbol":"Sonsuz","PositiveSign":"+","PercentDecimalDigits":2,"PercentDecimalSeparator":",","PercentGroupSeparator":".","PercentSymbol":"%","PerMilleSymbol":"‰","NativeDigits":["0","1","2","3","4","5","6","7","8","9"],"DigitSubstitution":1},"dateTimeFormat":{"AMDesignator":"","Calendar":{"MinSupportedDateTime":"\/Date(-62135596800000)\/","MaxSupportedDateTime":"\/Date(253402289999999)\/","AlgorithmType":1,"CalendarType":1,"Eras":[1],"TwoDigitYearMax":2029,"IsReadOnly":true},"DateSeparator":".","FirstDayOfWeek":1,"CalendarWeekRule":0,"FullDateTimePattern":"d MMMM yyyy dddd HH:mm:ss","LongDatePattern":"d MMMM yyyy dddd","LongTimePattern":"HH:mm:ss","MonthDayPattern":"d MMMM","PMDesignator":"","RFC1123Pattern":"ddd, dd MMM yyyy HH\u0027:\u0027mm\u0027:\u0027ss \u0027GMT\u0027","ShortDatePattern":"dd.MM.yyyy","ShortTimePattern":"HH:mm","SortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd\u0027T\u0027HH\u0027:\u0027mm\u0027:\u0027ss","TimeSeparator":":","UniversalSortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd HH\u0027:\u0027mm\u0027:\u0027ss\u0027Z\u0027","YearMonthPattern":"MMMM yyyy","AbbreviatedDayNames":["Paz","Pzt","Sal","Çar","Per","Cum","Cmt"],"ShortestDayNames":["Pz","Pt","Sa","Ça","Pe","Cu","Ct"],"DayNames":["Pazar","Pazartesi","Salı","Çarşamba","Perşembe","Cuma","Cumartesi"],"AbbreviatedMonthNames":["Oca","Şub","Mar","Nis","May","Haz","Tem","Ağu","Eyl","Eki","Kas","Ara",""],"MonthNames":["Ocak","Şubat","Mart","Nisan","Mayıs","Haziran","Temmuz","Ağustos","Eylül","Ekim","Kasım","Aralık",""],"IsReadOnly":true,"NativeCalendarName":"Gregoryen Takvim","AbbreviatedMonthGenitiveNames":["Oca","Şub","Mar","Nis","May","Haz","Tem","Ağu","Eyl","Eki","Kas","Ara",""],"MonthGenitiveNames":["Ocak","Şubat","Mart","Nisan","Mayıs","Haziran","Temmuz","Ağustos","Eylül","Ekim","Kasım","Aralık",""]},"eras":[1,"MS",null,0]};//]]>
+</script>
+
+<script src="./ScriptResource.axd" type="text/javascript"></script>
+<script src="./ScriptResource(1).axd" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	
+	
+	
+</div>
+<div data-select2-id="9">
+<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager1', 'form1', ['tUpdatePanel1','UpdatePanel1'], [], [], 600, '');
+//]]>
+</script>
+
+<div id="UpdatePanel1" data-select2-id="UpdatePanel1">
+<div class="panel panel-default">
+    <div class="panel-heading">
+<span id="lblHeader" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">Bölüm Ders Programı</span><br>
+<span id="lblHeader2" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">PSİKOLOJİ(İNG)</span>
+    </div>
+<table style="width:100%">
+<tbody><tr>
+<td style="height:35px">
+<span id="Label1" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt; text-align: left">Dönem</span>&nbsp;<select name="cmbDonemler" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;cmbDonemler\&#39;,\&#39;\&#39;)&#39;, 0)" id="cmbDonemler" class="form-control select2 select2-hidden-accessible" style="font-family:Open Sans;font-size:8pt;width:170px; text-align: left" data-select2-id="cmbDonemler" tabindex="-1" aria-hidden="true">
+	<option selected="selected" value="20242" data-select2-id="61">2024-2025 BAHAR</option>
+	<option value="20231">2023-2024 GÜZ</option>
+	<option value="20232">2023-2024 BAHAR </option>
+	<option value="20233">2023-2024 YAZ</option>
+	<option value="20241">2024-2025 GÜZ</option>
+
+</select><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="60" style="width: 170px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-cmbDonemler-container"><span class="select2-selection__rendered" id="select2-cmbDonemler-container" role="textbox" aria-readonly="true" title="2024-2025 BAHAR">2024-2025 BAHAR</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+    <span id="Label7" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt; text-align: left">Program</span>
+    <select name="cmbProgram" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;cmbProgram\&#39;,\&#39;\&#39;)&#39;, 0)" id="cmbProgram" class="form-control select2 select2-hidden-accessible" style="font-family:Open Sans;font-size:8pt;width:170px;" data-select2-id="cmbProgram" tabindex="-1" aria-hidden="true">
+	<option value="5308">PSİKOLOJİ</option>
+	<option selected="selected" value="5546" data-select2-id="65">PSİKOLOJİ(İNG)</option>
+	<option value="5309">PSİKOLOJİ(İÖ)</option>
+
+</select><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="64" style="width: 170px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-cmbProgram-container"><span class="select2-selection__rendered" id="select2-cmbProgram-container" role="textbox" aria-readonly="true" title="PSİKOLOJİ(İNG)">PSİKOLOJİ(İNG)</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+    <span id="lblSinif" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt; text-align: left">Sınıf</span>
+    <select name="cmbSinif" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;cmbSinif\&#39;,\&#39;\&#39;)&#39;, 0)" id="cmbSinif" class="form-control select2 select2-hidden-accessible" style="font-family:Open Sans;font-size:8pt;width:80px;
+text-align: left" data-select2-id="cmbSinif" tabindex="-1" aria-hidden="true">
+	<option value="1">1.Sınıf</option>
+	<option value="2">2.Sınıf</option>
+	<option value="3">3.Sınıf</option>
+	<option selected="selected" value="4" data-select2-id="67">4.Sınıf</option>
+	<option value="5">5.Sınıf</option>
+	<option value="6">6.Sınıf</option>
+	<option value="0">Hazırlık</option>
+
+</select><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="66" style="width: 80px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-cmbSinif-container"><span class="select2-selection__rendered" id="select2-cmbSinif-container" role="textbox" aria-readonly="true" title="4.Sınıf">4.Sınıf</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+    
+    
+    
+</td>
+<td style="text-align: right">
+<a id="btnYazdir0" accesskey="y" class="btn btn-default btn-xs" href="javascript:__doPostBack(&#39;btnYazdir0&#39;,&#39;&#39;)" style="display:inline-block;color:#5B636A;font-family:Open Sans;font-size:9pt;width:90px;"><span class="fal fa-print"></span>Yazdır</a>
+    </td>
+</tr>
+</tbody></table>
+   <div class="panel panel-default">
+    
+    <table class="w-100">
+        <tbody><tr>
+            <td style="vertical-align: top; text-align: left; width: 50%; background-color:gray; ">
+                <span id="Label222" class="text-white" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">Pazartesi</span>
+            </td>
+            <td>
+                &nbsp;</td>
+            <td style="vertical-align: top; text-align: left; width: 50%; background-color:gray; ">
+                <span id="Label223" class="text-white" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">Salı</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top; text-align: left;">
+                <div>
+	<table cellspacing="0" rules="all" class="myGridClass" border="1" id="grd0" style="border-color:LightGrey;font-family:Open Sans;font-size:8pt;font-weight:normal;text-decoration:none;width:100%;border-collapse:collapse;font-family: Tahoma; font-size: 7pt;">
+		<tbody><tr>
+			<th scope="col">Saat</th><th scope="col">Ders Kodu</th><th scope="col">Ders Adı</th><th scope="col">Derslik</th><th scope="col">Öğretim Elemanı</th>
+		</tr><tr>
+			<td>13:00-13:50</td><td>PSY408(1)</td><td>
+                                <span id="grd0_Label1_0" title="İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ - PSİKOLOJİ - PSİKOLOJİ(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">CURRENT DISCUSSIONS IN PSYCHOLOGY</span>
+                            </td><td> A 261(DEĞERLER DERSLİĞİ)[90]</td><td>Dr. Öğr. Üyesi GÜLTEN ÜNAL  </td>
+		</tr><tr>
+			<td>13:00-13:50</td><td>PSY420(1)</td><td>
+                                <span id="grd0_Label1_1" title="İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ - PSİKOLOJİ - PSİKOLOJİ(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">COMMUNITY MENTAL HEALTH</span>
+                            </td><td>A 169(KÜLTÜR DERSLİĞİ)[70]</td><td>Prof.Dr. BİLAL SAMBUR  </td>
+		</tr><tr>
+			<td>14:00-14:50</td><td>PSY408(1)</td><td>
+                                <span id="grd0_Label1_2" title="İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ - PSİKOLOJİ - PSİKOLOJİ(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">CURRENT DISCUSSIONS IN PSYCHOLOGY</span>
+                            </td><td> A 261(DEĞERLER DERSLİĞİ)[90]</td><td>Dr. Öğr. Üyesi GÜLTEN ÜNAL  </td>
+		</tr><tr>
+			<td>14:00-14:50</td><td>PSY420(1)</td><td>
+                                <span id="grd0_Label1_3" title="İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ - PSİKOLOJİ - PSİKOLOJİ(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">COMMUNITY MENTAL HEALTH</span>
+                            </td><td>A 169(KÜLTÜR DERSLİĞİ)[70]</td><td>Prof.Dr. BİLAL SAMBUR  </td>
+		</tr><tr>
+			<td>15:00-15:50</td><td>PSY408(1)</td><td>
+                                <span id="grd0_Label1_4" title="İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ - PSİKOLOJİ - PSİKOLOJİ(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">CURRENT DISCUSSIONS IN PSYCHOLOGY</span>
+                            </td><td> A 261(DEĞERLER DERSLİĞİ)[90]</td><td>Dr. Öğr. Üyesi GÜLTEN ÜNAL  </td>
+		</tr><tr>
+			<td>15:00-15:50</td><td>PSY420(1)</td><td>
+                                <span id="grd0_Label1_5" title="İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ - PSİKOLOJİ - PSİKOLOJİ(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">COMMUNITY MENTAL HEALTH</span>
+                            </td><td>A 169(KÜLTÜR DERSLİĞİ)[70]</td><td>Prof.Dr. BİLAL SAMBUR  </td>
+		</tr>
+	</tbody></table>
+</div>
+            </td>
+            <td style="vertical-align: top; text-align: left;">
+                &nbsp;</td>
+            <td style="vertical-align: top; text-align: left;">
+                <div>
+	<table cellspacing="0" rules="all" class="myGridClass" border="1" id="grd1" style="border-color:LightGrey;font-family:Open Sans;font-size:8pt;font-weight:normal;text-decoration:none;width:100%;border-collapse:collapse;font-family: Tahoma; font-size: 7pt;">
+		<tbody><tr>
+			<th scope="col">Saat</th><th scope="col">Ders Kodu</th><th scope="col">Ders Adı</th><th scope="col">Derslik</th><th scope="col">Öğretim Elemanı</th>
+		</tr><tr>
+			<td>13:00-13:50</td><td>PSY434(1)</td><td>
+                                <span id="grd1_Label14_0" title="İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ - PSİKOLOJİ - PSİKOLOJİ(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">APPLIED SOCIAL PSYCHOLOGY</span>
+                            </td><td>A 162(BENLİK DERSLİĞİ)[80]</td><td>Doç.Dr. GÜLDEN SAYILAN  </td>
+		</tr><tr>
+			<td>14:00-14:50</td><td>PSY434(1)</td><td>
+                                <span id="grd1_Label14_1" title="İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ - PSİKOLOJİ - PSİKOLOJİ(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">APPLIED SOCIAL PSYCHOLOGY</span>
+                            </td><td>A 162(BENLİK DERSLİĞİ)[80]</td><td>Doç.Dr. GÜLDEN SAYILAN  </td>
+		</tr><tr>
+			<td>15:00-15:50</td><td>PSY434(1)</td><td>
+                                <span id="grd1_Label14_2" title="İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ - PSİKOLOJİ - PSİKOLOJİ(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">APPLIED SOCIAL PSYCHOLOGY</span>
+                            </td><td>A 162(BENLİK DERSLİĞİ)[80]</td><td>Doç.Dr. GÜLDEN SAYILAN  </td>
+		</tr>
+	</tbody></table>
+</div>
+            </td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top; text-align: left; background-color: gray; ">
+                <span id="Label2" class="text-white" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">Çarşamba</span>
+            </td>
+            <td>
+                &nbsp;</td>
+            <td style="vertical-align: top; text-align: left; background-color: gray; ">
+                <span id="Label3" class="text-white" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">Perşembe</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top; text-align: left">
+                <div>
+	<table cellspacing="0" rules="all" class="myGridClass" border="1" id="grd2" style="border-color:LightGrey;font-family:Open Sans;font-size:8pt;font-weight:normal;text-decoration:none;width:100%;border-collapse:collapse;font-family: Tahoma; font-size: 7pt;">
+		<tbody><tr>
+			<th scope="col">Saat</th><th scope="col">Ders Kodu</th><th scope="col">Ders Adı</th><th scope="col">Derslik</th><th scope="col">Öğretim Elemanı</th>
+		</tr><tr>
+			<td>09:00-09:50</td><td>PSY418(1)</td><td>
+                                <span id="grd2_Label15_0" title="İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ - PSİKOLOJİ - PSİKOLOJİ(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">CHILD PSYCHOPATHOLOGY</span>
+                            </td><td>A 162(BENLİK DERSLİĞİ)[80]</td><td>Doç.Dr. HALİME ŞENAY GÜZEL  </td>
+		</tr><tr>
+			<td>10:00-10:50</td><td>PSY418(1)</td><td>
+                                <span id="grd2_Label15_1" title="İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ - PSİKOLOJİ - PSİKOLOJİ(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">CHILD PSYCHOPATHOLOGY</span>
+                            </td><td>A 162(BENLİK DERSLİĞİ)[80]</td><td>Doç.Dr. HALİME ŞENAY GÜZEL  </td>
+		</tr><tr>
+			<td>11:00-11:50</td><td>PSY418(1)</td><td>
+                                <span id="grd2_Label15_2" title="İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ - PSİKOLOJİ - PSİKOLOJİ(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">CHILD PSYCHOPATHOLOGY</span>
+                            </td><td>A 162(BENLİK DERSLİĞİ)[80]</td><td>Doç.Dr. HALİME ŞENAY GÜZEL  </td>
+		</tr><tr>
+			<td>13:00-13:50</td><td>PSY414(1)</td><td>
+                                <span id="grd2_Label15_3" title="İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ - PSİKOLOJİ - PSİKOLOJİ(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">PSYCHOLOGICAL TESTS II</span>
+                            </td><td>A 162(BENLİK DERSLİĞİ)[80]</td><td>Doç.Dr. HALİME ŞENAY GÜZEL  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">13:00-13:50</td><td>PSY432(2)</td><td>
+                                <span id="grd2_Label15_4" title="İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ - PSİKOLOJİ - PSİKOLOJİ(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">INDEPENDENT STUDY II</span>
+                            </td><td> A 261(DEĞERLER DERSLİĞİ)[90]</td><td>Doç.Dr. GÜLDEN SAYILAN  </td>
+		</tr><tr>
+			<td>14:00-14:50</td><td>PSY414(1)</td><td>
+                                <span id="grd2_Label15_5" title="İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ - PSİKOLOJİ - PSİKOLOJİ(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">PSYCHOLOGICAL TESTS II</span>
+                            </td><td>A 162(BENLİK DERSLİĞİ)[80]</td><td>Doç.Dr. HALİME ŞENAY GÜZEL  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">14:00-14:50</td><td>PSY432(2)</td><td>
+                                <span id="grd2_Label15_6" title="İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ - PSİKOLOJİ - PSİKOLOJİ(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">INDEPENDENT STUDY II</span>
+                            </td><td> A 261(DEĞERLER DERSLİĞİ)[90]</td><td>Doç.Dr. GÜLDEN SAYILAN  </td>
+		</tr><tr>
+			<td>15:00-15:50</td><td>PSY414(1)</td><td>
+                                <span id="grd2_Label15_7" title="İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ - PSİKOLOJİ - PSİKOLOJİ(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">PSYCHOLOGICAL TESTS II</span>
+                            </td><td>A 162(BENLİK DERSLİĞİ)[80]</td><td>Doç.Dr. HALİME ŞENAY GÜZEL  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">15:00-15:50</td><td>PSY432(2)</td><td>
+                                <span id="grd2_Label15_8" title="İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ - PSİKOLOJİ - PSİKOLOJİ(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">INDEPENDENT STUDY II</span>
+                            </td><td> A 261(DEĞERLER DERSLİĞİ)[90]</td><td>Doç.Dr. GÜLDEN SAYILAN  </td>
+		</tr>
+	</tbody></table>
+</div>
+            </td>
+            <td style="vertical-align: top; text-align: left">
+                &nbsp;</td>
+            <td style="vertical-align: top; text-align: left">
+                <div>
+	<table cellspacing="0" rules="all" class="myGridClass" border="1" id="grd3" style="border-color:LightGrey;font-family:Open Sans;font-size:8pt;font-weight:normal;text-decoration:none;width:100%;border-collapse:collapse;font-family: Tahoma; font-size: 7pt;">
+		<tbody><tr>
+			<th scope="col">Saat</th><th scope="col">Ders Kodu</th><th scope="col">Ders Adı</th><th scope="col">Derslik</th><th scope="col">Öğretim Elemanı</th>
+		</tr><tr>
+			<td style="color:DarkGreen;">09:00-09:50</td><td>PSY432(3)</td><td>
+                                <span id="grd3_Label16_0" title="İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ - PSİKOLOJİ - PSİKOLOJİ(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">INDEPENDENT STUDY II</span>
+                            </td><td> A 261(DEĞERLER DERSLİĞİ)[90]</td><td>Dr. Öğr. Üyesi NUR ELİBOL PEKASLAN  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">10:00-10:50</td><td>PSY432(3)</td><td>
+                                <span id="grd3_Label16_1" title="İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ - PSİKOLOJİ - PSİKOLOJİ(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">INDEPENDENT STUDY II</span>
+                            </td><td> A 261(DEĞERLER DERSLİĞİ)[90]</td><td>Dr. Öğr. Üyesi NUR ELİBOL PEKASLAN  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">11:00-11:50</td><td>PSY432(3)</td><td>
+                                <span id="grd3_Label16_2" title="İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ - PSİKOLOJİ - PSİKOLOJİ(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">INDEPENDENT STUDY II</span>
+                            </td><td> A 261(DEĞERLER DERSLİĞİ)[90]</td><td>Dr. Öğr. Üyesi NUR ELİBOL PEKASLAN  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">14:00-14:50</td><td>PSY432(5)</td><td>
+                                <span id="grd3_Label16_3" title="İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ - PSİKOLOJİ - PSİKOLOJİ(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">INDEPENDENT STUDY II</span>
+                            </td><td>A 162(BENLİK DERSLİĞİ)[80]</td><td>Prof.Dr. ÖZDEN YALÇINKAYA ALKAR  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">15:00-15:50</td><td>PSY432(5)</td><td>
+                                <span id="grd3_Label16_4" title="İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ - PSİKOLOJİ - PSİKOLOJİ(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">INDEPENDENT STUDY II</span>
+                            </td><td>A 162(BENLİK DERSLİĞİ)[80]</td><td>Prof.Dr. ÖZDEN YALÇINKAYA ALKAR  </td>
+		</tr><tr>
+			<td style="color:DarkGreen;">16:00-16:50</td><td>PSY432(5)</td><td>
+                                <span id="grd3_Label16_5" title="İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ - PSİKOLOJİ - PSİKOLOJİ(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">INDEPENDENT STUDY II</span>
+                            </td><td>A 162(BENLİK DERSLİĞİ)[80]</td><td>Prof.Dr. ÖZDEN YALÇINKAYA ALKAR  </td>
+		</tr>
+	</tbody></table>
+</div>
+            </td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top; text-align: left; background-color: gray; ">
+                <span id="Label4" class="text-white" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">Cuma</span>
+            </td>
+            <td></td>
+            <td style="vertical-align: top; text-align: left; background-color: gray; ">
+                
+            </td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top; text-align: left">
+                <div>
+	<table cellspacing="0" rules="all" class="myGridClass" border="1" id="grd4" style="border-color:LightGrey;font-family:Open Sans;font-size:8pt;font-weight:normal;text-decoration:none;width:100%;border-collapse:collapse;font-family: Tahoma; font-size: 7pt;">
+		<tbody><tr>
+			<th scope="col">Saat</th><th scope="col">Ders Kodu</th><th scope="col">Ders Adı</th><th scope="col">Derslik</th><th scope="col">Öğretim Elemanı</th>
+		</tr><tr>
+			<td>09:00-09:50</td><td>PSY406(1)</td><td>
+                                <span id="grd4_Label17_0" title="İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ - PSİKOLOJİ - PSİKOLOJİ(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">PSYCHOTHERAPY THEORIES AND APPLICATIONS II</span>
+                            </td><td>A 162(BENLİK DERSLİĞİ)[80]</td><td>Prof.Dr. ÖZDEN YALÇINKAYA ALKAR  </td>
+		</tr><tr>
+			<td>10:00-10:50</td><td>PSY406(1)</td><td>
+                                <span id="grd4_Label17_1" title="İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ - PSİKOLOJİ - PSİKOLOJİ(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">PSYCHOTHERAPY THEORIES AND APPLICATIONS II</span>
+                            </td><td>A 162(BENLİK DERSLİĞİ)[80]</td><td>Prof.Dr. ÖZDEN YALÇINKAYA ALKAR  </td>
+		</tr><tr>
+			<td>11:00-11:50</td><td>PSY406(1)</td><td>
+                                <span id="grd4_Label17_2" title="İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ - PSİKOLOJİ - PSİKOLOJİ(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">PSYCHOTHERAPY THEORIES AND APPLICATIONS II</span>
+                            </td><td>A 162(BENLİK DERSLİĞİ)[80]</td><td>Prof.Dr. ÖZDEN YALÇINKAYA ALKAR  </td>
+		</tr><tr>
+			<td>14:00-14:50</td><td>PSY426(1)</td><td>
+                                <span id="grd4_Label17_3" title="İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ - PSİKOLOJİ - PSİKOLOJİ(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">NEUROPSYCHOLOGICAL TESTS</span>
+                            </td><td>A 162(BENLİK DERSLİĞİ)[80]</td><td>Dr. Öğr. Üyesi FUNDA SALMAN  </td>
+		</tr><tr>
+			<td>15:00-15:50</td><td>PSY426(1)</td><td>
+                                <span id="grd4_Label17_4" title="İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ - PSİKOLOJİ - PSİKOLOJİ(İNG)" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">NEUROPSYCHOLOGICAL TESTS</span>
+                            </td><td>A 162(BENLİK DERSLİĞİ)[80]</td><td>Dr. Öğr. Üyesi FUNDA SALMAN  </td>
+		</tr>
+	</tbody></table>
+</div>
+            </td>
+            <td style="vertical-align: top; text-align: left">
+                &nbsp;</td>
+            <td style="vertical-align: top; text-align: left">
+                
+            </td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top; text-align: left; background-color: gray;">
+                
+            </td>
+            <td></td>
+            <td style="vertical-align: top; text-align: left; background-color: gray;"></td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top; text-align: left">
+                
+            </td>
+            <td style="vertical-align: top; text-align: left">&nbsp;</td>
+            <td style="vertical-align: top; text-align: left">&nbsp;</td>
+        </tr>
+    </tbody></table>
+       </div>
+<span id="Label211" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;font-style:italic;">Not: Uygulama saatleri yeşil renkle gösterilir</span>
+<span id="lblDuyuru" title="DP_OGR" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;text-align: left;"></span>
+<br>
+</div>
+</div>
+<div id="UpdateProgress1" style="display: none;" role="status" aria-hidden="true">
+	
+<div class="mycontainer" style="padding:5%;position :absolute;z-index: 1;"><div class="spinner-frame"><span style="font-size: 11px; color: #fff">Yükleniyor</span><div class="spinner-cover"></div><div class="spinner-bar"></div></div></div>
+
+</div>
+</div>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+theForm.oldSubmit = theForm.submit;
+theForm.submit = WebForm_SaveScrollPositionSubmit;
+
+theForm.oldOnSubmit = theForm.onsubmit;
+theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
+Sys.Application.add_init(function() {
+    $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":"UpdatePanel1","displayAfter":50,"dynamicLayout":true}, null, null, $get("UpdateProgress1"));
+});
+//]]>
+</script>
+<span style="display: none !important;"><input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value=""></span><span style="display: none !important;"><input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value=""></span><span style="display: none !important;"><input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value=""></span><span style="display: none !important;"><input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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"></span><span style="display: none !important;"><input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="71823A3D"></span><span style="display: none !important;"><input type="hidden" name="__SCROLLPOSITIONX" id="__SCROLLPOSITIONX" value="0"></span><span style="display: none !important;"><input type="hidden" name="__SCROLLPOSITIONY" id="__SCROLLPOSITIONY" value="0"></span></form>
+
+
+</body></html>
