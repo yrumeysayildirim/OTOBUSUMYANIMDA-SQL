@@ -87,7 +87,7 @@ def courses_loop(self):
 
     same as .1
 
-    TARIH may be fucked, the faculty not retrieving, because there is a space
+    TARIH may be , the faculty not retrieving, because there is a space
     in the middle in sql code, it is also not retrieving, and i also cant find 
     a single sql code in aybuzem
 
