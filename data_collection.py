@@ -1,5 +1,4 @@
 from data_collections.aybu_aybuzem_webscraper import aybuzem_scraper
-from data_collections.aybu_schedule_scraper import schedule_scraper, sel_aybu_scraper
 from data_collections.aybu_obs_html_scraper import obs_html_scraper
 import time
 import pandas as pd

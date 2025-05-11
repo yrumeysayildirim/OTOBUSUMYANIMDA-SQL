@@ -1,7 +1,7 @@
-from data_collections.constants import SQLITE_DATABASE_MODEL
+from data_collections.constants import SQLITE_DATABASE_MODEL, TEST_SQLITE_DATABASE
 import sqlite3
 
-con = sqlite3.Connection(SQLITE_DATABASE_MODEL)
+con = sqlite3.Connection(TEST_SQLITE_DATABASE)
 c = con.cursor()
 
 try:

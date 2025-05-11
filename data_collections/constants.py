@@ -7,3 +7,4 @@ MIS_1_ = os.path.join('mis_1.html')
 
 SQLITE_DATABASE = 'obs_html.db'
 SQLITE_DATABASE_MODEL = 'obs_html_model.db'
+TEST_SQLITE_DATABASE = 'test_obs_html.db'
