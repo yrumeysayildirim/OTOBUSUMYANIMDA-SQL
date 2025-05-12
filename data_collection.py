@@ -27,8 +27,8 @@ c.execute(""" CREATE TABLE IF NOT EXISTS course_info(
         
 )""")
 
-
 """
+
 
 obs_html_files = os.listdir(os.path.join('data_collections', 'obs_html'))
 print(obs_html_files)
@@ -60,7 +60,7 @@ with obs_html_scraper() as bot:
 
 
 print('*****************************************')
-"""
+
 
 with aybuzem_scraper() as bot:
 
@@ -68,7 +68,7 @@ with aybuzem_scraper() as bot:
 
     run = 0
 
-    """
+    
 
     while run < 4:
 
@@ -91,7 +91,7 @@ with aybuzem_scraper() as bot:
             bot.itb_departement()
             bot.scrape()
         run = run+1
-    """
+    
     run = 0
 
     # insan faculty and its departements
@@ -138,7 +138,7 @@ with aybuzem_scraper() as bot:
 
     # ilahiyat faculty and its departements
 
-    """
+    
 
     while run < 1:
 
@@ -150,11 +150,11 @@ with aybuzem_scraper() as bot:
             bot.scrape()
         
         run = run+1
-    """
+    
     run = 0
 
     # Mimarlık ve Güzel Sanatlar faculty and its departements
-    """
+    
 
     while run < 3:
 
@@ -172,13 +172,13 @@ with aybuzem_scraper() as bot:
             bot.scrape()
         
         run = run+1
-    """
+    
 
     run = 0
 
     # Sağlık Bilimleri faculty and its departements
 
-    """
+    
 
     while run < 8:
 
@@ -217,7 +217,7 @@ with aybuzem_scraper() as bot:
         
         run = run+1
 
-    """
+    
 
     run = 0
 
@@ -225,7 +225,7 @@ with aybuzem_scraper() as bot:
 
     # Siyasal Bilgiler faculty and its departements
 
-    """
+    
 
     while run < 4:
 
@@ -249,7 +249,7 @@ with aybuzem_scraper() as bot:
             #bot.scrape()
         run = run+1
 
-    """
+    
 
     run = 0
 
@@ -445,7 +445,7 @@ def merge_tables():
 
 
 merge_tables()
-
+"""
 def print_db_info():
     connection = sqlite3.connect(SQLITE_DATABASE)
     c = connection.cursor()
@@ -468,7 +468,7 @@ def print_db_info():
     connection.close()
 
 print_db_info()
-"""
+
 
 #3
 def db_to_csv():
@@ -486,6 +486,6 @@ def db_to_csv():
 db_to_csv()
 
 
-
+"""
 
 

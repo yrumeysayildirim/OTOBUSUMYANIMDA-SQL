@@ -78852,3 +78852,212 @@ course faculty = TARİH
 sql course faculty = []
 sql course teacher = None
 std num = 19
+CS101 - AI
+course code = CS101
+course name = Ai
+sql course code = ('CS101',)
+sql course code = ('CS101',)
+sql course name = ('AI',)
+course teacher = Dr. Smith
+course faculty = <MagicMock name='mock.get_attribute()' id='2769542467264'>
+sql course faculty = [('Engineering',)]
+sql course teacher = ('Dr. Smith',)
+std num = <MagicMock name='mock.text.split().__getitem__()' id='2769542519920'>
+faculty = Engineering in <MagicMock name='mock.get_attribute()' id='2769542467264'>
+status faculty = True
+CS101 - AI
+course code = CS101
+course name = Ai
+sql course code = ('CS101',)
+sql course code = ('CS101',)
+sql course name = ('AI',)
+course teacher = Dr. Smith
+course faculty = <MagicMock name='mock.get_attribute()' id='2118731054160'>
+sql course faculty = [('Engineering',)]
+sql course teacher = ('Dr. Smith',)
+std num = <MagicMock name='mock.text.split().__getitem__()' id='2118731113024'>
+faculty = Engineering in <MagicMock name='mock.get_attribute()' id='2118731054160'>
+status faculty = True
+---------------------------------------------------------------
+CS101 - AI
+course code = CS101
+course name = Ai
+sql course code = ('CS101',)
+sql course code = ('CS101',)
+sql course name = ('Ai',)
+course teacher = Dr. Smith
+course faculty = <MagicMock name='mock.get_attribute()' id='2554070136400'>
+sql course faculty = [('Engineering',)]
+sql course teacher = ('Dr. Smith',)
+std num = <MagicMock name='mock.text.split().__getitem__()' id='2554075638352'>
+faculty = Engineering in <MagicMock name='mock.get_attribute()' id='2554070136400'>
+status faculty = True
+std worked!!!
+tried
+---------------------------------------------------------------
+CS101 - AI
+course code = CS101
+course name = Ai
+sql course code = ('CS101',)
+sql course code = ('CS101',)
+sql course name = ('Ai',)
+course teacher = Dr. Smith
+course faculty = Engineering Faculty
+sql course faculty = [('Engineering',)]
+sql course teacher = ('Dr. Smith',)
+std num = 150
+faculty = Engineering in Engineering Faculty
+status faculty = True
+std worked!!!
+tried
+---------------------------------------------------------------
+CS101 - AI
+course code = CS101
+course name = Ai
+sql course code = ('CS101',)
+sql course code = ('CS101',)
+sql course name = ('Ai',)
+course teacher = Dr. Smith
+course faculty = Engineering Faculty
+sql course faculty = [('Engineering',)]
+sql course teacher = ('Dr. Smith',)
+std num = 150
+faculty = Engineering in Engineering Faculty
+status faculty = False
+std worked!!!
+tried
+---------------------------------------------------------------
+CS101 - AI
+course code = CS101
+course name = Ai
+sql course code = ('CS101',)
+sql course code = ('CS101',)
+sql course name = ('Ai',)
+course teacher = Dr. Smith
+course faculty = Engineering Faculty
+sql course faculty = [('Engineering',)]
+sql course teacher = ('Dr. Smith',)
+std num = 150
+faculty = Engineering in Engineering Faculty
+status faculty = True
+std worked!!!
+tried
+---------------------------------------------------------------
+TAR108 - TARİH METODOLOJİSİ II Şube: 2
+course code = None
+course name = Tari̇h Metodoloji̇si̇ Ii Şube: 2
+sql course code = None
+sql course code = None
+sql course name = None
+course teacher = HASAN IŞIK
+course faculty = TARİH
+sql course faculty = []
+sql course teacher = None
+std num = 4
+---------------------------------------------------------------
+TAR106 - OSMANLI TÜRKÇESİ II Şube: 3
+course code = None
+course name = Osmanli Türkçesi̇ Ii Şube: 3
+sql course code = None
+sql course code = None
+sql course name = None
+course teacher = MEHMET AKİF FİDAN
+course faculty = TARİH
+sql course faculty = []
+sql course teacher = None
+std num = 13
+---------------------------------------------------------------
+HIST406 - CONTEMPORARY WORLD HISTORY II Şube: 2
+course code = None
+course name = Contemporary World History Ii Şube: 2
+sql course code = None
+sql course code = None
+sql course name = None
+course teacher = NURİ SALIK
+course faculty = TARİH
+sql course faculty = []
+sql course teacher = None
+std num = 1
+---------------------------------------------------------------
+TAR404 - ÇAĞDAŞ TÜRKİYE TARİHİ II Şube: 2
+course code = None
+course name = Çağdaş Türki̇ye Tari̇hi̇ Ii Şube: 2
+sql course code = None
+sql course code = None
+sql course name = None
+course teacher = KENAN OLGUN
+course faculty = TARİH
+sql course faculty = []
+sql course teacher = None
+std num = 1
+---------------------------------------------------------------
+TAR402 - ÇAĞDAŞ TÜRK DÜNYASI TARİHİ Şube: 2
+course code = None
+course name = Çağdaş Türk Dünyasi Tari̇hi̇ Şube: 2
+sql course code = None
+sql course code = None
+sql course name = None
+course teacher = SALİH YILMAZ
+course faculty = TARİH
+sql course faculty = []
+sql course teacher = None
+std num = 1
+---------------------------------------------------------------
+TAR408 - TARİH SEMİNERİ III
+course code = None
+course name = Tari̇h Semi̇neri̇ Iii
+sql course code = None
+sql course code = None
+sql course name = None
+course teacher = MEHMET DOĞAN
+course faculty = TARİH
+sql course faculty = []
+sql course teacher = None
+std num = 1
+---------------------------------------------------------------
+HIST410 - READINGS IN HISTORY VI
+course code = None
+course name = Readings In History Vi
+sql course code = None
+sql course code = None
+sql course name = None
+course teacher = NURİ SALIK
+course faculty = TARİH
+sql course faculty = []
+sql course teacher = None
+std num = 1
+---------------------------------------------------------------
+TAR428 - TÜRK İDARİ TARİHİ
+course code = None
+course name = Türk İdari̇ Tari̇hi̇
+sql course code = None
+sql course code = None
+sql course name = None
+course teacher = ERKAN TURAL
+course faculty = TARİH
+sql course faculty = []
+sql course teacher = None
+std num = 17
+---------------------------------------------------------------
+HIST438 - HISTORY OF THE MODERN MIDDLE EAST
+course code = None
+course name = History Of The Modern Middle East
+sql course code = None
+sql course code = None
+sql course name = None
+CS101 - AI
+course code = CS101
+course name = Ai
+sql course code = ('CS101',)
+sql course code = ('CS101',)
+sql course name = ('Ai',)
+course teacher = Dr. Smith
+course faculty = Engineering Faculty
+sql course faculty = [('Engineering',)]
+sql course teacher = ('Dr. Smith',)
+std num = 150
+faculty = Engineering in Engineering Faculty
+status faculty = True
+std worked!!!
+tried
+---------------------------------------------------------------

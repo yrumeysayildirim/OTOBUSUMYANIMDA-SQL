@@ -28769,3 +28769,120 @@ table counter = 4
 day counter = 4
 ----------------------------------------------
 done = 0
+the faculty name is Siyasal Bilgiler Fakültesi
+the num of tables = 1
+row info = ['09:00-10:00', 'COURSE101(A)', 'Course Name', 'Class A', 'Prof.Dr. Teacher Name', 'Dummy data 5', 'Dummy data 6']
+the length of the list is 7
+the course starts at 09:00 and ends at 10:00
+Siyasal Bilgiler Fakültesi_COURSE101@09:00
+Pazartesi
+it worked out!!!!
+row counter = 1 / 1
+table counter = 1
+day counter = 1
+----------------------------------------------
+done = 0
+the faculty name is Siyasal Bilgiler Fakültesi
+the num of tables = 1
+row info = ['09:00-10:00', 'COURSE101(A)', 'Course Name', 'Class A', 'Prof.Dr. Teacher Name', 'Dummy data 5', 'Dummy data 6']
+the length of the list is 7
+the course starts at 09:00 and ends at 10:00
+Siyasal Bilgiler Fakültesi_COURSE101@09:00
+Pazartesi
+it worked out!!!!
+row counter = 1 / 1
+table counter = 1
+day counter = 1
+----------------------------------------------
+done = 0
+the faculty name is Siyasal Bilgiler Fakültesi
+the num of tables = 1
+row info = ['09:00-10:00', 'COURSE101(A)', 'Course Name', 'Class A', 'Prof.Dr. Teacher Name', 'Dummy data 5', 'Dummy data 6']
+the length of the list is 7
+the course starts at 09:00 and ends at 10:00
+Siyasal Bilgiler Fakültesi_COURSE101@09:00
+Pazartesi
+it worked out!!!!
+row counter = 1 / 1
+table counter = 1
+day counter = 1
+----------------------------------------------
+done = 0
+the faculty name is Siyasal Bilgiler Fakültesi
+the num of tables = 1
+row info = ['09:00-10:00', 'COURSE101(A)', 'Course Name', 'Class A', 'Prof.Dr. Teacher Name', 'Dummy data 5', 'Dummy data 6']
+the length of the list is 7
+the course starts at 09:00 and ends at 10:00
+Siyasal Bilgiler Fakültesi_COURSE101@09:00
+Pazartesi
+it worked out!!!!
+row counter = 1 / 1
+table counter = 1
+day counter = 1
+----------------------------------------------
+done = 0
+the faculty name is Siyasal Bilgiler Fakültesi
+the num of tables = 1
+row info = ['09:00-10:00', 'COURSE101(A)', 'Course Name', 'Class A', 'Prof.Dr. Teacher Name', 'Dummy data 5', 'Dummy data 6']
+the length of the list is 7
+the course starts at 09:00 and ends at 10:00
+Siyasal Bilgiler Fakültesi_COURSE101@09:00
+Pazartesi
+it worked out!!!!
+row counter = 1 / 1
+table counter = 1
+day counter = 1
+----------------------------------------------
+done = 0
+the faculty name is Siyasal Bilgiler Fakültesi
+the num of tables = 1
+row info = ['09:00-10:00', 'COURSE101(A)', 'Course Name', 'Class A', 'Prof.Dr. Teacher Name', 'Dummy data 5', 'Dummy data 6']
+the length of the list is 7
+the course starts at 09:00 and ends at 10:00
+Siyasal Bilgiler Fakültesi_COURSE101@09:00
+Pazartesi
+it worked out!!!!
+row counter = 1 / 1
+table counter = 1
+day counter = 1
+----------------------------------------------
+done = 0
+the faculty name is Siyasal Bilgiler Fakültesi
+the num of tables = 1
+row info = ['09:00-10:00', 'COURSE101(A)', 'Course Name', 'Class A', 'Prof.Dr. Teacher Name', 'Dummy data 5', 'Dummy data 6']
+the length of the list is 7
+the course starts at 09:00 and ends at 10:00
+Siyasal Bilgiler Fakültesi_COURSE101@09:00
+Pazartesi
+it worked out!!!!
+row counter = 1 / 1
+table counter = 1
+day counter = 1
+----------------------------------------------
+done = 0
+the faculty name is Siyasal Bilgiler Fakültesi
+the num of tables = 1
+row info = ['09:00-10:00', 'COURSE101(A)', 'Course Name', 'Class A', 'Prof.Dr. Teacher Name', 'Dummy data 5', 'Dummy data 6']
+the length of the list is 7
+the course starts at 09:00 and ends at 10:00
+Siyasal Bilgiler Fakültesi_COURSE101@09:00
+Pazartesi
+it worked out!!!!
+row counter = 1 / 1
+table counter = 1
+day counter = 1
+----------------------------------------------
+done = 0
+the faculty name is Siyasal Bilgiler Fakültesi
+the num of tables = 1
+row info = ['09:00-10:00', 'COURSE101(A)', 'Course Name', 'Class A', 'Prof.Dr. Teacher Name', 'Dummy data 5', 'Dummy data 6']
+the length of the list is 7
+the course starts at 09:00 and ends at 10:00
+Siyasal Bilgiler Fakültesi_COURSE101@09:00
+Pazartesi
+it worked out!!!!
+row counter = 1 / 1
+table counter = 1
+day counter = 1
+----------------------------------------------
+done = 0
